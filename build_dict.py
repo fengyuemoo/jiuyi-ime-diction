@@ -33,6 +33,11 @@ except ImportError:
 BATCH_SIZE   = 50_000
 MAX_WORD_LEN = 100
 
+# Room schema identity_hash — 由 DictionaryDatabase_Impl.kt 编译产物提取。
+# 仅当 WordEntry entity 字段发生变化时需要更新此值。
+# 取值方法：grep "identity_hash" app/build/generated/ksp/debug/kotlin/.../DictionaryDatabase_Impl.kt
+ROOM_IDENTITY_HASH = "62173c545fea165cf854056e2a9bc2c3"
+
 
 # ── 数据库 ────────────────────────────────────────────────────────────────
 def init_db(conn: sqlite3.Connection) -> None:
@@ -46,6 +51,16 @@ def init_db(conn: sqlite3.Connection) -> None:
             lang TEXT NOT NULL DEFAULT 'en'
         )
     """)
+    # Room 预填充校验表：Room.createFromFile() 打开时会核对此表中的 identity_hash，
+    # 若不存在则触发 fallbackToDestructiveMigration，导致词库数据被清空。
+    conn.execute(
+        "CREATE TABLE IF NOT EXISTS room_master_table "
+        "(id INTEGER PRIMARY KEY, identity_hash TEXT)"
+    )
+    conn.execute(
+        "INSERT OR REPLACE INTO room_master_table (id, identity_hash) VALUES (42, ?)",
+        (ROOM_IDENTITY_HASH,)
+    )
     conn.commit()
 
 
@@ -190,6 +205,12 @@ def verify_db(db_path: str) -> None:
     print("[verify] top-5 by freq:")
     for row in conn.execute("SELECT word, freq, lang FROM words ORDER BY freq DESC LIMIT 5"):
         print(f"         {row[0]} (freq={row[1]}, lang={row[2]})")
+    # 验证 room_master_table 是否存在
+    try:
+        row = conn.execute("SELECT identity_hash FROM room_master_table WHERE id=42").fetchone()
+        print(f"[verify] room_master_table hash : {row[0] if row else 'MISSING!'}")
+    except Exception:
+        print("[verify] room_master_table : MISSING!")
     conn.close()
 
 
