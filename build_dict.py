@@ -13,11 +13,17 @@ build_dict.py — 久以输入法词库构建脚本
 
 用法示例：
   python build_dict.py --input en_ext.txt --lang en --output dict.db
-  python build_dict.py --input en_ext.txt cn_base_main.txt --lang en zh --output dict.db
+  python build_dict.py --input en_ext.txt cn_base.txt --lang en zh --output dict.db
   python build_dict.py --verify dict.db
+
+注意：
+  本脚本不写入 room_master_table / identity_hash。
+  identity_hash 由 App 在首次启动时自动注入（见 DictionaryDatabase.kt）。
+  因此本脚本可以在任意时间、任意环境独立运行，无需依赖 Android 编译产物。
 """
 
 import argparse
+import os
 import sqlite3
 import sys
 from pathlib import Path
@@ -33,13 +39,8 @@ except ImportError:
 BATCH_SIZE   = 50_000
 MAX_WORD_LEN = 100
 
-# Room schema identity_hash — 由 DictionaryDatabase_Impl.kt 编译产物提取。
-# 仅当 WordEntry entity 字段发生变化时需要更新此值。
-# 取值方法：grep "identity_hash" app/build/generated/ksp/debug/kotlin/.../DictionaryDatabase_Impl.kt
-ROOM_IDENTITY_HASH = "62173c545fea165cf854056e2a9bc2c3"
 
-
-# ── 数据库 ────────────────────────────────────────────────────────────────
+# ── 数据库初始化 ─────────────────────────────────────────────────────────────
 def init_db(conn: sqlite3.Connection) -> None:
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA synchronous=NORMAL")
@@ -51,44 +52,27 @@ def init_db(conn: sqlite3.Connection) -> None:
             lang TEXT NOT NULL DEFAULT 'en'
         )
     """)
-    # Room 预填充校验表：Room.createFromFile() 打开时会核对此表中的 identity_hash，
-    # 若不存在则触发 fallbackToDestructiveMigration，导致词库数据被清空。
-    conn.execute(
-        "CREATE TABLE IF NOT EXISTS room_master_table "
-        "(id INTEGER PRIMARY KEY, identity_hash TEXT)"
-    )
-    conn.execute(
-        "INSERT OR REPLACE INTO room_master_table (id, identity_hash) VALUES (42, ?)",
-        (ROOM_IDENTITY_HASH,)
-    )
+    # room_master_table 由 App 运行时写入，此处不创建
     conn.commit()
 
 
 def build_index(conn: sqlite3.Connection) -> None:
     print("[index] Building index on 'word'...")
-    conn.execute("CREATE INDEX IF NOT EXISTS idx_words_word ON words(word)")
+    # 索引名必须与 WordEntry.kt @Index 生成的名称一致：index_words_word
+    conn.execute("CREATE INDEX IF NOT EXISTS index_words_word ON words(word)")
     conn.commit()
     print("[index] Done.")
 
 
-# ── 解析 ────────────────────────────────────────────────────────────────
+# ── 词库文件解析 ─────────────────────────────────────────────────────────────
 def parse_line(line: str):
     """
-    解析单行，返回 (word, freq) 或 None。
-
-    格式识别（按优先级）：
-      CSV  → 逗号分隔，第1列词，第2列词频
-      Tab  → 2列：词 \t 词频
-      4列  → 拼音键序 数字编码 候选词(可含空格) 词频  ← 英文词库
-      3列  → 拼音串 汉字/词 词频                          ← 中文词库
-      2列  → 词 词频
-      1列  → 纯词，词频=0
+    解析单行，返回 (word, freq) 或 None（跳过）。
     """
-    line = line.strip().lstrip('\ufeff')   # 去 BOM + CRLF
+    line = line.strip().lstrip('\ufeff')
     if not line or line.startswith('#'):
         return None
 
-    # CSV
     if ',' in line and '\t' not in line:
         parts = line.split(',', 1)
         word = parts[0].strip()
@@ -96,9 +80,10 @@ def parse_line(line: str):
             freq = int(float(parts[1].strip()))
         except (ValueError, IndexError):
             freq = 0
-        return (word, freq) if word and len(word) <= MAX_WORD_LEN else None
+        if not word or len(word) > MAX_WORD_LEN:
+            return None
+        return (word, freq)
 
-    # Tab
     if '\t' in line:
         parts = line.split('\t', 1)
         word = parts[0].strip()
@@ -106,22 +91,20 @@ def parse_line(line: str):
             freq = int(float(parts[1].strip()))
         except (ValueError, IndexError):
             freq = 0
-        return (word, freq) if word and len(word) <= MAX_WORD_LEN else None
+        if not word or len(word) > MAX_WORD_LEN:
+            return None
+        return (word, freq)
 
-    # 空格分隔（1~4+列）
     parts = [p for p in line.split(' ') if p]
     n = len(parts)
 
     if n >= 4:
-        # 英文词库：拼音键序 数字编码 候选词(可含空格) 词频
-        # parts[0]=拼音  parts[1]=编码  parts[2:-1]=候选词  parts[-1]=词频
         try:
             freq = int(parts[-1])
         except ValueError:
             freq = 0
         word = ' '.join(parts[2:-1])
     elif n == 3:
-        # 中文词库：拼音串 汉字/词 词频
         word = parts[1]
         try:
             freq = int(parts[2])
@@ -137,7 +120,9 @@ def parse_line(line: str):
         word = parts[0]
         freq = 0
 
-    return (word, freq) if word and len(word) <= MAX_WORD_LEN else None
+    if not word or len(word) > MAX_WORD_LEN:
+        return None
+    return (word, freq)
 
 
 def count_lines(filepath: str) -> int:
@@ -157,7 +142,8 @@ def import_file(conn: sqlite3.Connection, filepath: str, lang: str) -> int:
     total_lines = count_lines(filepath)
     print(f"[import] {path.name} ({total_lines:,} lines, lang={lang})")
 
-    batch, success = [], 0
+    batch   = []
+    success = 0
 
     def flush():
         nonlocal success
@@ -193,6 +179,7 @@ def import_file(conn: sqlite3.Connection, filepath: str, lang: str) -> int:
     return success
 
 
+# ── 验证模式 ────────────────────────────────────────────────────────────────
 def verify_db(db_path: str) -> None:
     if not Path(db_path).exists():
         print(f"[error] File not found: {db_path}", file=sys.stderr)
@@ -200,26 +187,25 @@ def verify_db(db_path: str) -> None:
     conn = sqlite3.connect(db_path)
     total = conn.execute("SELECT COUNT(*) FROM words").fetchone()[0]
     print(f"[verify] total rows : {total:,}")
-    for row in conn.execute("SELECT lang, COUNT(*) FROM words GROUP BY lang"):
-        print(f"[verify] {row[0]:10s}  : {row[1]:,}")
+    for lang_row in conn.execute("SELECT lang, COUNT(*) FROM words GROUP BY lang"):
+        print(f"[verify] {lang_row[0]:10s}  : {lang_row[1]:,}")
+    sample = conn.execute(
+        "SELECT word, freq, lang FROM words ORDER BY freq DESC LIMIT 5"
+    ).fetchall()
     print("[verify] top-5 by freq:")
-    for row in conn.execute("SELECT word, freq, lang FROM words ORDER BY freq DESC LIMIT 5"):
+    for row in sample:
         print(f"         {row[0]} (freq={row[1]}, lang={row[2]})")
-    # 验证 room_master_table 是否存在
-    try:
-        row = conn.execute("SELECT identity_hash FROM room_master_table WHERE id=42").fetchone()
-        print(f"[verify] room_master_table hash : {row[0] if row else 'MISSING!'}")
-    except Exception:
-        print("[verify] room_master_table : MISSING!")
+    # identity_hash 由 App 运行时写入，此处不验证
     conn.close()
 
 
+# ── 主程序 ────────────────────────────────────────────────────────────────
 def main():
     parser = argparse.ArgumentParser(description="久以输入法词库构建工具")
     parser.add_argument('--input',  nargs='+', help='词库输入文件（支持多个）')
-    parser.add_argument('--lang',   nargs='+', help='每个文件对应的语言标识（en/zh等），数量与 --input 一致')
+    parser.add_argument('--lang',   nargs='+', help='每个文件对应的语言标识（en / zh 等）')
     parser.add_argument('--output', default='dict.db', help='输出 .db 文件路径（默认 dict.db）')
-    parser.add_argument('--verify', metavar='DB_PATH', help='验证已构建的 .db，打印统计信息')
+    parser.add_argument('--verify', metavar='DB_PATH', help='验证已构建的 .db 文件')
     args = parser.parse_args()
 
     if args.verify:
@@ -251,7 +237,7 @@ def main():
     size_mb = out_path.stat().st_size / 1024 / 1024
     print(f"\n[done] {total_rows:,} rows → {out_path} ({size_mb:.1f} MB)")
     if size_mb > 100:
-        print("[warn] .db 超过 100 MB，建议使用 Play Asset Delivery 分发。")
+        print("[warn] .db 超过 100MB，建议使用 Play Asset Delivery 分发。")
 
 
 if __name__ == '__main__':
