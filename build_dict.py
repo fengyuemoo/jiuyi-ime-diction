@@ -16,14 +16,12 @@ build_dict.py — 久以输入法词库构建脚本
   python build_dict.py --input en_ext.txt cn_base.txt --lang en zh --output dict.db
   python build_dict.py --verify dict.db
 
-注意：
-  本脚本不写入 room_master_table / identity_hash。
-  identity_hash 由 App 在首次启动时自动注入（见 DictionaryDatabase.kt）。
-  因此本脚本可以在任意时间、任意环境独立运行，无需依赖 Android 编译产物。
+重要：建表 SQL 必须与 Room 生成的 schema 完全一致。
+  参考 app/schemas/com.jiuyi.ime.dictionary.DictionaryDatabase/1.json 中的 createSql。
+  不得加 DEFAULT 值，word 列必须有 NOT NULL。
 """
 
 import argparse
-import os
 import sqlite3
 import sys
 from pathlib import Path
@@ -35,40 +33,39 @@ except ImportError:
     HAS_TQDM = False
 
 
-# ── 常量 ────────────────────────────────────────────────────────────────
 BATCH_SIZE   = 50_000
 MAX_WORD_LEN = 100
 
 
-# ── 数据库初始化 ─────────────────────────────────────────────────────────────
 def init_db(conn: sqlite3.Connection) -> None:
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA synchronous=NORMAL")
     conn.execute("PRAGMA cache_size=-64000")
+    # 建表 SQL 必须与 Room schema 的 createSql 字段完全一致：
+    #   - word 必须 NOT NULL
+    #   - freq / lang 不得有 DEFAULT 子句
+    #   - PRIMARY KEY 写在列尾，不单独建 PRIMARY KEY 语句
+    # 参考：app/schemas/com.jiuyi.ime.dictionary.DictionaryDatabase/1.json
     conn.execute("""
-        CREATE TABLE IF NOT EXISTS words (
-            word TEXT PRIMARY KEY,
-            freq INTEGER NOT NULL DEFAULT 0,
-            lang TEXT NOT NULL DEFAULT 'en'
+        CREATE TABLE IF NOT EXISTS `words` (
+            `word` TEXT NOT NULL,
+            `freq` INTEGER NOT NULL,
+            `lang` TEXT NOT NULL,
+            PRIMARY KEY(`word`)
         )
     """)
-    # room_master_table 由 App 运行时写入，此处不创建
     conn.commit()
 
 
 def build_index(conn: sqlite3.Connection) -> None:
     print("[index] Building index on 'word'...")
     # 索引名必须与 WordEntry.kt @Index 生成的名称一致：index_words_word
-    conn.execute("CREATE INDEX IF NOT EXISTS index_words_word ON words(word)")
+    conn.execute("CREATE INDEX IF NOT EXISTS `index_words_word` ON `words`(`word`)")
     conn.commit()
     print("[index] Done.")
 
 
-# ── 词库文件解析 ─────────────────────────────────────────────────────────────
 def parse_line(line: str):
-    """
-    解析单行，返回 (word, freq) 或 None（跳过）。
-    """
     line = line.strip().lstrip('\ufeff')
     if not line or line.startswith('#'):
         return None
@@ -148,7 +145,7 @@ def import_file(conn: sqlite3.Connection, filepath: str, lang: str) -> int:
     def flush():
         nonlocal success
         conn.executemany(
-            "INSERT OR REPLACE INTO words(word, freq, lang) VALUES(?, ?, ?)",
+            "INSERT OR REPLACE INTO `words`(`word`, `freq`, `lang`) VALUES(?, ?, ?)",
             batch
         )
         conn.commit()
@@ -179,7 +176,6 @@ def import_file(conn: sqlite3.Connection, filepath: str, lang: str) -> int:
     return success
 
 
-# ── 验证模式 ────────────────────────────────────────────────────────────────
 def verify_db(db_path: str) -> None:
     if not Path(db_path).exists():
         print(f"[error] File not found: {db_path}", file=sys.stderr)
@@ -195,11 +191,9 @@ def verify_db(db_path: str) -> None:
     print("[verify] top-5 by freq:")
     for row in sample:
         print(f"         {row[0]} (freq={row[1]}, lang={row[2]})")
-    # identity_hash 由 App 运行时写入，此处不验证
     conn.close()
 
 
-# ── 主程序 ────────────────────────────────────────────────────────────────
 def main():
     parser = argparse.ArgumentParser(description="久以输入法词库构建工具")
     parser.add_argument('--input',  nargs='+', help='词库输入文件（支持多个）')
