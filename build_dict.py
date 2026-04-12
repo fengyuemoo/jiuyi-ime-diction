@@ -17,8 +17,8 @@ build_dict.py — 久以输入法词库构建脚本
   python build_dict.py --verify dict.db
 
 重要：建表 SQL 必须与 Room 生成的 schema 完全一致。
-  参考 app/schemas/com.jiuyi.ime.dictionary.DictionaryDatabase/1.json 中的 createSql。
-  不得加 DEFAULT 值，word 列必须有 NOT NULL。
+  参考 app/schemas/com.jiuyi.ime.dictionary.DictionaryDatabase/2.json 中的 createSql。
+  不得加 DEFAULT 値，word 列必须有 NOT NULL。
 """
 
 import argparse
@@ -36,21 +36,39 @@ except ImportError:
 BATCH_SIZE   = 50_000
 MAX_WORD_LEN = 100
 
+# T9 键位映射表
+T9_MAP = {
+    'a': '2', 'b': '2', 'c': '2',
+    'd': '3', 'e': '3', 'f': '3',
+    'g': '4', 'h': '4', 'i': '4',
+    'j': '5', 'k': '5', 'l': '5',
+    'm': '6', 'n': '6', 'o': '6',
+    'p': '7', 'q': '7', 'r': '7', 's': '7',
+    't': '8', 'u': '8', 'v': '8',
+    'w': '9', 'x': '9', 'y': '9', 'z': '9',
+}
+
+
+def word_to_t9(word: str) -> str:
+    """'hello' -> '43556'，非字母字符保留原字符。"""
+    return ''.join(T9_MAP.get(ch, ch) for ch in word.lower())
+
 
 def init_db(conn: sqlite3.Connection) -> None:
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA synchronous=NORMAL")
     conn.execute("PRAGMA cache_size=-64000")
-    # 建表 SQL 必须与 Room schema 的 createSql 字段完全一致：
+    # 建表 SQL 必须与 Room schema v2 的 createSql 字段完全一致：
     #   - word 必须 NOT NULL
-    #   - freq / lang 不得有 DEFAULT 子句
+    #   - freq / lang / t9_key 不得有 DEFAULT 子句
     #   - PRIMARY KEY 写在列尾，不单独建 PRIMARY KEY 语句
-    # 参考：app/schemas/com.jiuyi.ime.dictionary.DictionaryDatabase/1.json
+    # 参考：app/schemas/com.jiuyi.ime.dictionary.DictionaryDatabase/2.json
     conn.execute("""
         CREATE TABLE IF NOT EXISTS `words` (
-            `word` TEXT NOT NULL,
-            `freq` INTEGER NOT NULL,
-            `lang` TEXT NOT NULL,
+            `word`   TEXT    NOT NULL,
+            `freq`   INTEGER NOT NULL,
+            `lang`   TEXT    NOT NULL,
+            `t9_key` TEXT    NOT NULL,
             PRIMARY KEY(`word`)
         )
     """)
@@ -58,9 +76,10 @@ def init_db(conn: sqlite3.Connection) -> None:
 
 
 def build_index(conn: sqlite3.Connection) -> None:
-    print("[index] Building index on 'word'...")
-    # 索引名必须与 WordEntry.kt @Index 生成的名称一致：index_words_word
-    conn.execute("CREATE INDEX IF NOT EXISTS `index_words_word` ON `words`(`word`)")
+    print("[index] Building indices...")
+    # 索引名必须与 WordEntry.kt @Index 生成的名称一致
+    conn.execute("CREATE INDEX IF NOT EXISTS `index_words_word`  ON `words`(`word`)")
+    conn.execute("CREATE INDEX IF NOT EXISTS `index_words_t9_key` ON `words`(`t9_key`)")
     conn.commit()
     print("[index] Done.")
 
@@ -145,7 +164,7 @@ def import_file(conn: sqlite3.Connection, filepath: str, lang: str) -> int:
     def flush():
         nonlocal success
         conn.executemany(
-            "INSERT OR REPLACE INTO `words`(`word`, `freq`, `lang`) VALUES(?, ?, ?)",
+            "INSERT OR REPLACE INTO `words`(`word`, `freq`, `lang`, `t9_key`) VALUES(?, ?, ?, ?)",
             batch
         )
         conn.commit()
@@ -162,7 +181,9 @@ def import_file(conn: sqlite3.Connection, filepath: str, lang: str) -> int:
             if result is None:
                 continue
             word, freq = result
-            batch.append((word, freq, lang))
+            # 英文词计算 t9_key，其他语言留空字符串
+            t9 = word_to_t9(word) if lang == 'en' else ''
+            batch.append((word, freq, lang, t9))
             if len(batch) >= BATCH_SIZE:
                 flush()
     finally:
@@ -186,11 +207,19 @@ def verify_db(db_path: str) -> None:
     for lang_row in conn.execute("SELECT lang, COUNT(*) FROM words GROUP BY lang"):
         print(f"[verify] {lang_row[0]:10s}  : {lang_row[1]:,}")
     sample = conn.execute(
-        "SELECT word, freq, lang FROM words ORDER BY freq DESC LIMIT 5"
+        "SELECT word, freq, lang, t9_key FROM words ORDER BY freq DESC LIMIT 5"
     ).fetchall()
     print("[verify] top-5 by freq:")
     for row in sample:
-        print(f"         {row[0]} (freq={row[1]}, lang={row[2]})")
+        print(f"         {row[0]} (freq={row[1]}, lang={row[2]}, t9={row[3]})")
+    # 验证 t9_key 填充率
+    empty_t9 = conn.execute(
+        "SELECT COUNT(*) FROM words WHERE lang='en' AND t9_key=''"
+    ).fetchone()[0]
+    if empty_t9 > 0:
+        print(f"[warn] {empty_t9:,} English words have empty t9_key!")
+    else:
+        print("[verify] All English words have t9_key. OK")
     conn.close()
 
 
