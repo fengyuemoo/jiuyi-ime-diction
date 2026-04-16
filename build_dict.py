@@ -54,6 +54,23 @@ def word_to_t9(word: str) -> str:
     return ''.join(T9_MAP.get(ch, ch) for ch in word.lower())
 
 
+def detect_encoding(filepath: str) -> str:
+    """
+    检测文件编码。只看 BOM，不依赖外部库。
+    - UTF-16 LE BOM (FF FE) → 'utf-16'
+    - UTF-16 BE BOM (FE FF) → 'utf-16'
+    - UTF-8 BOM (EF BB BF)  → 'utf-8-sig'
+    - 其他            → 'utf-8'
+    """
+    with open(filepath, 'rb') as f:
+        bom = f.read(4)
+    if bom[:2] in (b'\xff\xfe', b'\xfe\xff'):
+        return 'utf-16'
+    if bom[:3] == b'\xef\xbb\xbf':
+        return 'utf-8-sig'
+    return 'utf-8'
+
+
 def init_db(conn: sqlite3.Connection) -> None:
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA synchronous=NORMAL")
@@ -153,8 +170,9 @@ def parse_line(line: str):
 
 
 def count_lines(filepath: str) -> int:
+    enc = detect_encoding(filepath)
     count = 0
-    with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+    with open(filepath, 'r', encoding=enc, errors='ignore') as f:
         for _ in f:
             count += 1
     return count
@@ -166,8 +184,9 @@ def import_file(conn: sqlite3.Connection, filepath: str, lang: str) -> int:
         print(f"[error] File not found: {filepath}", file=sys.stderr)
         return 0
 
+    enc = detect_encoding(filepath)
     total_lines = count_lines(filepath)
-    print(f"[import] {path.name} ({total_lines:,} lines, lang={lang})")
+    print(f"[import] {path.name} ({total_lines:,} lines, lang={lang}, enc={enc})")
 
     batch   = []
     success = 0
@@ -182,7 +201,7 @@ def import_file(conn: sqlite3.Connection, filepath: str, lang: str) -> int:
         success += len(batch)
         batch.clear()
 
-    iter_lines = open(filepath, 'r', encoding='utf-8', errors='ignore')
+    iter_lines = open(filepath, 'r', encoding=enc, errors='ignore')
     if HAS_TQDM:
         iter_lines = tqdm(iter_lines, total=total_lines, unit='lines', desc=path.name)
 
@@ -193,7 +212,6 @@ def import_file(conn: sqlite3.Connection, filepath: str, lang: str) -> int:
                 continue
             word, freq, pinyin = result
             t9 = word_to_t9(word) if lang == 'en' else ''
-            # 中文词库如果 parse_line 未提取到 pinyin（如 2列格式），则 pinyin 保持空字符串
             batch.append((word, freq, lang, t9, pinyin))
             if len(batch) >= BATCH_SIZE:
                 flush()
