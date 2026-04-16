@@ -6,9 +6,9 @@ build_dict.py — 久以输入法词库构建脚本
 
 支持的输入格式（自动按列数判断）：
   4列（空格分隔）: <拼音键序> <数字编码> <候选词> <词频>   ← 英文词库
-  3列（空格分隔）: <拼音串>   <汉字/词>  <词频>           ← 中文词库
+  3列（空格分隔）: <拼音串>   <汉字/词>  <词频>           ← 中文词库（pinyin 列存入 DB）
   2列（tab/空格）: <词>        <词频>                     ← 通用简易格式
-  1列            : <词>                                  ← 纯词列表，词频默认 0
+  1列            : <词>                                  ← 纴词列表，词频默认 0
   CSV            : <词>,<词频>
 
 用法示例：
@@ -17,7 +17,7 @@ build_dict.py — 久以输入法词库构建脚本
   python build_dict.py --verify dict.db
 
 重要：建表 SQL 必须与 Room 生成的 schema 完全一致。
-  参考 app/schemas/com.jiuyi.ime.dictionary.DictionaryDatabase/2.json 中的 createSql。
+  参考 app/schemas/com.jiuyi.ime.dictionary.DictionaryDatabase/3.json 中的 createSql。
   不得加 DEFAULT 値，word 列必须有 NOT NULL。
 """
 
@@ -58,17 +58,17 @@ def init_db(conn: sqlite3.Connection) -> None:
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA synchronous=NORMAL")
     conn.execute("PRAGMA cache_size=-64000")
-    # 建表 SQL 必须与 Room schema v2 的 createSql 字段完全一致：
+    # 建表 SQL 必须与 Room schema v3 的 createSql 字段完全一致：
     #   - word 必须 NOT NULL
-    #   - freq / lang / t9_key 不得有 DEFAULT 子句
+    #   - freq / lang / t9_key / pinyin 不得有 DEFAULT 子句
     #   - PRIMARY KEY 写在列尾，不单独建 PRIMARY KEY 语句
-    # 参考：app/schemas/com.jiuyi.ime.dictionary.DictionaryDatabase/2.json
     conn.execute("""
         CREATE TABLE IF NOT EXISTS `words` (
             `word`   TEXT    NOT NULL,
             `freq`   INTEGER NOT NULL,
             `lang`   TEXT    NOT NULL,
             `t9_key` TEXT    NOT NULL,
+            `pinyin` TEXT    NOT NULL,
             PRIMARY KEY(`word`)
         )
     """)
@@ -77,14 +77,19 @@ def init_db(conn: sqlite3.Connection) -> None:
 
 def build_index(conn: sqlite3.Connection) -> None:
     print("[index] Building indices...")
-    # 索引名必须与 WordEntry.kt @Index 生成的名称一致
-    conn.execute("CREATE INDEX IF NOT EXISTS `index_words_word`  ON `words`(`word`)")
+    conn.execute("CREATE INDEX IF NOT EXISTS `index_words_word`   ON `words`(`word`)")
     conn.execute("CREATE INDEX IF NOT EXISTS `index_words_t9_key` ON `words`(`t9_key`)")
+    conn.execute("CREATE INDEX IF NOT EXISTS `index_words_pinyin` ON `words`(`pinyin`)")
     conn.commit()
     print("[index] Done.")
 
 
 def parse_line(line: str):
+    """
+    返回 (word, freq, pinyin) 元组，或 None。
+    - 3列中文词库：pinyin = parts[0]（如 "zhong'guo"）
+    - 其他格式：pinyin = ''
+    """
     line = line.strip().lstrip('\ufeff')
     if not line or line.startswith('#'):
         return None
@@ -98,7 +103,7 @@ def parse_line(line: str):
             freq = 0
         if not word or len(word) > MAX_WORD_LEN:
             return None
-        return (word, freq)
+        return (word, freq, '')
 
     if '\t' in line:
         parts = line.split('\t', 1)
@@ -109,18 +114,22 @@ def parse_line(line: str):
             freq = 0
         if not word or len(word) > MAX_WORD_LEN:
             return None
-        return (word, freq)
+        return (word, freq, '')
 
     parts = [p for p in line.split(' ') if p]
     n = len(parts)
 
     if n >= 4:
+        # 英文词库 4列：拼音键序 数字编码 候选词 词频
         try:
             freq = int(parts[-1])
         except ValueError:
             freq = 0
         word = ' '.join(parts[2:-1])
+        pinyin = ''
     elif n == 3:
+        # 中文词库 3列：拼音串 汉字/词 词频  ← 保存 pinyin
+        pinyin = parts[0]
         word = parts[1]
         try:
             freq = int(parts[2])
@@ -132,13 +141,15 @@ def parse_line(line: str):
             freq = int(parts[1])
         except ValueError:
             freq = 0
+        pinyin = ''
     else:
         word = parts[0]
         freq = 0
+        pinyin = ''
 
     if not word or len(word) > MAX_WORD_LEN:
         return None
-    return (word, freq)
+    return (word, freq, pinyin)
 
 
 def count_lines(filepath: str) -> int:
@@ -164,7 +175,7 @@ def import_file(conn: sqlite3.Connection, filepath: str, lang: str) -> int:
     def flush():
         nonlocal success
         conn.executemany(
-            "INSERT OR REPLACE INTO `words`(`word`, `freq`, `lang`, `t9_key`) VALUES(?, ?, ?, ?)",
+            "INSERT OR REPLACE INTO `words`(`word`, `freq`, `lang`, `t9_key`, `pinyin`) VALUES(?, ?, ?, ?, ?)",
             batch
         )
         conn.commit()
@@ -180,10 +191,10 @@ def import_file(conn: sqlite3.Connection, filepath: str, lang: str) -> int:
             result = parse_line(line)
             if result is None:
                 continue
-            word, freq = result
-            # 英文词计算 t9_key，其他语言留空字符串
+            word, freq, pinyin = result
             t9 = word_to_t9(word) if lang == 'en' else ''
-            batch.append((word, freq, lang, t9))
+            # 中文词库如果 parse_line 未提取到 pinyin（如 2列格式），则 pinyin 保持空字符串
+            batch.append((word, freq, lang, t9, pinyin))
             if len(batch) >= BATCH_SIZE:
                 flush()
     finally:
@@ -207,12 +218,11 @@ def verify_db(db_path: str) -> None:
     for lang_row in conn.execute("SELECT lang, COUNT(*) FROM words GROUP BY lang"):
         print(f"[verify] {lang_row[0]:10s}  : {lang_row[1]:,}")
     sample = conn.execute(
-        "SELECT word, freq, lang, t9_key FROM words ORDER BY freq DESC LIMIT 5"
+        "SELECT word, freq, lang, t9_key, pinyin FROM words ORDER BY freq DESC LIMIT 5"
     ).fetchall()
     print("[verify] top-5 by freq:")
     for row in sample:
-        print(f"         {row[0]} (freq={row[1]}, lang={row[2]}, t9={row[3]})")
-    # 验证 t9_key 填充率
+        print(f"         {row[0]} (freq={row[1]}, lang={row[2]}, t9={row[3]}, pinyin={row[4]})")
     empty_t9 = conn.execute(
         "SELECT COUNT(*) FROM words WHERE lang='en' AND t9_key=''"
     ).fetchone()[0]
@@ -220,6 +230,13 @@ def verify_db(db_path: str) -> None:
         print(f"[warn] {empty_t9:,} English words have empty t9_key!")
     else:
         print("[verify] All English words have t9_key. OK")
+    empty_pinyin = conn.execute(
+        "SELECT COUNT(*) FROM words WHERE lang='zh' AND pinyin=''"
+    ).fetchone()[0]
+    if empty_pinyin > 0:
+        print(f"[warn] {empty_pinyin:,} Chinese words have empty pinyin!")
+    else:
+        print("[verify] All Chinese words have pinyin. OK")
     conn.close()
 
 
