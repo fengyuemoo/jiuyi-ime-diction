@@ -11,14 +11,17 @@ build_dict.py — 久以输入法词库构建脚本
   1列            : <词>                                  ← 纴词列表，词频默认 0
   CSV            : <词>,<词频>
 
+主键设计：(word, pinyin) 复合主键。
+  - 英文词：pinyin = ""，每个 word 唯一。
+  - 中文词：多音字每个读音独立一行（不合并！）。
+
 用法示例：
   python build_dict.py --input en_ext.txt --lang en --output dict.db
   python build_dict.py --input en_ext.txt cn_base.txt --lang en zh --output dict.db
   python build_dict.py --verify dict.db
 
 重要：建表 SQL 必须与 Room 生成的 schema 完全一致。
-  参考 app/schemas/com.jiuyi.ime.dictionary.DictionaryDatabase/3.json 中的 createSql。
-  不得加 DEFAULT 値，word 列必须有 NOT NULL。
+  参考 app/schemas/com.jiuyi.ime.dictionary.DictionaryDatabase/4.json 中的 createSql。
 """
 
 import argparse
@@ -60,7 +63,7 @@ def detect_encoding(filepath: str) -> str:
     - UTF-16 LE BOM (FF FE) → 'utf-16'
     - UTF-16 BE BOM (FE FF) → 'utf-16'
     - UTF-8 BOM (EF BB BF)  → 'utf-8-sig'
-    - 其他            → 'utf-8'
+    - 其他                  → 'utf-8'
     """
     with open(filepath, 'rb') as f:
         bom = f.read(4)
@@ -75,10 +78,9 @@ def init_db(conn: sqlite3.Connection) -> None:
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA synchronous=NORMAL")
     conn.execute("PRAGMA cache_size=-64000")
-    # 建表 SQL 必须与 Room schema v3 的 createSql 字段完全一致：
-    #   - word 必须 NOT NULL
-    #   - freq / lang / t9_key / pinyin 不得有 DEFAULT 子句
-    #   - PRIMARY KEY 写在列尾，不单独建 PRIMARY KEY 语句
+    # 建表 SQL 必须与 Room schema v4 的 createSql 字段完全一致：
+    #   - PRIMARY KEY(`word`, `pinyin`) 复合主键
+    #   - 各列不得有 DEFAULT 子句
     conn.execute("""
         CREATE TABLE IF NOT EXISTS `words` (
             `word`   TEXT    NOT NULL,
@@ -86,7 +88,7 @@ def init_db(conn: sqlite3.Connection) -> None:
             `lang`   TEXT    NOT NULL,
             `t9_key` TEXT    NOT NULL,
             `pinyin` TEXT    NOT NULL,
-            PRIMARY KEY(`word`)
+            PRIMARY KEY(`word`, `pinyin`)
         )
     """)
     conn.commit()
@@ -147,7 +149,7 @@ def parse_line(line: str):
     elif n == 3:
         # 中文词库 3列：拼音串 汉字/词 词频  ← 保存 pinyin
         pinyin = parts[0]
-        word = parts[1]
+        word   = parts[1]
         try:
             freq = int(parts[2])
         except ValueError:
@@ -160,8 +162,8 @@ def parse_line(line: str):
             freq = 0
         pinyin = ''
     else:
-        word = parts[0]
-        freq = 0
+        word   = parts[0]
+        freq   = 0
         pinyin = ''
 
     if not word or len(word) > MAX_WORD_LEN:
@@ -255,6 +257,11 @@ def verify_db(db_path: str) -> None:
         print(f"[warn] {empty_pinyin:,} Chinese words have empty pinyin!")
     else:
         print("[verify] All Chinese words have pinyin. OK")
+    # 验证多音字是否正确存入多行
+    polyphone_count = conn.execute(
+        "SELECT COUNT(*) FROM (SELECT word FROM words WHERE lang='zh' GROUP BY word HAVING COUNT(*)>1)"
+    ).fetchone()[0]
+    print(f"[verify] Polyphone chars/words : {polyphone_count:,}")
     conn.close()
 
 
