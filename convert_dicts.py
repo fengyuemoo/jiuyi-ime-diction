@@ -130,14 +130,17 @@ def parse_dict_yaml(path: str):
 def parse_thuocl_txt(path: str):
     """
     cn_thuocl_*.txt / cn_internet_hot_words.txt
-    格式：拼音\t汉字\t词频  或  拼音\t汉字
+    实际格式（空格分隔三列）：
+      拼音(撇号分隔音节)  汉字  词频
+    例：a'ba'cang'zhu 阿坝藏猪 0
     """
     results = []
     with open(path, encoding="utf-8") as f:
         for line in skip_header(f):
-            if not line.strip():
+            line = line.strip()
+            if not line:
                 continue
-            parts = line.split("\t")
+            parts = line.split(" ")
             if len(parts) >= 3:
                 pinyin = parts[0].strip()
                 word   = parts[1].strip()
@@ -169,26 +172,34 @@ def parse_cn_en_txt(path: str):
                 results.append((word, pinyin, None))
     return results
 
-def parse_en_already_formatted(path: str):
+def parse_en_space_separated(path: str):
     """
-    en_base.txt / en_ext.txt — 已是目标四列格式
-    格式：字母\tT9\t词\t词频
-    直接读取，字母列强制小写
+    en_base.txt / en_ext.txt — 空格分隔四列
+    格式：字母  T9编码  词  词频
+    例：a 2 a 9081174698
+        abs 227 ABS 500000
+    注意：词本身可能含空格（如 "Ability Power Carry"），
+    因此只拆前两列和最后一列，中间全部作为词。
     """
     results = []
     with open(path, encoding="utf-8") as f:
         for line in skip_header(f):
-            if not line.strip():
+            line = line.strip()
+            if not line:
                 continue
-            parts = line.split("\t")
+            parts = line.split(" ")
             if len(parts) >= 4:
                 letters = parts[0].strip().lower()
-                word    = parts[2].strip()
+                # parts[1] 是 T9，忽略（重新计算）
+                # 最后一列是词频，中间是词（可含空格）
                 try:
-                    freq = int(parts[3].strip())
-                except (ValueError, IndexError):
+                    freq = int(parts[-1].strip())
+                    word = " ".join(parts[2:-1]).strip()
+                except ValueError:
                     freq = None
-                results.append((word, letters, freq))
+                    word = " ".join(parts[2:]).strip()
+                if word:
+                    results.append((word, letters, freq))
             elif len(parts) == 3:
                 letters = parts[0].strip().lower()
                 word    = parts[1].strip()
@@ -309,7 +320,7 @@ CN_EN_FILES = {
     "cn_en.txt",
 }
 
-EN_PREFORMATTED = {
+EN_SPACE_SEPARATED = {
     "en_base.txt",
     "en_ext.txt",
 }
@@ -348,8 +359,8 @@ def process_file(src_path: str, dst_dir: str):
         deduped = dedup_chinese(entries)
         write_cn_en(deduped, out_path)
 
-    elif filename in EN_PREFORMATTED:
-        raw = parse_en_already_formatted(src_path)
+    elif filename in EN_SPACE_SEPARATED:
+        raw = parse_en_space_separated(src_path)
         entries = [(w, l, f if f is not None else 1) for w, l, f in raw]
         deduped = dedup_english(entries)
         write_english(deduped, out_path)
