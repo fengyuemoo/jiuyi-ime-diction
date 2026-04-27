@@ -1,0 +1,2223 @@
+nbsp	6277	&nbsp;	1
+dsstore	3778673	.DS_Store	1
+readmemd	73236363	README.md	1
+fn	36	Fn	1
+cmd	263	cmd	1
+command	2666263	command	1
+ctrl	2875	Ctrl	1
+control	2668765	control	1
+opt	678	Opt	1
+option	678466	option	1
+shift	74438	shift	1
+tab	822	tab	1
+caps	2277	Caps	1
+capslock	22775625	CapsLock	1
+return	738876	return	1
+enter	36837	enter	1
+space	77223	space	1
+backspace	222577223	backspace	1
+del	335	Del	1
+delete	335383	delete	1
+esc	372	Esc	1
+eject	35328	eject	1
+january	5268279	January	1
+jan	526	Jan.	1
+february	33278279	February	1
+feb	332	Feb.	1
+march	62724	March	1
+mar	627	Mar.	1
+april	27745	April	1
+apr	277	Apr.	1
+may	629	May	1
+june	5863	June	1
+july	5859	July	1
+august	284878	August	1
+aug	284	Aug.	1
+september	737836237	September	1
+sep	737	Sep.	1
+sept	7378	Sept.	1
+october	6286237	October	1
+oct	628	Oct.	1
+november	66836237	November	1
+nov	668	Nov.	1
+december	33236237	December	1
+dec	332	Dec.	1
+monday	666329	Monday	1
+mon	666	Mon.	1
+tuesday	8837329	Tuesday	1
+tue	883	Tue.	1
+wednesday	933637329	Wednesday	1
+wed	933	Wed.	1
+thursday	84877329	Thursday	1
+thu	848	Thu.	1
+thurs	84877	Thurs.	1
+friday	374329	Friday	1
+fri	374	Fri.	1
+saturday	72887329	Saturday	1
+sat	728	Sat.	1
+sunday	786329	Sunday	1
+sun	786	Sun.	1
+sheldon	7435366	Sheldon	1
+leonard	5366273	Leonard	1
+howard	469273	Howard	1
+rajesh	725374	Rajesh	1
+penny	73669	Penny	1
+bernadette	2376233883	Bernadette	1
+amy	269	Amy	1
+rachel	722435	Rachel	1
+monica	666422	Monica	1
+joey	5639	Joey	1
+ross	7677	Ross	1
+chandler	24263537	Chandler	1
+phoebe	746323	Phoebe	1
+hell	4355	hell	2
+hell	4355	he'll	1
+shell	74355	shell	2
+shell	74355	she'll	1
+well	9355	well	2
+well	9355	we'll	1
+ill	455	ill	2
+ill	455	I'll	1
+id	43	ID	2
+id	43	I'd	1
+shed	7433	shed	2
+shed	7433	she'd	1
+net	638	net	2
+net	638	.NET	1
+iphone	474663	iPhone	999
+iphone	474663	iPhone 17	4
+iphone	474663	iPhone 17 Pro	3
+iphone	474663	iPhone 17 Pro Max	2
+iphone	474663	iPhone 17e	1
+macosx	622679	Mac OS X	999
+macosx	622679	Mac OS X Cheetah	1
+macosx	622679	Mac OS X Puma	2
+macosx	622679	Mac OS X Jaguar	3
+macosx	622679	Mac OS X Panther	4
+macosx	622679	Mac OS X Tiger	5
+macosx	622679	Mac OS X Leopard	6
+macosx	622679	Mac OS X Snow Leopard	7
+osx	679	OS X	999
+osx	679	OS X Lion	1
+osx	679	OS X Mountain Lion	2
+osx	679	OS X Mavericks	3
+osx	679	OS X Yosemite	4
+osx	679	OS X El Capitan	5
+macos	62267	macOS	999
+macos	62267	macOS Sierra	1
+macos	62267	macOS High Sierra	2
+macos	62267	macOS Mojave	3
+macos	62267	macOS Catalina	4
+macos	62267	macOS Big Sur	5
+macos	62267	macOS Monterey	6
+macos	62267	macOS Ventura	7
+macos	62267	macOS Sonoma	8
+macos	62267	macOS Sequoia	9
+macos	62267	macOS Tahoe	10
+windows	9463697	Windows	999
+windows	9463697	Windows 95	1
+windows	9463697	Windows 98	2
+windows	9463697	Windows Me	3
+windows	9463697	Windows 2000	4
+windows	9463697	Windows XP	5
+windowsxp	946369797	Windows XP	1
+windows	9463697	Windows Vista	6
+windows	9463697	Windows 7	7
+windows	9463697	Windows 8	8
+windows	9463697	Windows 10	10
+windows	9463697	Windows 11	11
+iphoneg	4746634	iPhone 3G	1
+iphonegs	47466347	iPhone 3GS	1
+iphone	474663	iPhone 4	1
+iphones	4746637	iPhone 4S	1
+iphone	474663	iPhone 5	1
+iphonec	4746632	iPhone 5C	1
+iphones	4746637	iPhone 5S	1
+iphone	474663	iPhone 6	1
+iphoneplus	4746637587	iPhone 6 Plus	1
+iphones	4746637	iPhone 6S	1
+iphonesplus	47466377587	iPhone 6S Plus	1
+iphonese	47466373	iPhone SE	1
+iphone	474663	iPhone 7	1
+iphoneplus	4746637587	iPhone 7 Plus	1
+iphone	474663	iPhone 8	1
+iphoneplus	4746637587	iPhone 8 Plus	1
+iphonex	4746639	iPhone X	1
+iphonexr	47466397	iPhone XR	1
+iphonexs	47466397	iPhone XS	1
+iphonexsmax	47466397629	iPhone XS Max	1
+iphone	474663	iPhone 11	1
+iphonepro	474663776	iPhone 11 Pro	1
+iphonepromax	474663776629	iPhone 11 Pro Max	1
+iphone	474663	iPhone 12	1
+iphonemini	4746636464	iPhone 12 Mini	1
+iphonepro	474663776	iPhone 12 Pro	1
+iphonepromax	474663776629	iPhone 12 Pro Max	1
+iphone	474663	iPhone 13	1
+iphonemini	4746636464	iPhone 13 Mini	1
+iphonepro	474663776	iPhone 13 Pro	1
+iphonepromax	474663776629	iPhone 13 Pro Max	1
+iphone	474663	iPhone 14	1
+iphoneplus	4746637587	iPhone 14 Plus	1
+iphonepro	474663776	iPhone 14 Pro	1
+iphonepromax	474663776629	iPhone 14 Pro Max	1
+iphone	474663	iPhone 15	1
+iphoneplus	4746637587	iPhone 15 Plus	1
+iphonepro	474663776	iPhone 15 Pro	1
+iphonepromax	474663776629	iPhone 15 Pro Max	1
+iphone	474663	iPhone 16	1
+iphonee	4746633	iPhone 16e	1
+iphoneplus	4746637587	iPhone 16 Plus	1
+iphonepro	474663776	iPhone 16 Pro	1
+iphonepromax	474663776629	iPhone 16 Pro Max	1
+iphonee	4746633	iPhone 17e	1
+iphoneair	474663247	iPhone Air	1
+iphonepro	474663776	iPhone 17 Pro	1
+iphonepromax	474663776629	iPhone 17 Pro Max	1
+macosxcheetah	6226792433824	Mac OS X Cheetah	1
+macosxpuma	6226797862	Mac OS X Puma	1
+macosxjaguar	622679524827	Mac OS X Jaguar	1
+macosxpanther	6226797268437	Mac OS X Panther	1
+macosxtiger	62267984437	Mac OS X Tiger	1
+macosxleopard	6226795367273	Mac OS X Leopard	1
+macosxsnowleopard	62267976695367273	Mac OS X Snow Leopard	1
+osxlion	6795466	OS X Lion	1
+osxmountainlion	679668682465466	OS X Mountain Lion	1
+osxmavericks	679628374257	OS X Mavericks	1
+osxyosemite	67996736483	OS X Yosemite	1
+osxelcapitan	679352274826	OS X El Capitan	1
+macossierra	62267743772	macOS Sierra	1
+macoshighsierra	622674444743772	macOS High Sierra	1
+macosmojave	62267665283	macOS Mojave	1
+macoscatalina	6226722825462	macOS Catalina	1
+macosbigsur	62267244787	macOS Big Sur	1
+macosmonterey	6226766683739	macOS Monterey	1
+macosventura	622678368872	macOS Ventura	1
+macossonoma	62267766662	macOS Sonoma	1
+macossequoia	622677378642	macOS Sequoia	1
+macostahoe	6226782463	macOS Tahoe	1
+windowsme	946369763	Windows Me	1
+windowsvista	946369784782	Windows Vista	1
+erc	372	ERC-20	1
+erc	372	ERC-721	1
+erc	372	ERC-1155	1
+highsierra	4444743772	High Sierra	1
+mojave	665283	Mojave	1
+bigsur	244787	Big Sur	1
+sequoia	7378642	Sequoia	1
+typeorm	8973676	TypeORM	1
+rpg	774	RPG	1
+roleplayinggame	765375294644263	Role-Playing Game	1
+adc	232	ADC	1
+attackdamagecarry	28822532624322779	Attack Damage Carry	1
+apc	272	APC	1
+abilitypowercarry	22454897693722779	Ability Power Carry	1
+gdp	437	GDP	1
+gdppercapita	437737227482	GDP per capita	1
+grossdomesticproduct	47677366378427763828	Gross Domestic Product	1
+grossdomesticproductpercapita	47677366378427763828737227482	Gross Domestic Product per capita	1
+lol	565	LOL	1
+leagueoflegends	532483635343637	League of Legends	1
+laughoutloudly	52844688568359	Laugh Out Loudly	1
+sqlserver	775737837	SQL Server	1
+microsoftsqlserver	642767638775737837	Microsoft SQL Server	1
+ssh	774	SSH	1
+secureshell	73287374355	Secure Shell	1
+iso	476	ISO	1
+internationalorganizationforstandardization	4683762846625674264928466367782632734928466	International Organization for Standardization	1
+iso	476	ISO 8601	1
+rfc	732	RFC	1
+requestforcomments	737837836726663687	Request for Comments	1
+rfc	732	RFC 3339	1
+rfcs	7327	RFCs	1
+ietf	4383	IETF	1
+internetengineeringtaskforce	4683763836446337464827536723	Internet Engineering Task Force	1
+promax	776629	Pro Max	1
+aeron	23766	Aeron	1
+aeronchair	2376624247	Aeron Chair	1
+netscape	63872273	Netscape	1
+wechat	932428	WeChat	1
+dota	3682	Dota	1
+superlist	787375478	Superlist	1
+dj	35	DJ	1
+discjockey	3472562539	Disc Jockey	1
+dlc	352	DLC	1
+downloadablecontent	3696562322532668368	Downloadable content	1
+quora	78672	Quora	1
+linkedin	54653346	LinkedIn	1
+coo	266	COO	1
+chiefoperatingofficer	244336737284646334237	Chief Operating Officer	1
+ishot	47468	iShot	1
+taptap	827827	TapTap	1
+hdd	433	HDD	1
+harddiskdrive	4273347537483	Hard disk drive	1
+hhd	443	HHD	1
+hybriddrive	49274337483	Hybrid drive	1
+ssd	773	SSD	1
+solidstatedrive	765437828337483	Solid-state drive	1
+cpu	278	CPU	1
+centralprocessingunit	236872577623774648648	Central Processing Unit	1
+gpu	478	GPU	1
+graphicsprocessingunit	4727442777623774648648	Graphics Processing Unit	1
+mcu	628	MCU	1
+arm	276	ARM	1
+advancedriscmachine	2382623374726224463	Advanced RISC Machine	1
+egpu	3478	eGPU	1
+onepiece	66374323	One Piece	1
+cbd	223	CBD	1
+cctv	2288	CCTV	1
+closedcircuittelevision	25673324728488353847466	Closed-Circuit Television	1
+chinacentraltelevision	2446223687258353847466	China Central Television	1
+coloros	2656767	ColorOS	1
+gta	482	GTA	1
+grandtheftauto	47263843382886	Grand Theft Auto	1
+gtav	4828	GTAV	1
+grandtheftautov	472638433828868	Grand Theft Auto V	1
+lgbt	5428	LGBT	1
+gps	477	GPS	1
+atm	286	ATM	1
+automatedtellermachine	2886628338355376224463	automated teller machine	1
+centos	236867	CentOS	1
+debian	332426	Debian	1
+bbc	222	BBC	1
+datagrip	32824747	DataGrip	1
+alphago	2574246	AlphaGo	1
+alphafold	257423653	AlphaFold	1
+csgo	2746	CS:GO	1
+counterstrikeglobaloffensive	2686837787453456225633367483	Counter-Strike: Global Offensive	1
+counterstrike	2686837787453	Counter-Strike	1
+counterstrike	2686837787453	Counter-Strike 2	1
+cs	27	CS2	1
+tesla	83752	Tesla	1
+coderunner	2633786637	Code Runner	1
+aftershokzaeropex	23837746592376739	AfterShokz Aeropex	1
+aftershokz	2383774659	AfterShokz	1
+aeropex	2376739	Aeropex	1
+x	9	X11	1
+xnip	9647	Xnip	1
+workspace	967577223	Workspace	1
+adsense	2373673	AdSense	1
+authenticator	2884368422867	Authenticator	1
+deepmind	33376463	DeepMind	1
+figma	34462	Figma	1
+google	466453	Google	1
+googleads	466453237	Google Ads	1
+googleadsense	4664532373673	Google AdSense	1
+googleanalytics	466453262598427	Google Analytics	1
+googleauthenticator	4664532884368422867	Google Authenticator	1
+googlebard	4664532273	Google Bard	1
+googlebot	466453268	Googlebot	1
+googlecalendar	46645322536327	Google Calendar	1
+googlechrome	466453247663	Google Chrome	1
+googledeepmind	46645333376463	Google DeepMind	1
+googledocs	4664533627	Google Docs	1
+googledrive	46645337483	Google Drive	1
+googleearth	46645332784	Google Earth	1
+googlefi	46645334	Google Fi	1
+googlefiwireless	4664533494735377	Google Fi Wireless	1
+googlegemini	466453436464	Google Gemini	1
+googlegeminiadvanced	46645343646423826233	Google Gemini Advanced	1
+googlekeep	4664535337	Google Keep	1
+googlemaps	4664536277	Google Maps	1
+googleone	466453663	Google One	1
+googlephotos	466453746867	Google Photos	1
+googlepixel	46645374935	Google Pixel	1
+googleplay	4664537529	Google Play	1
+googleplaymusic	466453752968742	Google Play Music	1
+googletv	46645388	Google TV	1
+googlevoice	46645386423	Google Voice	1
+googleworkspace	466453967577223	Google Workspace	1
+notebooklm	6683266556	NotebookLM	1
+googlenotebooklm	4664536683266556	Google NotebookLM	1
+wysiwyg	9974994	WYSIWYG	1
+whatyouseeiswhatyouget	9428968733479428968438	What You See Is What You Get	1
+marktext	62758398	Mark Text	1
+joplin	567546	Joplin	1
+steamos	7832667	SteamOS	1
+steamdeck	783263325	Steam Deck	1
+steammachine	783266224463	Steam Machine	1
+tiktok	845865	TikTok	1
+idc	432	IDC	1
+internationaldatacorporation	4683762846625328226776728466	International Data Corporation	1
+wunderlist	9863375478	Wunderlist	1
+vmware	869273	VMware	1
+flyme	35963	Flyme	1
+vmwarefusion	869273387466	VMware Fusion	1
+vmwarefusionplayer	869273387466752937	VMware Fusion Player	1
+vmwarefusionpro	869273387466776	VMware Fusion Pro	1
+vanilla	8264552	Vanilla	1
+ubisoft	8247638	Ubisoft	1
+twitch	894824	Twitch	1
+todoist	8636478	Todoist	1
+teamviewer	8326843937	TeamViewer	1
+sleepcycle	7533729253	Sleep Cycle	1
+sony	7669	Sony	1
+nikon	64566	Nikon	1
+canon	22666	Canon	1
+fujifilm	38543456	FujiFilm	1
+panasonic	726276642	Panasonic	1
+ricoh	74264	Ricoh	1
+casio	22746	Casio	1
+ccd	223	CCD	1
+chargecoupleddevice	2427432687533338423	Charge-Coupled Device	1
+pdfexpert	733397378	PDF Expert	1
+oschina	6724462	OSCHINA	1
+navicat	6284228	Navicat	1
+navicatpremium	62842287736486	Navicat Premium	1
+namesilo	62637456	NameSilo	1
+musixmatch	6874962824	Musixmatch	1
+gsuite	478483	G Suite	1
+cloudxns	25683967	CloudXNS	1
+bitwarden	248927336	Bitwarden	1
+bitcomet	24826638	BitComet	1
+bitbucket	248282538	Bitbucket	1
+lyricsx	5974279	LyricsX	1
+onedrive	66337483	OneDrive	1
+xbox	9269	Xbox	1
+xboxone	9269663	Xbox One	1
+xboxonex	92696639	Xbox One X	1
+xboxseries	9269737437	Xbox Series	1
+xboxseriess	92697374377	Xbox Series S	1
+css	277	CSS	1
+cascadingstylesheets	22722346478953743387	Cascading Style Sheets	1
+otc	682	OTC	1
+iepl	4375	IEPL	1
+internationalethernetprivateline	46837628466253843763877482835463	International Ethernet Private Line	1
+iplc	4752	IPLC	1
+internationalprivateleasedcircuit	468376284662577482835327332472848	International Private Leased Circuit	1
+intellij	46835545	IntelliJ	1
+intellijidea	468355454332	IntelliJ IDEA	1
+intellijideacommunity	468355454332266686489	IntelliJ IDEA Community	1
+intellijideaultimate	46835545433285846283	IntelliJ IDEA Ultimate	1
+ideacommunity	4332266686489	IDEA Community	1
+ideaultimate	433285846283	IDEA Ultimate	1
+ntr	687	NTR	1
+notion	668466	Notion	1
+notionai	66846624	Notion AI	1
+touchbar	86824227	Touch Bar	1
+dom	366	DOM	1
+dva	382	D.VA	1
+ipv	478	IPv4	1
+ipv	478	IPv6	1
+rickandmorty	742526366789	Rick and Morty	1
+utools	886657	uTools	1
+airpods	2477637	AirPods	1
+airpodspro	2477637776	AirPods Pro	1
+airpodsmax	2477637629	AirPods Max	1
+earpods	3277637	EarPods	1
+callkit	2255548	CallKit	1
+oss	677	OSS	1
+objectstorageservice	62532878672437378423	Object Storage Service	1
+oceanbase	623262273	OceanBase	1
+youtubemusic	968882368742	YouTube Music	1
+applemusic	2775368742	Apple Music	1
+ted	833	TED	1
+deepl	33375	DeepL	1
+homebrew	46632739	Homebrew	1
+vmess	86377	VMess	1
+shadowsocks	74236976257	Shadowsocks	1
+pc	72	PC	1
+istat	47828	iStat	1
+clashx	252749	ClashX	1
+clashxpro	252749776	ClashX Pro	1
+clashforwindows	252743679463697	Clash for Windows	1
+clashforandroid	252743672637643	Clash for Android	1
+openclash	673625274	OpenClash	1
+passwall	72779255	passwall	1
+passwall	72779255	passwall2	1
+qbittorrent	72488677368	qBittorrent	1
+qbittorrentenhancededition	72488677368364262333348466	qBittorrent Enhanced Edition	1
+yaml	9265	YAML	1
+yamlaintmarkuplanguage	9265246862758752648243	YAML Ain't Markup Language	1
+toml	8665	TOML	1
+tomsobviousminimallanguage	86676284687646462552648243	Tom's Obvious Minimal Language	1
+hexo	4396	Hexo	1
+hugo	4846	Hugo	1
+epicgames	374242637	Epic Games	1
+instagram	467824726	Instagram	1
+evernote	38376683	Evernote	1
+pdf	733	PDF	1
+portabledocumentformat	7678225336286368367628	Portable Document Format	1
+pdfs	7337	PDFs	1
+quicktimeplayer	784258463752937	QuickTime Player	1
+csdn	2736	CSDN	1
+gitee	44833	Gitee	1
+gitea	44832	Gitea	1
+gitbook	4482665	GitBook	1
+gboard	426273	Gboard	1
+access	222377	Access	1
+bmw	269	BMW	1
+bayerischemotorenwerkeag	229374724366867369375324	Bayerische Motoren Werke AG	1
+bgm	246	BGM	1
+backgroundmusic	222547686368742	Background music	1
+ceo	236	CEO	1
+chiefexecutiveofficer	244333932884836334237	Chief Executive Officer	1
+cto	286	CTO	1
+chieftechnologyofficer	2443383246656496334237	Chief Technology Officer	1
+cfo	236	CFO	1
+chieffinancialofficer	244333462624256334237	Chief Financial Officer	1
+django	352646	Django	1
+dbmesh	326374	DBMesh	1
+facebook	32232665	Facebook	1
+firefox	3473369	Firefox	1
+git	448	git	1
+go	46	Go	1
+goland	465263	GoLand	1
+golang	465264	Golang	1
+iqos	4767	IQOS	1
+intel	46835	Intel	1
+json	5766	JSON	1
+jetbrains	538272467	JetBrains	1
+ktv	588	KTV	1
+macintosh	622468674	Macintosh	1
+mbp	627	MBP	1
+macbookpro	6222665776	MacBook Pro	1
+mba	622	MBA	1
+macbookair	6222665247	MacBook Air	1
+mbn	626	MBN	1
+macbookneo	6222665636	MacBook Neo	1
+mariadb	6274232	MariaDB	1
+microsoftaccess	642767638222377	Microsoft Access	1
+mongodb	6664632	MongoDB	1
+mysql	69775	MySQL	1
+myisam	694726	MyISAM	1
+innodb	466632	InnoDB	1
+nodejs	663357	Node.js	1
+pornhub	7676482	Pornhub	1
+postgres	76784737	Postgres	1
+powerpoint	7693776468	PowerPoint	1
+ppt	778	PPT	1
+microsoftpowerpoint	6427676387693776468	Microsoft PowerPoint	1
+pycharm	7924276	PyCharm	1
+roguelike	764835453	roguelike	1
+redis	73347	Redis	1
+memcached	636222433	Memcached	1
+rion	7466	RION	1
+segmentfault	734636832858	SegmentFault	1
+spa	772	SPA	1
+sql	775	SQL	1
+structuredquerylanguage	78782887337837952648243	Structured Query Language	1
+sqlite	775483	SQLite	1
+sourcetree	7687238733	Sourcetree	1
+spiritfarer	77474832737	Spiritfarer	1
+tcpip	82747	TCP/IP	1
+twitter	8948837	Twitter	1
+vex	839	V2EX	1
+vscode	872633	VSCode	1
+vue	883	Vue	1
+vuejs	88357	Vue.js	1
+vite	8483	Vite+	1
+vitest	848378	Vitest	1
+vuepress	88377377	VuePress	1
+vitepress	848377377	VitePress	1
+oxc	692	Oxc	1
+nestjs	637857	NestJS	1
+nextjs	639857	Next.js	1
+nuxt	6898	Nuxt	1
+jekyll	535955	Jekyll	1
+duckdb	382532	DuckDB	1
+vitess	848377	Vitess	1
+surrealdb	787732532	SurrealDB	1
+cockroachdb	26257622432	CockroachDB	1
+clickhouse	2542546873	ClickHouse	1
+tidb	8432	TiDB	1
+greptimedb	4737846332	GreptimeDB	1
+tdengine	83364463	TDengine	1
+tikv	8458	TiKV	1
+shardingsphere	74273464774373	ShardingSphere	1
+apacheshardingsphere	27224374273464774373	Apache ShardingSphere	1
+dubbo	38226	Dubbo	1
+apachedubbo	27224338226	Apache Dubbo	1
+zookeeper	966533737	ZooKeeper	1
+apachezookeeper	272243966533737	Apache ZooKeeper	1
+apachetomcat	272243866228	Apache Tomcat	1
+nacos	62267	Nacos	1
+swagger	7924437	Swagger	1
+databend	32822363	Databend	1
+posthog	7678464	PostHog	1
+plausible	752874253	Plausible	1
+plausibleanalytics	752874253262598427	Plausible Analytics	1
+nn	66	n8n	1
+supabase	78722273	Supabase	1
+strapi	787274	Strapi	1
+appflowy	27735699	AppFlowy	1
+directus	34732887	Directus	1
+fastapi	3278274	FastAPI	1
+hono	4666	Hono	1
+fastify	3278439	Fastify	1
+rubyonrails	78296672457	Ruby on Rails	1
+symfony	7963669	Symfony	1
+beego	23346	Beego	1
+koajs	56257	KoaJS	1
+solidjs	7654357	SolidJS	1
+qwik	7945	Qwik	1
+emberjs	3623757	Ember.js	1
+backbonejs	2225266357	Backbone.js	1
+knockoutjs	5662568857	Knockout.js	1
+dataease	32823273	DataEase	1
+netdata	6383282	Netdata	1
+timescaledb	84637225332	TimescaleDB	1
+influxdb	46358932	InfluxDB	1
+neoj	6365	Neo4j	1
+nebula	632852	nebula	1
+gogs	4647	Gogs	1
+gitbucket	448282538	GitBucket	1
+opencv	673628	OpenCV	1
+keras	53727	Keras	1
+paddleocr	723353627	PaddleOCR	1
+contentmanagementsystem	26683686262436368797836	Content Management System	1
+cms	267	CMS	1
+godot	46368	Godot	1
+godotengine	46368364463	Godot Engine	1
+threejs	8473357	Three.js	1
+pixijs	749457	PixiJS	1
+textmate	83986283	TextMate	1
+docusaurus	3628728787	Docusaurus	1
+envoy	36869	Envoy	1
+tradingview	87234648439	TradingView	1
+echarts	3242787	ECharts	1
+apacheecharts	2722433242787	Apache ECharts	1
+cpython	2798466	CPython	1
+openjdk	6736535	OpenJDK	1
+ocaml	62265	OCaml	1
+clojure	2565873	Clojure	1
+coffeescript	263333727478	CoffeeScript	1
+starlark	78275275	Starlark	1
+minio	64646	MinIO	1
+storj	78675	Storj	1
+wasmtime	92768463	Wasmtime	1
+assemblyscript	27736259727478	AssemblyScript	1
+wasmedge	92763343	WasmEdge	1
+playwright	7529974448	Playwright	1
+puppeteer	787738337	Puppeteer	1
+appium	277486	Appium	1
+jmeter	563837	JMeter	1
+apachejmeter	272243563837	Apache JMeter	1
+tauri	82874	Tauri	1
+reactnative	73228628483	React Native	1
+ionicframework	46642372639675	Ionic Framework	1
+apachekafka	27224352352	Apache Kafka	1
+rabbitmq	72224867	RabbitMQ	1
+rocketmq	76253867	RocketMQ	1
+grpc	4772	gRPC	1
+excalidraw	3922543729	Excalidraw	1
+plantuml	75268865	PlantUML	1
+meilisearch	63454732724	Meilisearch	1
+etcd	3823	etcd	1
+shadcn	742326	Shadcn	1
+semanticui	7362684284	Semantic UI	1
+nmap	6627	Nmap	1
+ansible	2674253	Ansible	1
+leveldb	5383532	LevelDB	1
+rocksdb	7625732	RocksDB	1
+webpack	9327225	webpack	1
+turbopack	887267225	Turbopack	1
+esbuild	3728453	esbuild	1
+mongoose	66646673	Mongoose	1
+sequelize	737835493	Sequelize	1
+arduino	2738466	Arduino	1
+raspberrypi	72772377974	Raspberry Pi	1
+opentofu	67368638	OpenTofu	1
+pulumi	785864	Pulumi	1
+lmstudio	56788346	LM Studio	1
+llm	556	LLM	1
+largelanguagemodel	527435264824366335	Large Language Model	1
+nlp	657	NLP	1
+naturallanguageprocessing	6288725526482437762377464	Natural Language Processing	1
+dify	3439	Dify	1
+comfyui	2663984	ComfyUI	1
+cherrystudio	243779788346	Cherry Studio	1
+openwebui	673693284	Open WebUI	1
+openrouter	6736768837	OpenRouter	1
+cuda	2832	CUDA	1
+cudatoolkit	28328665548	CUDA Toolkit	1
+webstorm	93278676	WebStorm	1
+xcode	92633	Xcode	1
+emoji	36654	emoji	1
+gakki	42554	gakki	1
+imazing	4629464	iMazing	1
+ecmascript	3262727478	ECMAScript	1
+jquery	578379	jQuery	1
+js	57	JS	1
+javascript	5282727478	JavaScript	1
+jsp	577	JSP	1
+jpg	574	JPG	1
+jointphotographicexpertsgroup	56468746864727442397378747687	Joint Photographic Experts Group	1
+jpeg	5734	JPEG	1
+png	764	PNG	1
+portablenetworkgraphics	76782253638967547274427	Portable Network Graphics	1
+gif	443	GIF	1
+graphicsinterchangeformat	4727442746837242643367628	Graphics Interchange Format	1
+dns	367	DNS	1
+domainnamesystem	3662466263797836	Domain Name System	1
+rimworld	74696753	RimWorld	1
+factorio	32286746	Factorio	1
+gameboy	4263269	Game Boy	1
+gba	422	GBA	1
+gameboyadvance	42632692382623	Game Boy Advance	1
+gbc	422	GBC	1
+gameboycolor	426326926567	Game Boy Color	1
+gcc	422	GCC	1
+gnucompilercollection	468266745372655328466	GNU Compiler Collection	1
+llvm	5586	LLVM	1
+lldb	5532	LLDB	1
+clang	25264	Clang	1
+cmake	26253	CMake	1
+ublacklist	8252255478	uBlacklist	1
+airtag	247824	AirTag	1
+appleairtag	27753247824	Apple AirTag	1
+applewatch	2775392824	Apple Watch	1
+applewatchse	277539282473	Apple Watch SE	1
+applewatchultra	277539282485872	Apple Watch Ultra	1
+applecare	277532273	AppleCare	1
+applecare	277532273	AppleCare+	1
+applecard	277532273	Apple Card	1
+applebooks	2775326657	Apple Books	1
+ati	284	ATI	1
+applestore	2775378673	Apple Store	1
+appletv	2775388	Apple TV	1
+appletv	2775388	Apple TV+	1
+appletvk	27753885	Apple TV 4K	1
+appledeveloper	27753338356737	Apple Developer	1
+applefilesystem	277533453797836	Apple File System	1
+appleid	2775343	Apple ID	1
+applenews	277536397	Apple News	1
+applenews	277536397	Apple News+	1
+applepay	27753729	Apple Pay	1
+applefitness	277533486377	Apple Fitness+	1
+itunesstore	48863778673	iTunes Store	1
+amd	263	AMD	1
+amdgpu	263478	AMDgpu	1
+appstore	27778673	App Store	1
+airdrop	2473767	AirDrop	1
+alfred	253733	Alfred	1
+amazon	262966	Amazon	1
+adobe	23623	Adobe	1
+axure	29873	Axure	1
+bartender	227836337	Bartender	1
+bettersnaptool	23883776278665	Better Snap Tool	1
+bettertouchtool	238837868248665	Better Touch Tool	1
+betterzip	238837947	Better Zip	1
+brackets	27225387	Brackets	1
+bundlehunt	2863534868	BundleHunt	1
+byword	299673	Byword	1
+btitish	2848474	Btitish	1
+btrfs	28737	Btrfs	1
+caffeine	22333463	Caffeine	1
+calcbot	2252268	Calcbot	1
+calibre	2254273	Calibre	1
+carplay	2277529	CarPlay	1
+carlife	2275433	CarLife	1
+carlife	2275433	CarLife+	1
+hicar	44227	HiCar	1
+cdn	236	CDN	1
+contentdeliverynetwork	2668368335483796389675	Content Delivery Network	1
+pcdn	7236	PCDN	1
+peertopeercontentdeliverynetwork	73378673372668368335483796389675	Peer-to-Peer Content Delivery Network	1
+cheatsheet	2432874338	CheatSheet	1
+chocolatey	2462652839	Chocolatey	1
+choco	24626	choco	1
+winget	946438	WinGet	1
+chembiodraw	24362463729	ChemBioDraw	1
+cleanmymac	2532669622	Clean My Mac	1
+cleanmymacx	25326696229	Clean My Mac X	1
+cloudapp	25683277	CloudApp	1
+cloudmagic	2568362442	CloudMagic	1
+codebox	2633269	CodeBox	1
+codekit	2633548	CodeKit	1
+colorschemer	265677243637	Color Schemer	1
+colorsnapper	265677627737	Color Snapper	1
+controlcenter	2668765236837	Control Center	1
+cornerstone	26763778663	Cornerstone	1
+cortana	2678262	Cortana	1
+curio	28746	Curio	1
+currentmacbundles	28773686222863537	Current Mac Bundles	1
+daisydisk	324793475	Daisy Disk	1
+datagraph	328247274	Datagraph	1
+dayone	329663	Day One	1
+defaultfolderx	33328583653379	Default Folder X	1
+developerpreview	3383567377738439	Developer Preview	1
+devonthink	3386684465	DEVONthink	1
+diskutility	34758845489	Disk Utility	1
+diumoo	348666	Diumoo	1
+dropbox	3767269	Dropbox	1
+dropzone	37679663	Dropzone	1
+endnote	3636683	Endnote	1
+entropy	3687679	Entropy	1
+epub	3782	EPUB	1
+eureka	387352	Eureka	1
+exfat	39328	ExFAT	1
+extendedfileallocationtable	398363333453255622846682253	Extended File Allocation Table	1
+fantastical	32682784225	Fantastical	1
+fdroid	337643	F-Droid	1
+filevault	345382858	FileVault	1
+finalcutpro	34625288776	Final Cut Pro	1
+flickr	354257	Flickr	1
+forcetouch	3672386824	Force Touch	1
+forecast	36732278	Forecast	1
+forklift	36755438	ForkLift	1
+frankdeloupe	372653356873	Frank DeLoupe	1
+geekbench	433523624	Geekbench	1
+gestimer	43784637	Gestimer	1
+ghostnote	446786683	GhostNote	1
+ghosttile	446788453	GhostTile	1
+gifbrewery	4432739379	Gif Brewery	1
+gists	44787	gists	1
+github	448482	GitHub	1
+goagentx	46243689	GoagentX	1
+graffle	4723353	Graffle	1
+handoff	4263633	Handoff	1
+hazel	42935	Hazel	1
+homekit	4663548	HomeKit	1
+html	4865	HTML	1
+hypertextmarkuplanguage	49737839862758752648243	HyperText Markup Language	1
+iawriter	42974837	iA Writer	1
+ibm	426	IBM	1
+internationalbusinessmachines	46837628466252874637762244637	International Business Machines	1
+icloud	425683	iCloud	1
+icloudmail	4256836245	iCloud Mail	1
+iclouddrive	42568337483	iCloud Drive	1
+iexplorer	439756737	iExplorer	1
+iffmpeg	4336734	iFFmpeg	1
+ifttt	43888	IFTTT	1
+imac	4622	iMac	1
+ime	463	IME	1
+inputmethodeditor	46788638463334867	Input Method Editor	1
+imessage	46377243	iMessage	1
+imore	46673	iMore	1
+inboard	4626273	Inboard	1
+instacast	467822278	Instacast	1
+instashare	4678274273	Instashare	1
+intensify	468367439	Intensify	1
+ip	47	IP	1
+internetprotocol	4683763877686265	internet protocol	1
+ipack	47225	iPack	1
+ipadair	4723247	iPad Air	1
+ipadmini	47236464	iPad mini	1
+ipadpro	4723776	iPad Pro	1
+ipn	476	IPN	1
+iptv	4788	IPTV	1
+istatmenus	4782863687	iStat Menus	1
+iterm	48376	iTerm	1
+iterm	48376	iTerm2	1
+itunes	488637	iTunes	1
+itunesconnect	4886372666328	iTunes Connect	1
+itunesmatch	48863762824	iTunes Match	1
+ibook	42665	iBook	1
+kaleidoscope	525343672673	Kaleidoscope	1
+karabiner	527224637	Karabiner	1
+keka	5352	Keka	1
+keyboardmaestro	539262736237876	Keyboard Maestro	1
+keycard	5392273	Keycard	1
+keycue	539283	KeyCue	1
+latexian	52839426	LaTeXian	1
+launcher	52862437	Launcher	1
+littlesnitch	548853764824	Little Snitch	1
+livephotos	5483746867	Live Photos	1
+livereload	5483735623	LiveReload	1
+lockscreen	5625727336	LockScreen	1
+macappstore	62227778673	Mac App Store	1
+macrumors	622786677	Mac Rumors	1
+macappdeals	62227733257	MacAppDeals	1
+macbook	6222665	MacBook	1
+macpro	622776	Mac Pro	1
+macid	62243	MacID	1
+mactips	6228477	MacTips	1
+macupdatedesktop	6228732833375867	MacUpdate Desktop	1
+mailbox	6245269	Mailbox	1
+mamppro	6267776	MAMP PRO	1
+manico	626426	Manico	1
+matlab	628522	Matlab	1
+markmywords	62756996737	MarkMyWords	1
+marsedit	62773348	MarsEdit	1
+mathtype	62848973	Mathtype	1
+mips	6477	MIPS	1
+moke	6653	Moke	1
+moneywiz	66639949	MoneyWiz	1
+moom	6666	Moom	1
+mp	67	MP3	1
+mp	67	MP4	1
+mplayerx	67529379	MplayerX	1
+netflix	6383549	Netflix	1
+noizio	664946	Noizio	1
+nvalt	68258	nvALT	1
+ommwriter	666974837	OmmWriter	1
+omnifocus	666436287	OmniFocus	1
+omnigraffle	66644723353	OmniGraffle	1
+omnioutliner	666468854637	OmniOutliner	1
+omniplan	66647526	OmniPlan	1
+onenote	6636683	OneNote	1
+os	67	OS	1
+operatingsystem	673728464797836	Operating System	1
+paintcode	724682633	PaintCode	1
+parallelsdesktop	7272553573375867	Parallels Desktop	1
+paypal	729725	PayPal	1
+photodesk	746863375	PhotoDesk	1
+picatext	74228398	Picatext	1
+pingwest	74649378	PingWest	1
+pixelmator	7493562867	Pixelmator	1
+playbyplay	7529297529	Play by Play	1
+plistedit	754783348	PlistEdit	1
+popclip	7672547	PopClip	1
+powerpack	769377225	PowerPack	1
+privoxy	7748699	Privoxy	1
+promotee	77666833	Promotee	1
+proxifier	776943437	Proxifier	1
+publicbeta	7825422382	Public Beta	1
+quitter	7848837	Quitter	1
+quiver	784837	Quiver	1
+rdio	7346	Rdio	1
+readability	73232245489	Readability	1
+readkit	7323548	Readkit	1
+rescuetime	7372838463	RescueTime	1
+safariviewcontroller	72327484392668765537	Safari View Controller	1
+sanedesk	72633375	SaneDesk	1
+scrapbook	727272665	Scrapbook	1
+screenfloat	72733635628	ScreenFloat	1
+screenflow	7273363569	ScreenFlow	1
+scrivener	727483637	Scrivener	1
+sddm	7336	SDDM	1
+simpledesktopdisplaymanager	746753337586734775296262437	Simple Desktop Display Manager	1
+sdk	735	SDK	1
+softwaredevelopmentkit	7638927333835676368548	Software Development Kit	1
+shouldisleep	746853475337	Should I Sleep	1
+simplenote	7467536683	Simplenote	1
+siri	7474	Siri	1
+slicy	75429	Slicy	1
+snagit	762448	Snagit	1
+sparkbox	77275269	Sparkbox	1
+sparrow	7727769	Sparrow	1
+speedtest	773338378	Speedtest	1
+spotify	7768439	Spotify	1
+ssl	775	SSL	1
+securesocketslayer	732873762538752937	Secure Sockets Layer	1
+stacksocial	78225762425	StackSocial	1
+sublimetext	78254638398	Sublime Text	1
+techweb	8324932	TechWeb	1
+testflight	8378354448	TestFlight	1
+texshop	8397467	Texshop	1
+textastic	839827842	Textastic	1
+textexpander	839839726337	TextExpander	1
+textwrangler	839897264537	TextWrangler	1
+theunarchiver	8438627244837	The Unarchiver	1
+timecapsule	84632277853	Time Capsule	1
+tinkertool	8465378665	TinkerTool	1
+touchid	8682443	Touch ID	1
+trello	873556	Trello	1
+tumblr	886257	Tumblr	1
+tvos	8867	tvOS	1
+tweetbot	89338268	Tweetbot	1
+typora	897672	Typora	1
+uber	8237	Uber	1
+ublock	825625	uBlock	1
+ublockorigin	825625674446	uBlock Origin	1
+ublockoriginlite	8256256744465483	uBlock Origin Lite	1
+ulysses	8597737	Ulysses	1
+usb	872	USB	1
+universalserialbus	864837725737425287	Universal Serial Bus	1
+versions	83774667	Versions	1
+vpn	876	VPN	1
+virtualprivatenetwork	847882577482836389675	virtual private network	1
+watchos	9282467	watchOS	1
+wifi	9434	Wi-Fi	1
+widget	943438	Widget	1
+wifiexplorer	943439756737	WiFi Explorer	1
+wifiscanner	94347226637	WiFi Scanner	1
+windowtidy	9463698439	Window Tidy	1
+windowsrt	946369778	Windows RT	1
+windowsnt	946369768	Windows NT	1
+windowsserver	9463697737837	Windows Server	1
+windowsmobile	9463697662453	Windows Mobile	1
+windowsphone	946369774663	Windows Phone	1
+workflow	96753569	Workflow	1
+workflowy	967535699	WorkFlowy	1
+wwdc	9932	WWDC	1
+appleworldwidedevelopersconference	2775396753943333835673772663373623	Apple Worldwide Developers Conference	1
+xee	933	Xee	1
+xmind	96463	Xmind	1
+xscope	972673	xScope	1
+xtrafinder	9872346337	XtraFinder	1
+youtube	9688823	YouTube	1
+youtuber	96888237	YouTuber	1
+zealer	932537	ZEALER	1
+rosetta	7673882	Rosetta	1
+faceid	322343	Face ID	1
+url	875	URL	1
+uniformresourcelocator	8643676737687235622867	Uniform Resource Locator	1
+urls	8757	URLs	1
+uri	874	URI	1
+uniformresourceidentifier	8643676737687234336843437	Uniform Resource Identifier	1
+http	4887	HTTP	1
+hypertexttransferprotocol	4973783988726733777686265	Hypertext Transfer Protocol	1
+https	48877	HTTPS	1
+hypertexttransferprotocolsecure	4973783988726733777686265732873	Hypertext Transfer Protocol Secure	1
+handbrake	426327253	HandBrake	1
+logioptions	56446784667	Logi Options	1
+logioptions	56446784667	Logi Options+	1
+downie	369643	Downie	1
+mindnode	64636633	MindNode	1
+permute	7376883	Permute	1
+proxyman	77699626	Proxyman	1
+tableplus	822537587	TablePlus	1
+wget	9438	wget	1
+ytdlp	98357	yt-dlp	1
+blockchain	2562524246	Blockchain	1
+btc	282	BTC	1
+bitcoin	2482646	Bitcoin	1
+eth	384	ETH	1
+ethereum	38437386	Ethereum	1
+monero	666376	Monero	1
+litecoin	54832646	Litecoin	1
+aptos	27867	Aptos	1
+dogecoin	36432646	Dogecoin	1
+ethena	384362	Ethena	1
+worldcoin	967532646	Worldcoin	1
+bittensor	248836767	Bittensor	1
+smartcontract	7627826687228	Smart Contract	1
+coingecko	264643256	CoinGecko	1
+coinmarketcap	2646627538227	CoinMarketCap	1
+coinglass	264645277	CoinGlass	1
+coindesk	26463375	CoinDesk	1
+coincheckup	26462432587	CoinCheckup	1
+coincodex	264626339	CoinCodex	1
+coinranking	26467265464	Coinranking	1
+defillama	333455262	DefiLlama	1
+etherscan	384377226	Etherscan	1
+bscscan	2727226	BscScan	1
+solscan	7657226	Solscan	1
+polygonscan	76594667226	PolygonScan	1
+glassnode	452776633	Glassnode	1
+panews	726397	PANews	1
+messari	6377274	Messari	1
+chainalysis	24246259747	Chainalysis	1
+cryptoquant	27978678268	CryptoQuant	1
+tokeninsight	865364674448	TokenInsight	1
+trustwallet	87878925538	Trust Wallet	1
+imtoken	4686536	imToken	1
+makerdao	62537326	MakerDAO	1
+magiceden	624423336	Magic Eden	1
+substack	78278225	Substack	1
+gamefi	426334	GameFi	1
+magsafe	6247233	MagSafe	1
+magicui	6244284	Magic UI	1
+hdmi	4364	HDMI	1
+highdefinitionmultimediainterface	444433346484666858463342468373223	High Definition Multimedia Interface	1
+nsfw	6739	NSFW	1
+notsafeforwork	66872333679675	Not Safe For Work	1
+notsuitableforwork	668784822533679675	Not Suitable For Work	1
+termius	8376487	Termius	1
+jinja	54652	Jinja	1
+netsetman	638738626	NetSetMan	1
+cinity	246489	Cinity	1
+utc	882	UTC	1
+coordinateduniversaltime	266734628338648377258463	Coordinated Universal Time	1
+gmt	468	GMT	1
+greenwichmeantime	47336942463268463	Greenwich Mean Time	1
+godaddy	4632339	GoDaddy	1
+sqlalchemy	7752524369	SQLAlchemy	1
+asmr	2767	ASMR	1
+autonomoussensorymeridianresponse	288666668773676796374342673776673	Autonomous sensory meridian response	1
+iklear	455327	iKlear	1
+legalhigh	534254444	Legal High	1
+werkzeug	93759384	Werkzeug	1
+itsdangerours	4873264376877	itsdangerours	1
+mimestream	6463787326	Mimestream	1
+crud	2783	CRUD	1
+createreadupdatedelete	2732837323873283335383	Create Read Update Delete	1
+restful	7378385	RESTful	1
+clion	25466	CLion	1
+unixlike	86495453	Unix-like	1
+imgur	46487	imgur	1
+stackoverflow	7822568373569	Stack Overflow	1
+pywebio	7993246	PyWebIO	1
+launchpad	528624723	Launchpad	1
+cosplay	2677529	cosplay	1
+gravatar	47282827	Gravatar	1
+xshell	974355	Xshell	1
+nokia	66542	Nokia	1
+ocr	627	OCR	1
+opticalcharacterrecognition	678422524272283773264648466	Optical Character Recognition	1
+djvu	3588	Déjà vu	1
+ffmpeg	336734	FFmpeg	1
+dmca	3622	DMCA	1
+digitalmillenniumcopyrightact	34448256455366486267974448228	Digital Millennium Copyright Act	1
+pua	782	PUA	1
+pickupartists	7425872784787	Pickup Artists	1
+dockerfile	3625373453	Dockerfile	1
+dockerhub	362537482	Docker Hub	1
+darcula	3272852	Darcula	1
+cloudflarepages	256833527372437	Cloudflare Pages	1
+githubpages	44848272437	GitHub Pages	1
+codingpages	26346472437	Coding Pages	1
+giteepages	4483372437	Gitee Pages	1
+cname	26263	CNAME	1
+macosserver	62267737837	macOS Server	1
+darwin	327946	Darwin	1
+nas	627	NAS	1
+networkattachedstorage	6389675288224337867243	Network Attached Storage	1
+commonmark	2666666275	CommonMark	1
+goldmark	46536275	Goldmark	1
+blackfriday	25225374329	blackFriday	1
+oneui	66384	One UI	1
+raycast	7292278	Raycast	1
+cloudfront	2568337668	CloudFront	1
+rss	777	RSS	1
+rsync	77962	rsync	1
+rdfsitesummary	73374837866279	RDF Site Summary	1
+reallysimplesyndication	73255974675379634228466	Really Simple Syndication	1
+cocoapods	262627637	CocoaPods	1
+zsh	974	Zsh	1
+ohmyzsh	6469974	Oh My Zsh	1
+proxychains	77699242467	ProxyChains	1
+disqus	347787	Disqus	1
+waline	925463	Waline	1
+valine	825463	Valine	1
+leancloud	532625683	LeanCloud	1
+papermod	72737663	PaperMod	1
+vercel	837235	Vercel	1
+cs	27	CS	1
+backblaze	222525293	Backblaze	1
+webp	9327	WebP	1
+webm	9326	WebM	1
+cleanshotx	2532674689	CleanShot X	1
+setapp	738277	Setapp	1
+graphql	4727475	GraphQL	1
+totp	8687	TOTP	1
+timebasedonetimepassword	846322733663846372779673	Time-based One-Time Password	1
+unclutter	862588837	Unclutter	1
+duckduckgo	3825382546	DuckDuckGo	1
+yandex	926339	Yandex	1
+geralt	437258	Geralt	1
+servercat	737837228	ServerCat	1
+zoho	9646	Zoho	1
+tinypng	8469764	TinyPNG	1
+thanos	842667	Thanos	1
+xml	965	XML	1
+extensiblemarkuplanguage	398367425362758752648243	Extensible Markup Language	1
+xhtml	94865	XHTML	1
+extensiblehypertextmarkuplanguage	398367425349737839862758752648243	eXtensible HyperText Markup Language	1
+baiduspider	22438774337	Baiduspider	1
+bingbot	2464268	Bingbot	1
+sogouspider	76468774337	SogouSpider	1
+youdaobot	968326268	YoudaoBot	1
+githubcopilot	4484822674568	GitHub Copilot	1
+githubcopilotx	44848226745689	GitHub Copilot X	1
+githubcopilotcli	4484822674568254	GitHub Copilot CLI	1
+githubcopilotchat	44848226745682428	GitHub Copilot chat	1
+ipados	472367	iPadOS	1
+applepencil	27753736245	Apple Pencil	1
+reddit	733348	Reddit	1
+hhkb	4452	HHKB	1
+happyhackingkeyboard	42779422546453926273	Happy Hacking Keyboard	1
+mappa	62772	MAPPA	1
+seo	736	SEO	1
+searchengineoptimization	732724364463678464928466	Search Engine Optimization	1
+ocsp	6277	OCSP	1
+onlinecertificatestatusprotocol	6654632378434228378288777686265	Online Certificate Status Protocol	1
+arthas	278427	Arthas	1
+wordle	967353	Wordle	1
+siliconvalley	7454266825539	Silicon Valley	1
+piedpiper	743374737	Pied Piper	1
+pikachu	7452248	Pikachu	1
+fastmail	32786245	Fastmail	1
+wordpress	967377377	WordPress	1
+aosp	2677	AOSP	1
+androidopensourceproject	263764367367687237765328	Android Open Source Project	1
+typescript	8973727478	TypeScript	1
+unity	86489	Unity	1
+miui	6484	MIUI	1
+shottr	746887	Shottr	1
+turboboost	8872626678	Turbo Boost	1
+turboboostswitcher	887262667879482437	Turbo Boost Switcher	1
+oppo	6776	OPPO	1
+vivo	8486	vivo	1
+uno	866	Uno	1
+gdpr	4377	GDPR	1
+generaldataprotectionregulation	4363725328277683284667348528466	General Data Protection Regulation	1
+netlify	6385439	Netlify	1
+macstudio	622788346	Mac Studio	1
+studiodisplay	7883463477529	Studio Display	1
+studiodisplayxdr	7883463477529937	Studio Display XDR	1
+prodisplayxdr	7763477529937	Pro Display XDR	1
+oc	62	OC	1
+objectivec	6253284832	Objective-C	1
+macmini	6226464	Mac mini	1
+garena	427362	Garena	1
+wondercv	96633728	WonderCV	1
+webkit	932548	WebKit	1
+igalia	442542	Igalia	1
+webcore	9322673	WebCore	1
+gnu	468	GNU	1
+gnugeneralpubliclicense	46843637257825425423673	GNU General Public License	1
+gpl	475	GPL	1
+minions	6464667	Minions	1
+rushb	78742	Rush B	1
+rusha	78742	Rush A	1
+ak	25	AK	1
+ak	25	AK47	1
+ak	25	AK74	1
+mastercard	6278372273	Mastercard	1
+covid	26843	COVID	1
+covid	26843	COVID-19	1
+wallpaperengine	925572737364463	Wallpaper Engine	1
+erlang	375264	Erlang	1
+faq	327	FAQ	1
+frequentlyaskedquestion	37378368592753378378466	Frequently Asked Question	1
+panamera	72626372	Panamera	1
+facetime	32238463	FaceTime	1
+facetimeaudio	3223846328346	FaceTime Audio	1
+lmao	5626	LMAO	1
+laughmyassoff	5284469277633	Laugh My Ass Off	1
+vivaldi	8482534	Vivaldi	1
+cryptomator	27978662867	Cryptomator	1
+wtf	983	WTF	1
+whatthefuck	94288433825	what the fuck	1
+asap	2727	ASAP	1
+assoonaspossible	2776662776774253	as soon as possible	1
+pubg	7824	PUBG	1
+playerunknownsbattlegrounds	752937865669672288534768637	PLAYERUNKNOWN'S BATTLEGROUNDS	1
+gfm	436	GFM	1
+githubflavoredmarkdown	4484823528673362753696	GitHub Flavored Markdown	1
+geeknote	43356683	GeekNote	1
+gui	484	GUI	1
+graphicaluserinterface	4727442258737468373223	Graphical User Interface	1
+vps	877	VPS	1
+virtualprivateserver	84788257748283737837	Virtual private server	1
+bios	2467	BIOS	1
+basicinputoutputsystem	2274246788688788797836	Basic Input/Output System	1
+goroutine	467688463	goroutine	1
+goroutines	4676884637	goroutines	1
+celsius	2357487	Celsius	1
+fahrenheit	3247364348	Fahrenheit	1
+mojito	665486	Mojito	1
+niconico	64266426	Niconico	1
+ticktick	84258425	TickTick	1
+chdbits	2432487	CHDBits	1
+mteam	68326	M-Team	1
+vim	846	Vim	1
+workers	9675377	Workers	1
+cloudflareworkers	25683352739675377	Cloudflare Workers	1
+playstation	75297828466	PlayStation	1
+visualstudio	847825788346	Visual Studio	1
+avif	2843	AVIF	1
+avimagefileformat	28462433453367628	AV1 Image File Format	1
+applearcade	27753272233	Apple Arcade	1
+msdos	67367	MS-DOS	1
+microsoftvisualstudio	642767638847825788346	Microsoft Visual Studio	1
+microsoftcorporation	64276763826776728466	Microsoft Corporation	1
+microsoftwindows	6427676389463697	Microsoft Windows	1
+microsoftoffice	642767638633423	Microsoft Office	1
+microsoftword	6427676389673	Microsoft Word	1
+microsoftexcel	64276763839235	Microsoft Excel	1
+microsoftoutlook	6427676386885665	Microsoft Outlook	1
+microsoftonenote	6427676386636683	Microsoft OneNote	1
+microsoftazure	64276763829873	Microsoft Azure	1
+microsoftedge	6427676383343	Microsoft Edge	1
+ie	43	IE	1
+internetexplorer	4683763839756737	Internet Explorer	1
+mediaplayer	63342752937	Media Player	1
+windowsmediaplayer	946369763342752937	Windows Media Player	1
+visualstudiocode	8478257883462633	Visual Studio Code	1
+powershell	7693774355	PowerShell	1
+surface	7873223	Surface	1
+msn	676	MSN	1
+skype	75973	Skype	1
+toc	862	TOC	1
+tableofcontents	822536326683687	Table of Contents	1
+onedark	6633275	One Dark	1
+iina	4462	IINA	1
+guid	4843	GUID	1
+globallyuniqueidentifier	456225598647834336843437	Globally Unique Identifier	1
+apfs	2737	APFS	1
+ntfs	6837	NTFS	1
+newtechnologyfilesystem	63983246656493453797836	New Technology File System	1
+microsoftntfs	6427676386837	Microsoft NTFS	1
+chromeos	24766367	ChromeOS	1
+chromebook	2476632665	Chromebook	1
+edsheeran	337433726	Ed Sheeran	1
+sheeran	7433726	Sheeran	1
+cloudflareimages	2568335273462437	Cloudflare Images	1
+cloudflarestream	2568335273787326	Cloudflare Stream	1
+zerotrust	937687878	Zero Trust	1
+universalactions	8648377252284667	Universal Actions	1
+airbnb	247262	Airbnb	1
+opencc	673622	OpenCC	1
+harmonyos	427666967	HarmonyOS	1
+npc	672	NPC	1
+nonplayercharacter	666752937242722837	Non-Player Character	1
+skynet	759638	skynet	1
+serverless	7378375377	serverless	1
+identifier	4336843437	Identifier	1
+namecheap	626324327	NameCheap	1
+rimeice	7463423	rime-ice	1
+handover	42636837	Handover	1
+languagereactor	526482437322867	Language Reactor	1
+tencent	8362368	Tencent	1
+alibaba	2542222	Alibaba	1
+alibabagroup	254222247687	Alibaba Group	1
+linus	54687	Linus	1
+paas	7227	PaaS	1
+platformasaservice	752836762727378423	platform as a service	1
+apaas	27227	aPaaS	1
+applicationplatformasaservice	27754228466752836762727378423	application Platform as a Service	1
+whatsapp	94287277	WhatsApp	1
+messenger	637736437	Messenger	1
+doge	3643	Doge	1
+suv	788	SUV	1
+sportutilityvehicle	7767888454898344253	Sport Utility Vehicle	1
+ufo	836	UFO	1
+unidentifiedflyingobject	864336843433359464625328	Unidentified Flying Object	1
+tm	86	TM	1
+tmux	8689	tmux	1
+sos	767	SOS	1
+abcd	2223	abcd	1
+abcd	2223	ABCD	1
+starbucks	782728257	Starbucks	1
+iloveyou	45683968	I Love You	1
+zzz	999	ZZZ	1
+ps	77	PS	1
+photoshop	746867467	Photoshop	1
+adobephotoshop	23623746867467	Adobe Photoshop	1
+honeyselect	46639735328	Honey Select	1
+mccafe	622233	McCafe	1
+bsd	273	BSD	1
+berkeleysoftwaredistribution	2375353976389273347874288466	Berkeley Software Distribution	1
+dnspod	367763	DNSPod	1
+bandizip	22634947	Bandizip	1
+nato	6286	NATO	1
+northatlantictreatyorganization	6678428526842873289674264928466	North Atlantic Treaty Organization	1
+misswarmj	647792765	MissWarmJ	1
+nasa	6272	NASA	1
+nationalaeronauticsandspaceadministration	62846625237662884272637722323646478728466	National Aeronautics and Space Administration	1
+meta	6382	Meta	1
+pictureview	74288738439	PictureView	1
+ram	726	RAM	1
+randomaccessmemory	726366222377636679	Random-access memory	1
+rom	766	ROM	1
+readonlymemory	73236659636679	Read-only memory	1
+av	28	AV	1
+adultvideo	2385884336	Adult Video	1
+todo	8636	TODO	1
+microsofttodo	6427676388636	Microsoft To Do	1
+vcd	823	VCD	1
+videocd	8433623	Video CD	1
+fbi	324	FBI	1
+federalbureauofinvestigation	3333725287328634683784428466	Federal Bureau of Investigation	1
+fbiwarning	3249276464	FBI WARNING	1
+cdpr	2377	CDPR	1
+cdprojekt	237765358	CD Projekt	1
+cdprojektred	237765358733	CD Projekt RED	1
+acg	224	ACG	1
+animationcomicsgames	26462846626642742637	Animation Comics Games	1
+nba	622	NBA	1
+nationalbasketballassociation	62846625227538225527762428466	National Basketball Association	1
+cba	222	CBA	1
+chinesebasketballassociation	2446373227538225527762428466	Chinese Basketball Association	1
+spacex	772239	SpaceX	1
+avira	28472	Avira	1
+fehelper	33435737	FeHelper	1
+hypertext	497378398	Hypertext	1
+php	747	PHP	1
+hypertextpreprocessor	497378398773776237767	Hypertext Preprocessor	1
+duang	38264	duang	1
+qspace	777223	QSpace	1
+pathfinder	7284346337	Path Finder	1
+tabnine	8226463	Tabnine	1
+bonjour	2665687	Bonjour	1
+icmp	4267	ICMP	1
+internetcontrolmessageprotocol	468376382668765637724377686265	Internet Control Message Protocol	1
+electron	35328766	Electron	1
+ftp	387	FTP	1
+filetransferprotocol	34538726733777686265	File Transfer Protocol	1
+sftp	7387	SFTP	1
+sshfiletransferprotocol	77434538726733777686265	SSH File Transfer Protocol	1
+upic	8742	uPic	1
+refactor	73322867	refactor	1
+refactoring	73322867464	refactoring	1
+notepad	6683723	Notepad	1
+notepad	6683723	Notepad++	1
+oreilly	6734559	O'Reilly	1
+octocat	6286228	Octocat	1
+imap	4627	IMAP	1
+internetmessageaccessprotocol	46837638637724322237777686265	Internet Message Access Protocol	1
+smtp	7687	SMTP	1
+simplemailtransferprotocol	74675362458726733777686265	Simple Mail Transfer Protocol	1
+waterfox	92837369	Waterfox	1
+letsgo	538746	Let's go	1
+oneliner	66354637	one-liner	1
+callback	22552225	Callback	1
+ssid	7743	SSID	1
+servicesetidentifier	73784237384336843437	Service Set Identifier	1
+timemachine	84636224463	Time Machine	1
+regexp	734397	regexp	1
+foss	3677	FOSS	1
+freeandopensourcesoftware	3733263673676872376389273	Free and open source software	1
+infoq	46367	InfoQ	1
+sfc	732	SFC	1
+softwarefreedomconservancy	76389273373336626673782629	Software Freedom Conservancy	1
+popcap	767227	PopCap	1
+popcapgames	76722742637	PopCap Games	1
+kotlin	568546	Kotlin	1
+phpstorm	74778676	PhpStorm	1
+datalore	32825673	Datalore	1
+dataspell	328277355	DataSpell	1
+rubymine	78296463	RubyMine	1
+appcode	2772633	AppCode	1
+codewithme	2633948463	Code With Me	1
+jdk	535	JDK	1
+javadevelopmentkit	528233835676368548	Java Development Kit	1
+jre	573	JRE	1
+javaruntimeenvironment	5282786846336847666368	Java Runtime Environment	1
+jvm	586	JVM	1
+javavirtualmachine	528284788256224463	Java Virtual Machine	1
+javaee	528233	Java EE	1
+resharper	737427737	ReSharper	1
+dotpeek	3687335	dotPeek	1
+dottrace	36887223	dotTrace	1
+dotmemory	368636679	dotMemory	1
+dotcover	36826837	dotCover	1
+teamcity	83262489	TeamCity	1
+edutools	33886657	EduTools	1
+fifo	3436	FIFO	1
+firstinfirstout	347784634778688	First In, First Out	1
+lifo	5436	LIFO	1
+lastinfirstout	52784634778688	Last In, First out	1
+neatdownloadmanager	6328369656236262437	Neat Download Manager	1
+maine	62463	Maine	1
+elijah	354524	Elijah	1
+lovepeace	568373223	Love & Peace	1
+peacelove	732235683	Peace & Love	1
+lcd	523	LCD	1
+liquidcrystaldisplay	54784327978253477529	Liquid Crystal Display	1
+emotionaldamage	366846625326243	Emotional Damage	1
+gitlab	448522	GitLab	1
+gitlabrunner	448522786637	GitLab Runner	1
+cicd	2423	CI/CD	1
+devsecops	338732677	DevSecOps	1
+applesilicon	277537454266	Apple silicon	1
+adsl	2375	ADSL	1
+asymmetricdigitalsubscriberline	2796638742344482578272742375463	Asymmetric Digital Subscriber Line	1
+icp	427	ICP	1
+internetcontentprovider	46837638266836877684337	Internet Content Provider	1
+irime	47463	iRime	1
+apk	275	APK	1
+androidapplicationpackage	2637643277542284667225243	Android application package	1
+typea	89732	Type-A	1
+typeb	89732	Type-B	1
+typec	89732	Type-C	1
+usbtypea	87289732	USB Type-A	1
+usbtypeb	87289732	USB Type-B	1
+usbtypec	87289732	USB Type-C	1
+usba	8722	USB-A	1
+usbb	8722	USB-B	1
+usbc	8722	USB-C	1
+jrrtolkien	5778655436	J.R.R. Tolkien	1
+impostorfactory	467678673228679	Impostor Factory	1
+vampiresurvivors	8267473787848677	Vampire Survivors	1
+appcleaner	2772532637	AppCleaner	1
+iqiyi	47494	IQIYI	1
+buhocleaner	28462532637	BuhoCleaner	1
+midjourney	6435687639	Midjourney	1
+championsinequality	2426746674637825489	Champion's inequality	1
+novelai	6683524	NovelAI	1
+angular	2648527	Angular	1
+rebase	732273	rebase	1
+motrix	668749	Motrix	1
+vcs	827	VCS	1
+versioncontrolsystem	83774662668765797836	version control system	1
+cnbeta	262382	cnBeta	1
+pullrequest	78557378378	pull request	1
+mergerequest	637437378378	merge request	1
+antdesign	268337446	Ant Design	1
+disney	347639	Disney	1
+earlyaccess	32759222377	early access	1
+fedora	333672	Fedora	1
+hading	423464	hading	1
+leetcode	53382633	LeetCode	1
+helvetica	435838422	Helvetica	1
+limon	54666	limon	1
+gfw	439	GFW	1
+greatfirewall	4732834739255	Great Firewall	1
+gfwlist	4395478	gfwlist	1
+geoip	43647	GeoIP	1
+gvim	4846	gVim	1
+vimium	846486	Vimium	1
+nvim	6846	Nvim	1
+neovim	636846	Neovim	1
+macvim	622846	MacVim	1
+vimr	8467	VimR	1
+lunarvim	58627846	LunarVim	1
+ideavim	4332846	IdeaVim	1
+unfo	8636	unfo	1
+timeshift	846374438	timeshift	1
+chatgpt	2428478	ChatGPT	1
+openai	673624	OpenAI	1
+voip	8647	VoIP	1
+voiceoverinternetprotocol	8642368374683763877686265	Voice over Internet Protocol	1
+greasyfork	4732793675	Greasy Fork	1
+galgame	4254263	GalGame	1
+volte	86583	VoLTE	1
+vowifi	869434	VoWiFi	1
+voiceoverlte	864236837583	Voice Over LTE	1
+cef	233	CEF	1
+chromiumembeddedframework	2476648636233333372639675	Chromium Embedded Framework	1
+rustdesk	78783375	RustDesk	1
+capcom	227266	Capcom	1
+paxlovid	72956843	Paxlovid	1
+datetime	32838463	datetime	1
+hammerspoon	42663777666	Hammerspoon	1
+crossover	276776837	CrossOver	1
+hallelujahim	425535852446	hallelujahIM	1
+avast	28278	AVAST!	1
+bitdefender	24833336337	Bitdefender	1
+clamav	252628	ClamAV	1
+comodo	266636	Comodo	1
+mcafee	622333	McAfee	1
+ok	65	OK	1
+ng	64	NG	1
+tv	88	TV	1
+television	8353847466	television	1
+vtuber	888237	VTuber	1
+nvme	6863	NVMe	1
+ngff	6433	NGFF	1
+pcie	7243	PCIe	1
+pciexpress	7243977377	PCI Express	1
+sata	7282	SATA	1
+esata	37282	eSATA	1
+msata	67282	mSATA	1
+gpib	4742	GPIB	1
+gpio	4746	GPIO	1
+dvd	383	DVD	1
+cd	23	CD	1
+esim	3746	eSIM	1
+utf	883	UTF	1
+utf	883	UTF-8	1
+utf	883	UTF-16	1
+ascii	27244	ASCII	1
+ieee	4333	IEEE	1
+instituteofelectricalandelectronicsengineers	46784888363353287422526335328766427364463377	Institute of Electrical and Electronics Engineers	1
+djvu	3588	DjVu	1
+latex	52839	LaTeX	1
+api	274	API	1
+applicationprogramminginterface	2775422846677647266464468373223	Application Programming Interface	1
+ethernet	38437638	Ethernet	1
+socks	76257	SOCKS	1
+printscreen	77468727336	PrintScreen	1
+diy	349	DIY	1
+doityourself	364896877353	Do It Yourself	1
+dna	362	DNA	1
+deoxyribonucleicacid	33699742668253422243	deoxyribonucleic acid	1
+rna	762	RNA	1
+ribonucleicacid	742668253422243	ribonucleic acid	1
+mrna	6762	mRNA	1
+messengerrna	637736437762	messenger RNA	1
+c	2	C++	1
+mit	648	MIT	1
+massachusettsinstituteoftechnology	6277224873887467848883638324665649	Massachusetts Institute of Technology	1
+mitlicense	6485423673	MIT License	1
+lgpl	5475	LGPL	1
+gnulessergeneralpubliclicense	46853773743637257825425423673	GNU Lesser General Public License	1
+mozillafirefox	66945523473369	Mozilla Firefox	1
+android	2637643	Android	1
+androidauto	26376432886	Android Auto	1
+androidtv	263764388	Android TV	1
+ios	467	iOS	1
+linux	54689	Linux	1
+ubuntu	828688	Ubuntu	1
+rhel	7435	RHEL	1
+redhatenterpriselinux	733428368377747354689	Red Hat Enterprise Linux	1
+nixos	64967	NixOS	1
+microsoft	642767638	Microsoft	1
+nintendo	64683636	Nintendo	1
+wiiu	9448	Wii U	1
+wii	944	Wii	1
+originos	67444667	OriginOS	1
+ipad	4723	iPad	1
+ipod	4763	iPod	1
+homepod	4663763	HomePod	1
+homepodmini	46637636464	HomePod mini	1
+ui	84	UI	1
+uk	85	UK	1
+unitedkingdom	8648335464366	United Kingdom	1
+directx	3473289	DirectX	1
+kinect	546328	Kinect	1
+cloudflare	2568335273	Cloudflare	1
+hiphop	447467	Hip-Hop	1
+simplifiedchinese	74675434332446373	Simplified Chinese	1
+traditionalchinese	872348466252446373	Traditional Chinese	1
+us	87	US	1
+unitedstates	864833782837	United States	1
+usa	872	USA	1
+theunitedstatesofamerica	843864833782837632637422	The United States of America	1
+usd	873	USD	1
+unitedstatesdollar	864833782837365527	United States Dollar	1
+cn	26	CN	1
+mtv	688	MTV	1
+musictelevision	687428353847466	Music Television	1
+mrs	677	Mrs.	1
+mitm	6486	MitM	1
+maninthemiddle	62646843643353	man-in-the-middle	1
+todesk	863375	ToDesk	1
+presearch	773732724	PreSearch	1
+odysee	639733	Odysee	1
+isbn	4726	ISBN	1
+internationalstandardbooknumber	4683762846625782632732665686237	International Standard Book Number	1
+issn	4776	ISSN	1
+internationalstandardserialnumber	468376284662578263273737425686237	International Standard Serial Number	1
+qos	767	QoS	1
+qualityofservice	7825489637378423	Quality of Service	1
+doh	364	DoH	1
+dnsoverhttps	367683748877	DNS over HTTPS	1
+dnsoverhttps	367683748877	DNS over HTTPS/3	1
+doq	367	DoQ	1
+dnsoverquic	36768377842	DNS over QUIC	1
+hk	45	HK	1
+hongkong	46645664	Hong Kong	1
+partyanimals	727892646257	Party Animals	1
+abs	227	ABS	1
+antilockbrakingsystem	268456252725464797836	Anti-lock Braking System	1
+adhd	2343	ADHD	1
+attentiondeficithyperactivitydisorder	2883684663334248497372284848934767337	attention deficit hyperactivity disorder	1
+bbq	227	BBQ	1
+barbecue	22723283	barbecue	1
+bbs	227	BBS	1
+bulletinboardsystem	2855384626273797836	Bulletin Board System	1
+chrono	247666	chrono	1
+widevine	94338463	Widevine	1
+valhalla	82542552	Valhalla	1
+kfc	532	KFC	1
+awp	297	AWP	1
+arcticwarfarepolice	2728429273273765423	Arctic Warfare Police	1
+cli	254	CLI	1
+commandlineinterface	26662635463468373223	Command-Line Interface	1
+dnsmasq	3676277	Dnsmasq	1
+dos	367	DOS	1
+diskoperatingsystem	3475673728464797836	Disk Operating System	1
+tether	838437	Tether	1
+usdt	8738	USDT	1
+usdc	8732	USDC	1
+usde	8733	USDe	1
+usds	8737	USDS	1
+lua	582	Lua	1
+mactype	6228973	MacType	1
+alipay	254729	Alipay	1
+wechatpay	932428729	WeChat Pay	1
+upnp	8767	UPnP	1
+universalplugandplay	86483772575842637529	Universal Plug and Play	1
+dos	367	DoS	1
+denialofserviceattack	336425637378423288225	denial-of-service attack	1
+ddos	3367	DDoS	1
+distributeddenialofserviceattack	34787428833336425637378423288225	distributed denial-of-service attack	1
+cve	283	CVE	1
+commonvulnerabilitiesandexposures	266666885637224548437263397678737	Common Vulnerabilities and Exposures	1
+cwe	293	CWE	1
+commonweaknessenumeration	2666669325637736863728466	Common Weakness Enumeration	1
+librewolf	542739653	LibreWolf	1
+webrtc	932782	WebRTC	1
+webdav	932328	WebDAV	1
+swiftui	7943884	SwiftUI	1
+astro	27876	Astro	1
+sigmaos	7446267	SigmaOS	1
+fuckity	3825489	fuckity	1
+funtouchos	3868682467	Funtouch OS	1
+fo	36	fo	1
+unixshell	864974355	Unix shell	1
+zlibrary	95427279	Z-Library	1
+zaraz	92729	Zaraz	1
+scribblediffusion	72742253343387466	Scribble Diffusion	1
+asus	2787	ASUS	1
+lenovo	536686	Lenovo	1
+adios	23467	Adios	1
+ems	367	EMS	1
+expressmailservice	397737762457378423	Express Mail Service	1
+ipfs	4737	IPFS	1
+interplanetaryfilesystem	468377526382793453797836	InterPlanetary File System	1
+noria	66742	Noria	1
+dhcp	3427	DHCP	1
+dynamichostconfigurationprotocol	39626424678266344872846677686265	Dynamic Host Configuration Protocol	1
+pppoe	77763	PPPoE	1
+pointtopointprotocoloverethernet	76468867646877686265683738437638	Point-to-Point Protocol over Ethernet	1
+ipoe	4763	IPoE	1
+internetprotocoloverethernet	4683763877686265683738437638	Internet Protocol over Ethernet	1
+vlan	8526	VLAN	1
+virtuallocalareanetwork	84788255622527326389675	Virtual Local Area Network	1
+wlan	9526	WLAN	1
+wirelesslan	94735377526	Wireless LAN	1
+gpt	478	GPT	1
+generativepretrainedtransformer	4363728483773872463387267367637	Generative Pre-trained Transformer	1
+gpts	4787	GPTs	1
+gpt	478	GPT-3	1
+gpt	478	GPT-3.5	1
+gpt	478	GPT-4	1
+gpto	4786	GPT-4o	1
+gpt	478	GPT-4.1	1
+gpt	478	GPT-4.5	1
+gpt	478	GPT-5	1
+gpt	478	GPT-5.1	1
+gpt	478	GPT-5.2	1
+lamda	52632	LaMDA	1
+languagemodelfordialogueapplications	526482436633536734256483277542284667	Language Model for Dialogue Applications	1
+coinbasewallet	26462273925538	Coinbase Wallet	1
+metamask	63826275	MetaMask	1
+discord	3472673	Discord	1
+newbing	6392464	New Bing	1
+flomo	35666	flomo	1
+hanlp	42657	HanLP	1
+archlinux	272454689	Arch Linux	1
+almalinux	256254689	AlmaLinux	1
+fedoracoreos	333672267367	Fedora CoreOS	1
+coreos	267367	CoreOS	1
+openbsd	6736273	OpenBSD	1
+rockylinux	7625954689	Rocky Linux	1
+vultr	88587	Vultr	1
+goframe	4637263	GoFrame	1
+orm	676	ORM	1
+objectrelationalmapping	62532873528466256277464	Object Relational Mapping	1
+kpi	574	KPI	1
+keyperformanceindicators	539737367626234634228677	Key Performance Indicators	1
+mutex	68839	mutex	1
+tiobe	84623	TIOBE	1
+digitalocean	344482562326	DigitalOcean	1
+depay	33729	Depay	1
+codeium	2633486	Codeium	1
+opencat	6736228	OpenCat	1
+openwrt	6736978	OpenWrt	1
+aws	297	AWS	1
+amazonwebservices	26296693273784237	Amazon Web Services	1
+tailwind	82459463	Tailwind	1
+tailwindcss	82459463277	Tailwind CSS	1
+fcitx	32489	Fcitx	1
+fcitx	32489	Fcitx5	1
+opensuse	67367873	openSUSE	1
+fomo	3666	FOMO	1
+fearofmissingout	3327636477464688	Fear of Missing Out	1
+bromite	2766483	bromite	1
+orz	679	orz	1
+scoobydoo	726629366	Scooby-Doo	1
+spongebob	776643262	SpongeBob	1
+squarepants	77827372687	SquarePants	1
+spongebobsquarepants	77664326277827372687	SpongeBob SquarePants	1
+louisvuitton	568478848866	Louis Vuitton	1
+fifa	3432	FIFA	1
+fdrationinternationaledefootballassociation	3372846646837628466253333668225527762428466	Fédération Internationale de Football Association	1
+fyi	394	FYI	1
+foryourinformation	367968746367628466	for your information	1
+ipo	476	IPO	1
+initialpublicofferings	4648425782542633374647	Initial Public Offerings	1
+mvc	682	MVC	1
+modelviewcontroller	6633584392668765537	Model-View-Controller	1
+mvvm	6886	MVVM	1
+modelviewviewmodel	663358439843966335	Model-View-ViewModel	1
+ngo	646	NGO	1
+nongovernmentalorganization	666468376636825674264928466	Non-Governmental Organization	1
+omg	664	OMG	1
+ohmygod	6469463	Oh My God	1
+rft	738	RFT	1
+richtextformat	74248398367628	Rich Text Format	1
+svg	784	SVG	1
+scalablevectorgraphics	7225225383286747274427	Scalable Vector Graphics	1
+svn	786	SVN	1
+apachesubversion	2722437828377466	Apache Subversion	1
+tls	857	TLS	1
+transportlayersecurity	8726776785293773287489	Transport Layer Security	1
+udp	837	UDP	1
+userdatagramprotocol	87373282472677686265	User Datagram Protocol	1
+tcp	827	TCP	1
+transmissioncontrolprotocol	872676477466266876577686265	Transmission Control Protocol	1
+uid	843	UID	1
+userid	873743	User ID	1
+ussr	8777	USSR	1
+unionofsovietsocialistrepublics	8646663768438762425478737825427	Union of Soviet Socialist Republics	1
+wmv	968	WMV	1
+windowsmediavideo	94636976334284336	Windows Media Video	1
+wwi	994	WWI	1
+worldwari	967539274	World War I	1
+wwii	9944	WWII	1
+worldwarii	9675392744	World War II	1
+wwiii	99444	WWIII	1
+worldwariii	96753927444	World War III	1
+pgsql	74775	pgSQL	1
+postgresql	7678473775	PostgreSQL	1
+plpgsql	7574775	PL/pgSQL	1
+procedurallanguagepostgresstructuredquerylanguage	7762338725526482437678473778782887337837952648243	Procedural Language / PostGres Structured Query Language	1
+iq	47	IQ	1
+intelligencequotient	46835544362378684368	Intelligence quotient	1
+btw	289	BTW	1
+bytheway	29843929	by the way	1
+quic	7842	QUIC	1
+quickudpinternetconnections	784258374683763826663284667	Quick UDP Internet Connections	1
+srwareiron	7792734766	SRWare Iron	1
+nexitally	639482559	Nexitally	1
+agi	244	AGI	1
+artificialgeneralintelligence	27843424254363725468355443623	Artificial general intelligence	1
+strongai	78766424	Strong AI	1
+weakai	932524	Weak AI	1
+narrowai	62776924	Narrow AI	1
+appliedai	277543324	Applied AI	1
+breakingchange	27325464242643	BREAKING CHANGE	1
+githubactions	4484822284667	GitHub Actions	1
+githubcodespaces	4484822633772237	GitHub Codespaces	1
+uuid	8843	UUID	1
+universallyuniqueidentifier	864837725598647834336843437	Universally Unique Identifier	1
+fyne	3963	Fyne	1
+claude	252833	Claude	1
+cinderella	2463373552	Cinderella	1
+webgpu	932478	WebGPU	1
+mailfence	624533623	Mailfence	1
+codewhisperer	2633944773737	CodeWhisperer	1
+espanso	3772676	espanso	1
+captcha	2278242	CAPTCHA	1
+coinbase	26462273	Coinbase	1
+kraken	572536	Kraken	1
+huobi	48624	Huobi	1
+bitfinex	24834639	Bitfinex	1
+kucoin	582646	KuCoin	1
+okx	659	OKX	1
+arbitrum	27248786	Arbitrum	1
+avalanche	282526243	Avalanche	1
+binance	2462623	Binance	1
+binancesmartchain	24626237627824246	Binance Smart Chain	1
+aevo	2386	Aevo	1
+bybit	29248	Bybit	1
+bitget	248438	Bitget	1
+bitmart	2486278	BitMart	1
+bitstamp	24878267	Bitstamp	1
+deribit	3374248	Deribit	1
+hyperliquid	49737547843	Hyperliquid	1
+hashkey	4274539	HashKey	1
+pionex	746639	Pionex	1
+polymarket	7659627538	Polymarket	1
+raydium	7293486	Raydium	1
+opensea	6736732	OpenSea	1
+bnbchain	26224246	BNB Chain	1
+chainlink	242465465	Chainlink	1
+cosmos	267667	Cosmos	1
+cardano	2273266	Cardano	1
+polkadot	76552368	Polkadot	1
+solana	765262	Solana	1
+starknet	78275638	Starknet	1
+optimism	67846476	Optimism	1
+polygon	7659466	Polygon	1
+nearprotocol	632777686265	NEAR Protocol	1
+lensprotocal	536777686225	Lens Protocal	1
+zksync	957962	zkSync	1
+arweave	2793283	Arweave	1
+filecoin	34532646	Filecoin	1
+harmony	4276669	Harmony	1
+harmonyone	4276669663	Harmony One	1
+dapp	3277	DApp	1
+dapps	32777	DApps	1
+uniswap	8647927	Uniswap	1
+sushiswap	787447927	SushiSwap	1
+pancakeswap	72622537927	PancakeSwap	1
+jediswap	53347927	JediSwap	1
+orbiter	6724837	Orbiter	1
+compound	26676863	Compound	1
+aave	2283	Aave	1
+curve	28783	Curve	1
+curvefinance	287833462623	Curve Finance	1
+dydx	3939	dYdX	1
+nft	638	NFT	1
+nonfungibletoken	6663864425386536	Non-Fungible Token	1
+solidity	76543489	Solidity	1
+argentx	2743689	Argent X	1
+braavos	2722867	Braavos	1
+braavoswallet	2722867925538	Braavos Wallet	1
+onekey	663539	OneKey	1
+hackintosh	4225468674	Hackintosh	1
+dyor	3967	DYOR	1
+doyourownresearch	36968769673732724	Do Your Own Research	1
+noita	66482	Noita	1
+screenstudio	727336788346	Screen Studio	1
+norah	66724	Norah	1
+wayland	9295263	Wayland	1
+wappalyzer	9277259937	Wappalyzer	1
+noop	6667	noop	1
+kungfu	586438	Kung Fu	1
+tldr	8537	TL;DR	1
+toolongdidntread	8665664343687323	too long; didn't read	1
+antman	268626	Ant-Man	1
+ungoogled	864664533	ungoogled	1
+ungoogledchromium	86466453324766486	ungoogled-chromium	1
+routeros	76883767	RouterOS	1
+sumatra	7862872	Sumatra	1
+sumatrapdf	7862872733	Sumatra PDF	1
+sideload	74335623	sideload	1
+sideloading	74335623464	sideloading	1
+librime	5427463	librime	1
+jrpg	5774	JRPG	1
+japaneseroleplayinggame	52726373765375294644263	Japanese Role-Playing Game	1
+kuromis	5876647	Kuromis	1
+heil	4345	heil	1
+amytelecom	2698353266	AmyTelecom	1
+patreon	7287366	Patreon	1
+anaconda	26226632	Anaconda	1
+llama	55262	LLaMA	1
+largelanguagemodelmetaai	527435264824366335638224	Large Language Model Meta AI	1
+rip	747	R.I.P	1
+aigc	2442	AIGC	1
+aigeneratedcontent	244363728332668368	AI Generated Content	1
+upscayl	8772295	Upscayl	1
+cocoscreator	262672732867	Cocos Creator	1
+johnwick	56469425	John Wick	1
+npm	676	npm	1
+nodepackagemanager	663372252436262437	Node Package Manager	1
+npmrc	67672	.npmrc	1
+applevision	27753847466	Apple Vision	1
+applevisionpro	27753847466776	Apple Vision Pro	1
+visionpro	847466776	Vision Pro	1
+ay	29	a11y	1
+accessibility	2223774245489	accessibility	1
+in	46	i18n	1
+internationalization	46837628466254928466	internationalization	1
+ln	56	l10n	1
+localization	562254928466	localization	1
+gn	46	g11n	1
+globalization	4562254928466	globalization	1
+mn	66	m17n	1
+multilingualization	6858454648254928466	multilingualization	1
+tn	86	t9n	1
+translation	87267528466	translation	1
+pn	76	p13n	1
+personalization	737766254928466	personalization	1
+ks	57	K3s	1
+ks	57	K8s	1
+kubernetes	5823763837	Kubernetes	1
+kubeadm	5823236	Kubeadm	1
+minikube	64645823	Minikube	1
+shitwork	74489675	shitwork	1
+wc	92	W3C	1
+worldwidewebconsortium	9675394339322667678486	World Wide Web Consortium	1
+a	2	A4	1
+d	3	3D	1
+loki	5654	Loki	1
+dict	3428	dict	1
+hughie	484443	Hughie	1
+maeve	62383	Maeve	1
+oppenheimer	67736434637	Oppenheimer	1
+ultraedit	858723348	UltraEdit	1
+goldendict	4653363428	GoldenDict	1
+tokenizer	865364937	tokenizer	1
+controlnet	2668765638	ControlNet	1
+cisc	2472	CISC	1
+risc	7472	RISC	1
+x	9	x86	1
+x	9	x86-64	1
+x	9	x64	1
+amd	263	amd64	1
+arm	276	arm64	1
+xeon	9366	Xeon	1
+pentium	7368486	Pentium	1
+celeron	2353766	Celeron	1
+epyc	3792	EPYC	1
+ryzen	79936	Ryzen	1
+athlon	284566	Athlon	1
+dsl	375	DSL	1
+domainspecificlanguage	3662467732434252648243	Domain Specific Language	1
+hdl	435	HDL	1
+hardwaredescriptionlanguage	427392733372747846652648243	Hardware Description Language	1
+vhdl	8435	VHDL	1
+verilog	8374564	Verilog	1
+keysym	539796	keysym	1
+keysyms	5397967	keysyms	1
+potplayer	768752937	PotPlayer	1
+codeblocks	2633256257	Code::Blocks	1
+protocolbuffers	776862652833377	Protocol Buffers	1
+protobuf	77686283	protobuf	1
+beyatch	2392824	beyatch	1
+ibus	4287	iBus	1
+bt	28	BT	1
+bittorrent	2488677368	BitTorrent	1
+protonmail	7768666245	ProtonMail	1
+elasticsearch	3527842732724	Elasticsearch	1
+opensearch	6736732724	OpenSearch	1
+rho	746	rho	1
+dd	33	D&D	1
+dungeonsdragons	386436673724667	Dungeons & Dragons	1
+dnd	363	DnD	1
+minecraft	646327238	Minecraft	1
+lsp	577	LSP	1
+languageserverprotocol	5264824373783777686265	Language Server Protocol	1
+c	2	C#	1
+keycastr	53922787	KeyCastr	1
+laughtale	528448253	Laugh Tale	1
+joyboy	569269	Joy Boy	1
+rustrover	787876837	RustRover	1
+bilibili	24542454	bilibili	1
+terraria	83772742	Terraria	1
+unihan	864426	Unihan	1
+dlsite	357483	DLsite	1
+im	46	I'm	1
+youre	96873	you're	1
+shes	7437	she's	1
+were	9373	we're	1
+theyre	843973	they're	1
+arent	27368	aren't	1
+wasnt	92768	wasn't	1
+werent	937368	weren't	1
+hasnt	42768	hasn't	1
+havent	428368	haven't	1
+hadnt	42368	hadn't	1
+wouldnt	9685368	wouldn't	1
+couldnt	2685368	couldn't	1
+shouldnt	74685368	shouldn't	1
+mightnt	6444868	mightn't	1
+mustnt	687868	mustn't	1
+shant	74268	shan't	1
+aint	2468	ain't	1
+darent	327368	daren't	1
+neednt	633368	needn't	1
+oughtnt	6844868	oughtn't	1
+whos	9467	who's	1
+wheres	943737	where's	1
+whens	94367	when's	1
+whys	9497	why's	1
+hows	4697	how's	1
+heres	43737	here's	1
+youll	96855	you'll	1
+itll	4855	it'll	1
+theyll	843955	they'll	1
+youd	9683	you'd	1
+wed	933	we'd	1
+ive	483	I've	1
+hed	433	he'd	1
+itd	483	it'd	1
+theyd	84393	they'd	1
+youve	96883	you've	1
+weve	9383	we've	1
+theyve	843983	they've	1
+lemme	53663	lemme	1
+outta	68882	outta	1
+whatcha	9428242	whatcha	1
+pvp	787	PVP	1
+playerversusplayer	752937837787752937	Player versus Player	1
+pve	783	PVE	1
+playerversusenvironment	75293783778736847666368	player versus environment	1
+elon	3566	Elon	1
+musk	6875	Musk	1
+logseq	564737	Logseq	1
+wps	977	WPS	1
+morty	66789	Morty	1
+frundles	37863537	Frundles	1
+brotato	2768286	Brotato	1
+engineman	364463626	engineman	1
+unhuman	8648626	unhuman	1
+unhumified	8648643433	unhumified	1
+unhumanize	8648626493	unhumanize	1
+pp	77	P2P	1
+peertopeer	7337867337	peer-to-peer	1
+fa	32	F2A	1
+bb	22	B2B	1
+cc	22	C2C	1
+bc	22	B2C	1
+cb	22	C2B	1
+oo	66	O2O	1
+nbak	6225	NBA 2K	1
+webcatalog	9322282564	WebCatalog	1
+appleone	27753663	Apple One	1
+pixiv	74948	pixiv	1
+ma	62	M4A1	1
+pk	75	PK	1
+wireguard	947348273	WireGuard	1
+adguard	2348273	AdGuard	1
+altman	258626	Altman	1
+ultraman	85872626	Ultraman	1
+sider	74337	sider	1
+dalle	32553	DALL·E	1
+eg	34	e.g.	1
+ie	43	i.e.	1
+etal	3825	et al.	1
+zettlr	938857	Zettlr	1
+codium	263486	Codium	1
+codiumai	26348624	CodiumAI	1
+saas	7227	SaaS	1
+softwareasaservice	763892732727378423	Software as a service	1
+gitignore	448446673	gitignore	1
+gitignore	448446673	.gitignore	1
+alita	25482	Alita	1
+epoll	37655	epoll	1
+kqueue	578383	kqueue	1
+langchain	526424246	LangChain	1
+langserve	526473783	LangServe	1
+langsmith	526476484	LangSmith	1
+runc	7862	runc	1
+containerd	2668246373	containerd	1
+melvor	635867	Melvor	1
+melvoridle	6358674353	Melvor Idle	1
+websocket	932762538	WebSocket	1
+systemctl	797836285	systemctl	1
+reconfig	73266344	reconfig	1
+sudo	7836	sudo	1
+flypy	35979	flypy	1
+traefik	8723345	traefik	1
+deepin	333746	deepin	1
+srv	778	srv	1
+usr	877	usr	1
+aur	287	AUR	1
+archuserrepository	272487377376748679	Arch User Repository	1
+pacman	722626	pacman	1
+pacman	722626	Pac-Man	1
+ebpf	3273	eBPF	1
+devops	338677	DevOps	1
+zippo	94776	Zippo	1
+qrcode	772633	QR code	1
+prometheus	7766384387	Prometheus	1
+grafana	4723262	Grafana	1
+mirtle	647853	Mirtle	1
+hadoop	423667	Hadoop	1
+hbase	42273	HBase	1
+hive	4483	Hive	1
+apachehive	2722434483	Apache Hive	1
+flink	35465	Flink	1
+palworld	72596753	Palworld	1
+submodule	782663853	submodule	1
+submodules	7826638537	submodules	1
+writerside	9748377433	Writerside	1
+manifestv	626433788	Manifest V2	1
+manifestv	626433788	Manifest V3	1
+imba	4622	IMBA	1
+gitbutler	448288537	GitButler	1
+winnas	946627	WinNAS	1
+wireshark	947374275	Wireshark	1
+theseus	8437387	Theseus	1
+laravel	5272835	Laravel	1
+chiikawa	24445292	Chiikawa	1
+libreoffice	54273633423	LibreOffice	1
+asics	27427	Asics	1
+saucony	7282669	Saucony	1
+nvm	686	nvm	1
+nodeversionmanager	663383774666262437	Node Version Manager	1
+prettier	77388437	Prettier	1
+eslint	375468	ESLint	1
+hibernate	442376283	Hibernate	1
+mybatis	6922847	MyBatis	1
+mybatisplus	69228477587	MyBatis-Plus	1
+springboot	7774642668	Spring Boot	1
+springcloud	77746425683	Spring Cloud	1
+elementplus	35363687587	Element Plus	1
+flameshot	352637468	Flameshot	1
+flatpak	3528725	Flatpak	1
+salesforce	7253736723	Salesforce	1
+vengine	8364463	V8 engine	1
+vjsengine	857364463	V8 JS engine	1
+vjavascriptengine	85282727478364463	V8 JavaScript engine	1
+wasm	9276	Wasm	1
+webassembly	93227736259	WebAssembly	1
+feign	33446	Feign	1
+openfeign	673633446	OpenFeign	1
+imf	463	IMF	1
+internationalmonetaryfund	4683762846625666382793863	International Monetary Fund	1
+terraform	837723676	Terraform	1
+systemd	7978363	systemd	1
+ic	42	IC	1
+integratedcircuit	46834728332472848	Integrated Circuit	1
+asic	2742	ASIC	1
+fpga	3742	FPGA	1
+fieldprogrammablegatearray	34353776472662253428327729	Field-Programmable Gate Array	1
+samsung	7267864	Samsung	1
+samsunggalaxy	7267864425299	Samsung Galaxy	1
+viml	8465	VimL	1
+vimscript	846727478	Vimscript	1
+kubectl	5823285	kubectl	1
+mvn	686	mvn	1
+mvnd	6863	mvnd	1
+maven	62836	maven	1
+fluentui	35836884	Fluent UI	1
+activex	2284839	ActiveX	1
+arxiv	27948	arXiv	1
+gzip	4947	Gzip	1
+lexisnexis	5394763947	LexisNexis	1
+phpbb	74722	phpBB	1
+thinkpad	84465723	ThinkPad	1
+weblogic	93256442	WebLogic	1
+yahoo	92466	Yahoo	1
+zope	9673	Zope	1
+gameboy	4263269	GameBoy	1
+gamecube	42632823	GameCube	1
+gamefaqs	42633277	GameFAQs	1
+wsl	975	WSL	1
+windowssubsystemforlinux	946369778279783636754689	Windows Subsystem for Linux	1
+msvc	6782	MSVC	1
+microsoftvisualc	6427676388478252	Microsoft Visual C++	1
+dbeaver	3232837	DBeaver	1
+ae	23	AE86	1
+floorp	356677	Floorp	1
+costco	267826	Costco	1
+nfc	632	NFC	1
+nearfieldcommunication	6327343532666864228466	Near Field Communication	1
+appleintelligence	27753468355443623	Apple Intelligence	1
+zip	947	7-Zip	1
+lgtm	5486	LGTM	1
+ptal	7825	PTAL	1
+mbr	627	MBR	1
+masterbootrecord	6278372668732673	master boot record	1
+efi	334	EFI	1
+extensiblefirmwareinterface	398367425334769273468373223	Extensible Firmware Interface	1
+uefi	8334	UEFI	1
+unifiedextensiblefirmwareinterface	8643433398367425334769273468373223	Unified Extensible Firmware Interface	1
+cmos	2667	CMOS	1
+complementarymetaloxidesemiconductor	266753636827963825694337364266382867	complementary metal-oxide-semiconductor	1
+oop	667	OOP	1
+objectorientedprogramming	6253286743683377647266464	object-oriented programming	1
+ide	433	IDE	1
+integrateddevelopmentenvironment	46834728333383567636836847666368	integrated development environment	1
+tensorflow	8367673569	TensorFlow	1
+pytorch	7986724	PyTorch	1
+deepseek	33377335	DeepSeek	1
+mercedesbenz	637233372369	Mercedes-Benz	1
+password	72779673	1Password	1
+wd	93	WD-40	1
+openstreetmap	6736787338627	OpenStreetMap	1
+osmand	676263	OsmAnd	1
+syncthing	796284464	Syncthing	1
+heptabase	437822273	Heptabase	1
+ghostty	4467889	Ghostty	1
+wezterm	9398376	WezTerm	1
+wezsterminalemulator	93978376462536852867	Wez's Terminal Emulator	1
+tailscale	824572253	Tailscale	1
+shadowrocket	742369762538	Shadowrocket	1
+quantumult	7826886858	Quantumult	1
+quantumultx	78268868589	Quantumult X	1
+vray	8729	V2Ray	1
+vrayn	87296	v2rayN	1
+vraya	87292	v2rayA	1
+vraycore	87292673	v2ray-core	1
+xraycore	97292673	Xray-core	1
+mihomo	644666	mihomo	1
+trojango	87652646	trojan-go	1
+vless	85377	VLESS	1
+hysteria	49783742	Hysteria	1
+singbox	7464269	sing-box	1
+sagernet	72437638	SagerNet	1
+livehouse	548346873	live house	1
+diskgenius	3475436487	DiskGenius	1
+icpc	4272	ICPC	1
+internationalcollegiateprogrammingcontest	46837628466252655344283776472664642668378	International Collegiate Programming Contest	1
+uml	865	UML	1
+unifiedmodelinglanguage	86434336633546452648243	Unified Modeling Language	1
+ollama	655262	Ollama	1
+omarchy	6627249	Omarchy	1
+lmarena	5627362	LMArena	1
+maxmind	6296463	MaxMind	1
+pm	76	PM2.5	1
+pm	76	PM10	1
+sarscov	7277268	SARS-CoV-2	1
+nanobanana	6266226262	Nano Banana	1
+zotero	968376	Zotero	1
+cpk	275	CP2K	1
+vasp	8277	VASP	1
+ftir	3847	FTIR	1
+slurm	75876	Slurm	1
+qwen	7936	Qwen	1
+unocss	866277	UnoCSS	1
+temu	8368	Temu	1
+clawdbot	25293268	Clawdbot	1
+waydroid	92937643	Waydroid	1
+pkgbuild	75428453	PKGBUILD	1
+moltbot	6658268	Moltbot	1
+openclaw	67362529	OpenClaw	1
+starlink	78275465	Starlink	1
+seedance	73332623	Seedance	1
+dependabot	3373632268	Dependabot	1
+katex	52839	KaTeX	1
+mathjax	6284529	MathJax	1
