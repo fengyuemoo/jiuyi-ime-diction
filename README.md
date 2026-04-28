@@ -31,7 +31,6 @@ hello	43556	hello	5000000
 | `cn_8105.txt` | zh | 中文国标 8105 单字 |
 | `cn_base.txt` | zh | 中文主干词库 |
 | `cn_ext.txt` | zh | 中文扩展词库 |
-| `cn_tencent.txt` | zh | 腾讯词向量词库 |
 | `cn_en.txt` | zh | 中英混合词库 |
 | `cn_internet_hot_words.txt` | zh | 互联网热词 |
 | `cn_others.txt` | zh | 多音字纠错词条 |
@@ -62,8 +61,6 @@ pip install pypinyin
 python convert_dicts.py . ./output
 ```
 
-> ⚠️ `cn_tencent.dict.yaml`（约 16MB）需要 pypinyin 逐字标注，耗时约 5–15 分钟。
-
 ### 第二步：跨文件全局去重
 
 ```bash
@@ -86,7 +83,7 @@ rmdir output
 cd <词库根目录>
 # 中文跨文件重复检查（结果应为 0）
 cat cn_8105.txt cn_41448.txt cn_base.txt cn_ext.txt \
-    cn_internet_hot_words.txt cn_others.txt cn_tencent.txt \
+    cn_internet_hot_words.txt cn_others.txt \
     cn_thuocl_animal.txt cn_thuocl_car.txt cn_thuocl_finance.txt \
     cn_thuocl_food.txt cn_thuocl_history.txt cn_thuocl_idiom.txt \
     cn_thuocl_it.txt cn_thuocl_law.txt cn_thuocl_medical.txt \
@@ -113,8 +110,8 @@ chmod +x run_all.sh
 
 ```bash
 python3 build_dict.py \
-  --input cn_base.txt cn_tencent.txt en_base.txt \
-  --lang zh zh en \
+  --input cn_base.txt en_base.txt \
+  --lang zh en \
   --output dist/dict.db
 ```
 

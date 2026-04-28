@@ -26,7 +26,6 @@ python3 build_dict.py \
     cn_8105.txt \
     cn_base.txt \
     cn_ext.txt \
-    cn_tencent.txt \
     cn_en.txt \
     cn_internet_hot_words.txt \
     cn_others.txt \
@@ -47,7 +46,6 @@ python3 build_dict.py \
     en \
     en \
     en \
-    zh \
     zh \
     zh \
     zh \

@@ -25,7 +25,6 @@ from collections import defaultdict
 
 CN_FILES_PRIORITY = [
     "cn_base.txt",
-    "cn_tencent.txt",
     "cn_ext.txt",
     "cn_internet_hot_words.txt",
     "cn_8105.txt",

@@ -83,7 +83,7 @@ def parse_dict_yaml(path: str):
     """
     标准 Rime .dict.yaml 数据行：
       word\tpinyin\tfreq   ← 三列（中文有拼音）
-      word\tfreq           ← 两列纯数字（cn_tencent 无拼音）
+      word\tfreq           ← 两列纯数字（无拼音）
       word\tpinyin         ← 两列字母（无词频）
     """
     results = []
@@ -313,7 +313,7 @@ def write_cn_en(entries, out_path: str):
 # ──────────────────────────────────────────────────────────
 
 NEED_PYPINYIN = {
-    "cn_tencent.dict.yaml",
+    # cn_tencent.dict.yaml 已移除
 }
 
 CN_EN_FILES = {
@@ -425,9 +425,6 @@ if __name__ == "__main__":
 输出格式（UTF-8 无 BOM，Tab 分隔四列）：
   中文 / 中英混合：  拼音    T9编码  汉字或词  词频
   英文：             字母    T9编码  词        词频
-
-注意：
-  cn_tencent.dict.yaml 约 16MB，需要 pypinyin 逐字标注，耗时较长（约 5-15 分钟）。
 """,
     )
     ap.add_argument("src_dir", help="词库源目录（仓库根目录）")
