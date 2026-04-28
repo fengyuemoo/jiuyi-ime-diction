@@ -4,12 +4,12 @@ build_dict.py — 久以输入法词库构建脚本
 
 将一个或多个词库文本文件导入 SQLite 数据库，供 Android App 使用。
 
-支持的输入格式（自动按列数判断）：
-  4列（空格分隔）: <拼音键序> <数字编码> <候选词> <词频>   ← 英文词库
-  3列（空格分隔）: <拼音串>   <汉字/词>  <词频>           ← 中文词库（pinyin 列存入 DB）
-  2列（tab/空格）: <词>        <词频>                     ← 通用简易格式
-  1列            : <词>                                  ← 综词列表，词频默认 0
-  CSV            : <词>,<词频>
+词库文件格式（Tab 分隔四列）：
+  中文：  拼音  T9编码  汉字/词  词频
+  英文：  字母串  T9编码  词  词频
+
+  中文示例：  ni'hao\t6442566\t你好\t523901
+  英文示例：  hello\t43556\thello\t5000000
 
 主键设计：(word, pinyin) 复合主键。
   - 英文词：pinyin = ""，每个 word 唯一。
@@ -21,8 +21,8 @@ initials 列（v5 新增）：
   英文词 initials = ""。
 
 用法示例：
-  python build_dict.py --input en_ext.txt --lang en --output dict.db
-  python build_dict.py --input en_ext.txt cn_base.txt --lang en zh --output dict.db
+  python build_dict.py --input en_base.txt --lang en --output dict.db
+  python build_dict.py --input cn_base.txt en_base.txt --lang zh en --output dict.db
   python build_dict.py --verify dict.db
 
 重要：建表 SQL 必须与 Room 生成的 schema 完全一致。
@@ -68,7 +68,6 @@ def pinyin_to_initials(pinyin: str) -> str:
     "zhong'guo" -> "zg"
     "ni'hao"    -> "nh"
     "zhong"     -> "z"
-    规则：每个音节取第一个字母（zh/ch/sh 取首字母 z/c/s）
     """
     if not pinyin:
         return ''
@@ -77,13 +76,6 @@ def pinyin_to_initials(pinyin: str) -> str:
 
 
 def detect_encoding(filepath: str) -> str:
-    """
-    检测文件编码。只看 BOM，不依赖外部库。
-    - UTF-16 LE BOM (FF FE) → 'utf-16'
-    - UTF-16 BE BOM (FE FF) → 'utf-16'
-    - UTF-8 BOM (EF BB BF)  → 'utf-8-sig'
-    - 其他                  → 'utf-8'
-    """
     with open(filepath, 'rb') as f:
         bom = f.read(4)
     if bom[:2] in (b'\xff\xfe', b'\xfe\xff'):
@@ -97,9 +89,6 @@ def init_db(conn: sqlite3.Connection) -> None:
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA synchronous=NORMAL")
     conn.execute("PRAGMA cache_size=-64000")
-    # 建表 SQL 必须与 Room schema v5 的 createSql 字段完全一致：
-    #   - PRIMARY KEY(`word`, `pinyin`) 复合主键
-    #   - 各列不得有 DEFAULT 子句
     conn.execute("""
         CREATE TABLE IF NOT EXISTS `words` (
             `word`     TEXT    NOT NULL,
@@ -126,15 +115,48 @@ def build_index(conn: sqlite3.Connection) -> None:
 
 def parse_line(line: str):
     """
-    返回 (word, freq, pinyin) 元组，或 None。
-    - 3列中文词库：pinyin = parts[0]（如 "zhong'guo"）
-    - 其他格式：pinyin = ''
+    解析一行词库条目，返回 (word, freq, pinyin) 或 None。
+
+    支持格式（按优先级处理）：
+      1. Tab 分隔四列（新统一格式）：
+           中文：  拼音  T9  词  词频
+           英文：  字母  T9  词  词频
+      2. Tab 分隔两列：  词  词频
+      3. CSV 格式：         词,词频
     """
     line = line.strip().lstrip('\ufeff')
     if not line or line.startswith('#'):
         return None
 
-    if ',' in line and '\t' not in line:
+    if '\t' in line:
+        parts = line.split('\t')
+        if len(parts) >= 4:
+            # Tab 分隔四列：拼音/字母  T9  词  词频
+            pinyin_or_letters = parts[0].strip()
+            word = parts[2].strip()
+            try:
+                freq = int(parts[3].strip())
+            except ValueError:
+                freq = 0
+            # 中文：pinyin 字段存拼音；英文：pinyin 字段留空（t9_key 直接用 word 计算）
+            import re
+            if re.search(r'[\u4e00-\u9fff]', word):
+                pinyin = pinyin_or_letters
+            else:
+                pinyin = ''
+        else:
+            # Tab 分隔两列：词  词频
+            word = parts[0].strip()
+            try:
+                freq = int(parts[1].strip())
+            except (ValueError, IndexError):
+                freq = 0
+            pinyin = ''
+        if not word or len(word) > MAX_WORD_LEN:
+            return None
+        return (word, freq, pinyin)
+
+    if ',' in line:
         parts = line.split(',', 1)
         word = parts[0].strip()
         try:
@@ -145,51 +167,11 @@ def parse_line(line: str):
             return None
         return (word, freq, '')
 
-    if '\t' in line:
-        parts = line.split('\t', 1)
-        word = parts[0].strip()
-        try:
-            freq = int(float(parts[1].strip()))
-        except (ValueError, IndexError):
-            freq = 0
-        if not word or len(word) > MAX_WORD_LEN:
-            return None
-        return (word, freq, '')
-
-    parts = [p for p in line.split(' ') if p]
-    n = len(parts)
-
-    if n >= 4:
-        # 英文词库 4列：拼音键序 数字编码 候选词 词频
-        try:
-            freq = int(parts[-1])
-        except ValueError:
-            freq = 0
-        word = ' '.join(parts[2:-1])
-        pinyin = ''
-    elif n == 3:
-        # 中文词库 3列：拼音串 汉字/词 词频  ← 保存 pinyin
-        pinyin = parts[0]
-        word   = parts[1]
-        try:
-            freq = int(parts[2])
-        except ValueError:
-            freq = 0
-    elif n == 2:
-        word = parts[0]
-        try:
-            freq = int(parts[1])
-        except ValueError:
-            freq = 0
-        pinyin = ''
-    else:
-        word   = parts[0]
-        freq   = 0
-        pinyin = ''
-
+    # 单列
+    word = line.strip()
     if not word or len(word) > MAX_WORD_LEN:
         return None
-    return (word, freq, pinyin)
+    return (word, 0, '')
 
 
 def count_lines(filepath: str) -> int:
@@ -236,7 +218,7 @@ def import_file(conn: sqlite3.Connection, filepath: str, lang: str) -> int:
                 continue
             word, freq, pinyin = result
             t9       = word_to_t9(word)           if lang == 'en' else ''
-            initials = pinyin_to_initials(pinyin) if lang == 'zh'  else ''
+            initials = pinyin_to_initials(pinyin) if lang == 'zh' else ''
             batch.append((word, freq, lang, t9, pinyin, initials))
             if len(batch) >= BATCH_SIZE:
                 flush()
@@ -287,7 +269,6 @@ def verify_db(db_path: str) -> None:
         print(f"[warn] {empty_initials:,} Chinese words have empty initials!")
     else:
         print("[verify] All Chinese words have initials. OK")
-    # 验证多音字是否正确存入多行
     polyphone_count = conn.execute(
         "SELECT COUNT(*) FROM (SELECT word FROM words WHERE lang='zh' GROUP BY word HAVING COUNT(*)>1)"
     ).fetchone()[0]
