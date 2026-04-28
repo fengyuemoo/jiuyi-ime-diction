@@ -1,11 +1,9 @@
 a	2	A4	500000
 aave	2283	Aave	200000
-abcd	2223	abcd	100000
 abcd	2223	ABCD	500000
 abilitypowercarry	22454897693722779	Ability Power Carry	300000
 abs	227	ABS	500000
 access	222377	Access	200000
-accessibility	2223774245489	accessibility	100000
 acg	224	ACG	500000
 activex	2284839	ActiveX	300000
 adc	232	ADC	500000
@@ -46,7 +44,6 @@ almalinux	256254689	AlmaLinux	300000
 alphafold	257423653	AlphaFold	300000
 alphago	2574246	AlphaGo	300000
 altman	258626	Altman	200000
-amazon	262966	Amazon	200000
 amazonwebservices	26296693273784237	Amazon Web Services	300000
 amd	263	AMD	500000
 amd	263	amd64	100000
@@ -111,7 +108,6 @@ applicationprogramminginterface	2775422846677647266464468373223	Application Prog
 appliedai	277543324	Applied AI	300000
 appstore	27778673	App Store	300000
 apr	277	Apr.	300000
-april	27745	April	200000
 aptos	27867	Aptos	200000
 arbitrum	27248786	Arbitrum	200000
 archlinux	272454689	Arch Linux	300000
@@ -142,7 +138,6 @@ atm	286	ATM	500000
 attackdamagecarry	28822532624322779	Attack Damage Carry	300000
 attentiondeficithyperactivitydisorder	2883684663334248497372284848934767337	attention deficit hyperactivity disorder	100000
 aug	284	Aug.	300000
-august	284878	August	200000
 aur	287	AUR	500000
 authenticator	2884368422867	Authenticator	200000
 automatedtellermachine	2886628338355376224463	automated teller machine	100000
@@ -160,10 +155,8 @@ ay	29	a11y	100000
 backblaze	222525293	Backblaze	200000
 backbonejs	2225266357	Backbone.js	300000
 backgroundmusic	222547686368742	Background music	300000
-backspace	222577223	backspace	100000
 baiduspider	22438774337	Baiduspider	200000
 bandizip	22634947	Bandizip	200000
-barbecue	22723283	barbecue	100000
 bartender	227836337	Bartender	200000
 basicinputoutputsystem	2274246788688788797836	Basic Input/Output System	300000
 bayerischemotorenwerkeag	229374724366867369375324	Bayerische Motoren Werke AG	300000
@@ -274,12 +267,10 @@ chieftechnologyofficer	2443383246656496334237	Chief Technology Officer	300000
 chiikawa	24445292	Chiikawa	200000
 chinacentraltelevision	2446223687258353847466	China Central Television	300000
 chinesebasketballassociation	2446373227538225527762428466	Chinese Basketball Association	300000
-choco	24626	choco	100000
 chocolatey	2462652839	Chocolatey	200000
 chromebook	2476632665	Chromebook	200000
 chromeos	24766367	ChromeOS	300000
 chromiumembeddedframework	2476648636233333372639675	Chromium Embedded Framework	300000
-chrono	247666	chrono	100000
 cicd	2423	CI/CD	500000
 cinderella	2463373552	Cinderella	200000
 cinity	246489	Cinity	200000
@@ -309,8 +300,6 @@ cloudfront	2568337668	CloudFront	300000
 cloudmagic	2568362442	CloudMagic	300000
 cloudxns	25683967	CloudXNS	300000
 cmake	26253	CMake	300000
-cmd	263	cmd	100000
-cmdline	2635463	cmdline	100000
 cmos	2667	CMOS	500000
 cms	267	CMS	500000
 cn	26	CN	500000
@@ -343,7 +332,6 @@ coloros	2656767	ColorOS	300000
 colorschemer	265677243637	Color Schemer	300000
 colorsnapper	265677627737	Color Snapper	300000
 comfyui	2663984	ComfyUI	300000
-command	2666263	command	100000
 commandlineinterface	26662635463468373223	Command-Line Interface	300000
 commonmark	2666666275	CommonMark	300000
 commonvulnerabilitiesandexposures	266666885637224548437263397678737	Common Vulnerabilities and Exposures	300000
@@ -354,7 +342,6 @@ compound	26676863	Compound	200000
 containerd	2668246373	containerd	100000
 contentdeliverynetwork	2668368335483796389675	Content Delivery Network	300000
 contentmanagementsystem	26683686262436368797836	Content Management System	300000
-control	2668765	control	100000
 controlcenter	2668765236837	Control Center	300000
 controlnet	2668765638	ControlNet	300000
 coo	266	COO	500000
@@ -363,7 +350,6 @@ coreos	267367	CoreOS	300000
 cornerstone	26763778663	Cornerstone	200000
 cortana	2678262	Cortana	200000
 cosmos	267667	Cosmos	200000
-cosplay	2677529	cosplay	100000
 costco	267826	Costco	200000
 couldnt	2685368	couldn't	100000
 counterstrike	2686837787453	Counter-Strike	300000
@@ -378,8 +364,8 @@ crossover	276776837	CrossOver	300000
 crud	2783	CRUD	500000
 cryptomator	27978662867	Cryptomator	200000
 cryptoquant	27978678268	CryptoQuant	300000
-cs	27	CS2	500000
 cs	27	CS	500000
+cs	27	CS2	500000
 csdn	2736	CSDN	500000
 csgo	2746	CS:GO	500000
 css	277	CSS	500000
@@ -407,7 +393,6 @@ datagraph	328247274	Datagraph	200000
 datagrip	32824747	DataGrip	300000
 datalore	32825673	Datalore	200000
 dataspell	328277355	DataSpell	300000
-datetime	32838463	datetime	100000
 dayone	329663	Day One	300000
 dbeaver	3232837	DBeaver	300000
 dbmesh	326374	DBMesh	300000
@@ -415,7 +400,6 @@ dd	33	D&D	500000
 ddos	3367	DDoS	300000
 debian	332426	Debian	200000
 dec	332	Dec.	300000
-december	33236237	December	200000
 deepin	333746	deepin	100000
 deepl	33375	DeepL	300000
 deepmind	33376463	DeepMind	300000
@@ -423,7 +407,6 @@ deepseek	33377335	DeepSeek	300000
 defaultfolderx	33328583653379	Default Folder X	300000
 defillama	333455262	DefiLlama	300000
 del	335	Del	200000
-delete	335383	delete	100000
 denialofserviceattack	336425637378423288225	denial-of-service attack	100000
 deoxyribonucleicacid	33699742668253422243	deoxyribonucleic acid	100000
 depay	33729	Depay	200000
@@ -433,7 +416,6 @@ devonthink	3386684465	DEVONthink	300000
 devops	338677	DevOps	300000
 devsecops	338732677	DevSecOps	300000
 dhcp	3427	DHCP	500000
-dict	3428	dict	100000
 dify	3439	Dify	200000
 digitalmillenniumcopyrightact	34448256455366486267974448228	Digital Millennium Copyright Act	300000
 digitalocean	344482562326	DigitalOcean	300000
@@ -508,7 +490,6 @@ edutools	33886657	EduTools	300000
 efi	334	EFI	500000
 eg	34	e.g.	100000
 egpu	3478	eGPU	300000
-eject	35328	eject	100000
 elasticsearch	3527842732724	Elasticsearch	200000
 electron	35328766	Electron	200000
 elementplus	35363687587	Element Plus	300000
@@ -520,7 +501,6 @@ emotionaldamage	366846625326243	Emotional Damage	300000
 ems	367	EMS	500000
 endnote	3636683	Endnote	200000
 engineman	364463626	engineman	100000
-enter	36837	enter	100000
 entropy	3687679	Entropy	200000
 envoy	36869	Envoy	200000
 epicgames	374242637	Epic Games	300000
@@ -573,7 +553,6 @@ fdrationinternationaledefootballassociation	337284664683762846625333366822552776
 fdroid	337643	F-Droid	300000
 fearofmissingout	3327636477464688	Fear of Missing Out	300000
 feb	332	Feb.	300000
-february	33278279	February	200000
 federalbureauofinvestigation	3333725287328634683784428466	Federal Bureau of Investigation	300000
 fedora	333672	Fedora	200000
 fedoracoreos	333672267367	Fedora CoreOS	300000
@@ -600,7 +579,6 @@ fluentui	35836884	Fluent UI	300000
 flyme	35963	Flyme	200000
 flypy	35979	flypy	100000
 fn	36	Fn	200000
-fo	36	fo	100000
 fomo	3666	FOMO	500000
 forcetouch	3672386824	Force Touch	300000
 forecast	36732278	Forecast	200000
@@ -653,7 +631,6 @@ ghostty	4467889	Ghostty	200000
 gif	443	GIF	500000
 gifbrewery	4432739379	Gif Brewery	300000
 gists	44787	gists	100000
-git	448	git	100000
 gitbook	4482665	GitBook	300000
 gitbucket	448282538	GitBucket	300000
 gitbutler	448288537	GitButler	300000
@@ -674,7 +651,6 @@ gitignore	448446673	.gitignore	100000
 gitlab	448522	GitLab	300000
 gitlabrunner	448522786637	GitLab Runner	300000
 glassnode	452776633	Glassnode	200000
-globalization	4562254928466	globalization	100000
 globallyuniqueidentifier	456225598647834336843437	Globally Unique Identifier	300000
 gmt	468	GMT	500000
 gn	46	g11n	100000
@@ -693,7 +669,6 @@ goland	465263	GoLand	300000
 golang	465264	Golang	200000
 goldendict	4653363428	GoldenDict	300000
 goldmark	46536275	Goldmark	200000
-google	466453	Google	200000
 googleads	466453237	Google Ads	300000
 googleadsense	4664532373673	Google AdSense	300000
 googleanalytics	466453262598427	Google Analytics	300000
@@ -787,8 +762,6 @@ hdd	433	HDD	500000
 hdl	435	HDL	500000
 hdmi	4364	HDMI	500000
 hed	433	he'd	100000
-heil	4345	heil	100000
-hell	4355	hell	100000
 hell	4355	he'll	100000
 helvetica	435838422	Helvetica	200000
 heptabase	437822273	Heptabase	200000
@@ -856,7 +829,6 @@ ifttt	43888	IFTTT	500000
 igalia	442542	Igalia	200000
 iina	4462	IINA	500000
 iklear	455327	iKlear	300000
-ill	455	ill	100000
 ill	455	I'll	300000
 iloveyou	45683968	I Love You	300000
 im	46	I'm	300000
@@ -895,7 +867,6 @@ internationalbusinessmachines	46837628466252874637762244637	International Busine
 internationalcollegiateprogrammingcontest	46837628466252655344283776472664642668378	International Collegiate Programming Contest	300000
 internationaldatacorporation	4683762846625328226776728466	International Data Corporation	300000
 internationalethernetprivateline	46837628466253843763877482835463	International Ethernet Private Line	300000
-internationalization	46837628466254928466	internationalization	100000
 internationalmonetaryfund	4683762846625666382793863	International Monetary Fund	300000
 internationalorganizationforstandardization	4683762846625674264928466367782632734928466	International Organization for Standardization	300000
 internationalprivateleasedcircuit	468376284662577482835327332472848	International Private Leased Circuit	300000
@@ -998,7 +969,6 @@ itunesmatch	48863762824	iTunes Match	300000
 itunesstore	48863778673	iTunes Store	300000
 ive	483	I've	300000
 jan	526	Jan.	300000
-january	5268279	January	200000
 japaneseroleplayinggame	52726373765375294644263	Japanese Role-Playing Game	300000
 javadevelopmentkit	528233835676368548	Java Development Kit	300000
 javaee	528233	Java EE	300000
@@ -1026,8 +996,6 @@ jrrtolkien	5778655436	J.R.R. Tolkien	300000
 js	57	JS	500000
 json	5766	JSON	500000
 jsp	577	JSP	500000
-july	5859	July	200000
-june	5863	June	200000
 jvm	586	JVM	500000
 kaleidoscope	525343672673	Kaleidoscope	200000
 karabiner	527224637	Karabiner	200000
@@ -1080,7 +1048,6 @@ leagueoflegends	532483635343637	League of Legends	300000
 leancloud	532625683	LeanCloud	300000
 leetcode	53382633	LeetCode	300000
 legalhigh	534254444	Legal High	300000
-lemme	53663	lemme	100000
 lenovo	536686	Lenovo	200000
 lensprotocal	536777686225	Lens Protocal	300000
 leonard	5366273	Leonard	200000
@@ -1094,7 +1061,6 @@ libreoffice	54273633423	LibreOffice	300000
 librewolf	542739653	LibreWolf	300000
 librime	5427463	librime	100000
 lifo	5436	LIFO	500000
-limon	54666	limon	100000
 linkedin	54653346	LinkedIn	300000
 linus	54687	Linus	200000
 linux	54689	Linux	200000
@@ -1112,7 +1078,6 @@ lmao	5626	LMAO	500000
 lmarena	5627362	LMArena	300000
 lmstudio	56788346	LM Studio	300000
 ln	56	l10n	100000
-localization	562254928466	localization	100000
 lockscreen	5625727336	LockScreen	300000
 logioptions	56446784667	Logi Options	300000
 logioptions	56446784667	Logi Options+	300000
@@ -1176,7 +1141,6 @@ manifestv	626433788	Manifest V3	300000
 maninthemiddle	62646843643353	man-in-the-middle	100000
 mappa	62772	MAPPA	500000
 mar	627	Mar.	300000
-march	62724	March	200000
 mariadb	6274232	MariaDB	300000
 markmywords	62756996737	MarkMyWords	300000
 marktext	62758398	Mark Text	300000
@@ -1186,9 +1150,7 @@ masterbootrecord	6278372668732673	master boot record	100000
 mastercard	6278372273	Mastercard	200000
 mathtype	62848973	Mathtype	200000
 matlab	628522	Matlab	200000
-maven	62836	maven	100000
 maxmind	6296463	MaxMind	300000
-may	629	May	200000
 mba	622	MBA	500000
 mbp	627	MBP	500000
 mbr	627	MBR	500000
@@ -1207,7 +1169,6 @@ messenger	637736437	Messenger	200000
 messengerrna	637736437762	messenger RNA	300000
 meta	6382	Meta	200000
 metamask	63826275	MetaMask	300000
-microsoft	642767638	Microsoft	200000
 microsoftaccess	642767638222377	Microsoft Access	300000
 microsoftazure	64276763829873	Microsoft Azure	300000
 microsoftcorporation	64276763826776728466	Microsoft Corporation	300000
@@ -1273,9 +1234,7 @@ musictelevision	687428353847466	Music Television	300000
 musixmatch	6874962824	Musixmatch	200000
 musk	6875	Musk	200000
 mustnt	687868	mustn't	100000
-mutex	68839	mutex	100000
 mvc	682	MVC	500000
-mvn	686	mvn	100000
 mvnd	6863	mvnd	100000
 mvvm	6886	MVVM	500000
 mybatis	6922847	MyBatis	300000
@@ -1302,12 +1261,10 @@ nbsp	6277	&nbsp;	100000
 nearfieldcommunication	6327343532666864228466	Near Field Communication	300000
 nearprotocol	632777686265	NEAR Protocol	300000
 neatdownloadmanager	6328369656236262437	Neat Download Manager	300000
-nebula	632852	nebula	100000
 neednt	633368	needn't	100000
 neoj	6365	Neo4j	300000
 neovim	636846	Neovim	200000
 nestjs	637857	NestJS	300000
-net	638	net	100000
 net	638	.NET	500000
 netdata	6383282	Netdata	200000
 netflix	6383549	Netflix	200000
@@ -1340,7 +1297,6 @@ nokia	66542	Nokia	200000
 nonfungibletoken	6663864425386536	Non-Fungible Token	300000
 nongovernmentalorganization	666468376636825674264928466	Non-Governmental Organization	300000
 nonplayercharacter	666752937242722837	Non-Player Character	300000
-noop	6667	noop	100000
 norah	66724	Norah	200000
 noria	66742	Noria	200000
 northatlantictreatyorganization	6678428526842873289674264928466	North Atlantic Treaty Organization	300000
@@ -1353,9 +1309,7 @@ notsafeforwork	66872333679675	Not Safe For Work	300000
 notsuitableforwork	668784822533679675	Not Suitable For Work	300000
 nov	668	Nov.	300000
 novelai	6683524	NovelAI	300000
-november	66836237	November	200000
 npc	672	NPC	500000
-npm	676	npm	100000
 npmrc	67672	.npmrc	100000
 nsfw	6739	NSFW	500000
 ntfs	6837	NTFS	500000
@@ -1363,7 +1317,6 @@ ntr	687	NTR	500000
 nuxt	6898	Nuxt	200000
 nvalt	68258	nvALT	300000
 nvim	6846	Nvim	200000
-nvm	686	nvm	100000
 nvme	6863	NVMe	300000
 objectivec	6253284832	Objective-C	300000
 objectorientedprogramming	6253286743683377647266464	object-oriented programming	100000
@@ -1375,7 +1328,6 @@ oceanbase	623262273	OceanBase	300000
 ocr	627	OCR	500000
 ocsp	6277	OCSP	500000
 oct	628	Oct.	300000
-october	6286237	October	200000
 octocat	6286228	Octocat	200000
 odysee	639733	Odysee	200000
 ohmygod	6469463	Oh My God	300000
@@ -1422,7 +1374,6 @@ oppo	6776	OPPO	500000
 opt	678	Opt	200000
 opticalcharacterrecognition	678422524272283773264648466	Optical Character Recognition	300000
 optimism	67846476	Optimism	200000
-option	678466	option	100000
 orbiter	6724837	Orbiter	200000
 oreilly	6734559	O'Reilly	300000
 originos	67444667	OriginOS	300000
@@ -1440,10 +1391,8 @@ osxmountainlion	679668682465466	OS X Mountain Lion	300000
 osxyosemite	67996736483	OS X Yosemite	300000
 otc	682	OTC	500000
 oughtnt	6844868	oughtn't	100000
-outta	68882	outta	100000
 oxc	692	Oxc	200000
 paas	7227	PaaS	300000
-pacman	722626	pacman	100000
 pacman	722626	Pac-Man	300000
 paddleocr	723353627	PaddleOCR	300000
 paintcode	724682633	PaintCode	300000
@@ -1475,7 +1424,6 @@ peertopeercontentdeliverynetwork	73378673372668368335483796389675	Peer-to-Peer C
 penny	73669	Penny	200000
 pentium	7368486	Pentium	200000
 permute	7376883	Permute	200000
-personalization	737766254928466	personalization	100000
 pgsql	74775	pgSQL	300000
 phoebe	746323	Phoebe	200000
 photodesk	746863375	PhotoDesk	300000
@@ -1595,20 +1543,15 @@ reconfig	73266344	reconfig	100000
 reddit	733348	Reddit	200000
 redhatenterpriselinux	733428368377747354689	Red Hat Enterprise Linux	300000
 redis	73347	Redis	200000
-refactor	73322867	refactor	100000
-refactoring	73322867464	refactoring	100000
-regexp	734397	regexp	100000
 requestforcomments	737837836726663687	Request for Comments	300000
 rescuetime	7372838463	RescueTime	300000
 resharper	737427737	ReSharper	300000
 restful	7378385	RESTful	300000
-return	738876	return	100000
 rfc	732	RFC	500000
 rfc	732	RFC 3339	500000
 rfcs	7327	RFCs	300000
 rft	738	RFT	500000
 rhel	7435	RHEL	500000
-rho	746	rho	100000
 ribonucleicacid	742668253422243	ribonucleic acid	100000
 richtextformat	74248398367628	Rich Text Format	300000
 rickandmorty	742526366789	Rick and Morty	300000
@@ -1630,7 +1573,6 @@ ross	7677	Ross	200000
 routeros	76883767	RouterOS	300000
 rpg	774	RPG	500000
 rss	777	RSS	500000
-rsync	77962	rsync	100000
 rubymine	78296463	RubyMine	300000
 rubyonrails	78296672457	Ruby on Rails	300000
 runc	7862	runc	100000
@@ -1669,7 +1611,6 @@ semanticui	7362684284	Semantic UI	300000
 seo	736	SEO	500000
 sep	737	Sep.	300000
 sept	7378	Sept.	300000
-september	737836237	September	200000
 sequelize	737835493	Sequelize	200000
 sequoia	7378642	Sequoia	200000
 servercat	737837228	ServerCat	300000
@@ -1683,21 +1624,17 @@ shadowrocket	742369762538	Shadowrocket	200000
 shadowsocks	74236976257	Shadowsocks	200000
 shant	74268	shan't	100000
 shardingsphere	74273464774373	ShardingSphere	300000
-shed	7433	shed	100000
 shed	7433	she'd	100000
 sheeran	7433726	Sheeran	200000
 sheldon	7435366	Sheldon	200000
-shell	74355	shell	100000
 shell	74355	she'll	100000
 shes	7437	she's	100000
-shift	74438	shift	100000
 shitwork	74489675	shitwork	100000
 shottr	746887	Shottr	200000
 shouldisleep	746853475337	Should I Sleep	300000
 shouldnt	74685368	shouldn't	100000
 sideload	74335623	sideload	100000
 sideloading	74335623464	sideloading	100000
-sider	74337	sider	100000
 sigmaos	7446267	SigmaOS	300000
 siliconvalley	7454266825539	Silicon Valley	300000
 simpledesktopdisplaymanager	746753337586734775296262437	Simple Desktop Display Manager	300000
@@ -1706,7 +1643,6 @@ simplenote	7467536683	Simplenote	200000
 simplifiedchinese	74675434332446373	Simplified Chinese	300000
 singbox	7464269	sing-box	100000
 siri	7474	Siri	200000
-skynet	759638	skynet	100000
 skype	75973	Skype	200000
 sleepcycle	7533729253	Sleep Cycle	300000
 slicy	75429	Slicy	200000
@@ -1728,7 +1664,6 @@ sortbyweight	767829934448	sort: by_weight	100000
 sos	767	SOS	500000
 sourcetree	7687238733	Sourcetree	200000
 spa	772	SPA	500000
-space	77223	space	100000
 spacex	772239	SpaceX	300000
 sparkbox	77275269	Sparkbox	200000
 sparrow	7727769	Sparrow	200000
@@ -1745,7 +1680,6 @@ sqlalchemy	7752524369	SQLAlchemy	300000
 sqlite	775483	SQLite	300000
 sqlserver	775737837	SQL Server	300000
 squarepants	77827372687	SquarePants	300000
-srv	778	srv	100000
 srwareiron	7792734766	SRWare Iron	300000
 ssd	773	SSD	500000
 ssh	774	SSH	500000
@@ -1766,10 +1700,8 @@ strongai	78766424	Strong AI	300000
 structuredquerylanguage	78782887337837952648243	Structured Query Language	300000
 studiodisplay	7883463477529	Studio Display	300000
 sublimetext	78254638398	Sublime Text	300000
-submodule	782663853	submodule	100000
 submodules	7826638537	submodules	100000
 substack	78278225	Substack	200000
-sudo	7836	sudo	100000
 sumatra	7862872	Sumatra	200000
 sumatrapdf	7862872733	Sumatra PDF	300000
 sun	786	Sun.	300000
@@ -1788,7 +1720,6 @@ symfony	7963669	Symfony	200000
 syncthing	796284464	Syncthing	200000
 systemctl	797836285	systemctl	100000
 systemd	7978363	systemd	100000
-tab	822	tab	100000
 tableofcontents	822536326683687	Table of Contents	300000
 tableplus	822537587	TablePlus	300000
 tabnine	8226463	Tabnine	200000
@@ -1804,7 +1735,6 @@ teamcity	83262489	TeamCity	300000
 teamviewer	8326843937	TeamViewer	300000
 techweb	8324932	TechWeb	300000
 ted	833	TED	500000
-television	8353847466	television	100000
 tencent	8362368	Tencent	200000
 tensorflow	8367673569	TensorFlow	300000
 termius	8376487	Termius	200000
@@ -1839,7 +1769,6 @@ timebasedonetimepassword	846322733663846372779673	Time-based One-Time Password	3
 timecapsule	84632277853	Time Capsule	300000
 timemachine	84636224463	Time Machine	300000
 timescaledb	84637225332	TimescaleDB	300000
-timeshift	846374438	timeshift	100000
 tinkertool	8465378665	TinkerTool	300000
 tinypng	8469764	TinyPNG	300000
 tiobe	84623	TIOBE	500000
@@ -1853,7 +1782,6 @@ todesk	863375	ToDesk	300000
 todo	8636	TODO	500000
 todoist	8636478	Todoist	200000
 tokeninsight	865364674448	TokenInsight	300000
-tokenizer	865364937	tokenizer	100000
 toml	8665	TOML	500000
 tomsobviousminimallanguage	86676284687646462552648243	Tom's Obvious Minimal Language	300000
 toolongdidntread	8665664343687323	too long; didn't read	100000
@@ -1863,7 +1791,6 @@ touchid	8682443	Touch ID	300000
 tradingview	87234648439	TradingView	300000
 traditionalchinese	872348466252446373	Traditional Chinese	300000
 traefik	8723345	traefik	100000
-translation	87267528466	translation	100000
 transmissioncontrolprotocol	872676477466266876577686265	Transmission Control Protocol	300000
 transportlayersecurity	8726776785293773287489	Transport Layer Security	300000
 trello	873556	Trello	200000
@@ -1898,7 +1825,6 @@ uefi	8334	UEFI	500000
 ufo	836	UFO	500000
 ui	84	UI	500000
 uid	843	UID	500000
-uk	85	UK	500000
 ultraedit	858723348	UltraEdit	300000
 ultraman	85872626	Ultraman	200000
 ulysses	8597737	Ulysses	200000
@@ -1935,8 +1861,6 @@ upscayl	8772295	Upscayl	200000
 uri	874	URI	500000
 url	875	URL	500000
 urls	8757	URLs	300000
-us	87	US	500000
-usa	872	USA	500000
 usb	872	USB	500000
 usba	8722	USB-A	500000
 usbb	8722	USB-B	500000
@@ -1951,7 +1875,6 @@ usds	8737	USDS	500000
 usdt	8738	USDT	500000
 userdatagramprotocol	87373282472677686265	User Datagram Protocol	300000
 userid	873743	User ID	300000
-usr	877	usr	100000
 ussr	8777	USSR	500000
 utc	882	UTC	500000
 utf	883	UTF	500000
@@ -1990,7 +1913,6 @@ vitepress	848377377	VitePress	300000
 vitess	848377	Vitess	200000
 vitest	848378	Vitest	200000
 vivaldi	8482534	Vivaldi	200000
-vivo	8486	vivo	100000
 vjavascriptengine	85282727478364463	V8 JavaScript engine	300000
 vjsengine	857364463	V8 JS engine	300000
 vlan	8526	VLAN	500000
@@ -2048,7 +1970,6 @@ wechatpay	932428729	WeChat Pay	300000
 wed	933	Wed.	300000
 wed	933	we'd	100000
 wednesday	933637329	Wednesday	200000
-well	9355	well	100000
 well	9355	we'll	100000
 were	9373	we're	100000
 werent	937368	weren't	100000
@@ -2056,8 +1977,6 @@ werkzeug	93759384	Werkzeug	200000
 weve	9383	we've	100000
 wezsterminalemulator	93978376462536852867	Wez's Terminal Emulator	300000
 wezterm	9398376	WezTerm	300000
-wget	9438	wget	100000
-whatcha	9428242	whatcha	100000
 whatsapp	94287277	WhatsApp	300000
 whatthefuck	94288433825	what the fuck	100000
 whatyouseeiswhatyouget	9428968733479428968438	What You See Is What You Get	300000

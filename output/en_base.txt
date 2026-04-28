@@ -92181,7 +92181,6 @@ epointz	3764689	epointz	194906
 epoisse	3764773	epoisse	25659
 epolicy	3765429	epolicy	31604
 epolitix	37654849	epolitix	21076
-epoll	37655	epoll	48687
 epom	3766	epom	13234
 epomenh	3766364	epomenh	13926
 epon	3766	epon	45604
@@ -110173,7 +110172,6 @@ gakes	42537	gakes	48088
 gakic	42542	gakic	56766
 gakkai	425524	gakkai	357823
 gakken	425536	gakken	43480
-gakki	42554	gakki	14144
 gakkou	425568	gakkou	13131
 gakona	425662	gakona	21405
 gakuen	425836	gakuen	103572
@@ -115653,7 +115651,6 @@ gissing	4477464	gissing	53508
 gist	4478	gist	686228
 gisteren	44783736	gisteren	13465
 gistory	4478679	gistory	14306
-gists	44787	gists	46570
 gisuser	4478737	gisuser	143999
 giswiki	4479454	giswiki	34049
 git	448	git	1499593
@@ -156046,8 +156043,6 @@ keystroke	539787653	keystroke	527840
 keystrokes	5397876537	keystrokes	612188
 keysville	539784553	keysville	42918
 keyswitch	539794824	keyswitch	26552
-keysym	539796	keysym	70532
-keysyms	5397967	keysyms	16172
 keytab	539822	keytab	35826
 keytags	5398247	keytags	15715
 keytech	5398324	keytech	16566
@@ -160249,7 +160244,6 @@ kqj	575	kqj	14015
 kqkq	5757	kqkq	68177
 kqml	5765	kqml	33743
 kqrs	5777	kqrs	21422
-kqueue	578383	kqueue	37096
 kqv	578	kqv	149702
 kqzaa	57922	kqzaa	27594
 kr	57	kr	3863589
@@ -213341,7 +213335,6 @@ oryzae	679923	oryzae	74698
 oryzanol	67992665	oryzanol	20494
 oryzeae	6799323	oryzeae	15616
 oryzias	6799427	oryzias	31719
-orz	679	orz	78952
 orzechowski	67932469754	orzechowski	15413
 orzo	6796	orzo	68366
 os	67	os	44556124
@@ -242787,7 +242780,6 @@ rebalanced	7322526233	rebalanced	28828
 rebalancing	73225262464	rebalancing	172706
 rebar	73227	rebar	281535
 rebars	732277	rebars	12926
-rebase	732273	rebase	54738
 rebased	7322733	rebased	15588
 rebasing	73227464	rebasing	17590
 rebate	732283	rebate	8451915
@@ -243398,7 +243390,6 @@ reconditioned	7326634846633	reconditioned	2914457
 reconditioner	7326634846637	reconditioner	30326
 reconditioners	73266348466377	reconditioners	34134
 reconditioning	73266348466464	reconditioning	244205
-reconfig	73266344	reconfig	32027
 reconfigurability	73266344872245489	reconfigurability	23748
 reconfigurable	73266344872253	reconfigurable	334093
 reconfiguration	732663448728466	reconfiguration	592029
@@ -251284,7 +251275,6 @@ rograms	7647267	rograms	75294
 rogress	7647377	rogress	22445
 rogs	7647	rogs	29009
 rogue	76483	rogue	4576302
-roguelike	764835453	roguelike	28063
 rogues	764837	rogues	495745
 roguish	7648474	roguish	50658
 roh	764	roh	504248
@@ -263461,7 +263451,6 @@ serverfarm	7378373276	serverfarm	18319
 serverhousing	7378374687464	serverhousing	40937
 serveriron	7378374766	serveriron	41617
 serverlayout	737837529688	serverlayout	26720
-serverless	7378375377	serverless	49172
 serverlist	7378375478	serverlist	37701
 serverloop	7378375667	serverloop	33896
 servern	7378376	servern	16245
@@ -282559,7 +282548,6 @@ submode	7826633	submode	67035
 submodel	78266335	submodel	71123
 submodels	782663357	submodels	77458
 submodule	782663853	submodule	100026
-submodules	7826638537	submodules	43183
 submono	7826666	submono	14737
 submucosa	782682672	submucosa	27504
 submucosal	7826826725	submucosal	40070
