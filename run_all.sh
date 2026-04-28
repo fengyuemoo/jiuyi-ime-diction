@@ -19,15 +19,18 @@ pip install tqdm -q 2>/dev/null || true
 
 python3 build_dict.py \
   --input \
+    en.txt \
     en_base.txt \
     en_ext.txt \
-    cn_base_chars_8105.txt \
-    cn_base_main.txt \
-    cn_base_phrases.txt \
-    cn_en_mixed.txt \
+    en_ext_1.txt \
+    cn_8105.txt \
+    cn_base.txt \
     cn_ext.txt \
+    cn_tencent.txt \
+    cn_en.txt \
     cn_internet_hot_words.txt \
     cn_others.txt \
+    cn_41448.txt \
     cn_thuocl_animal.txt \
     cn_thuocl_car.txt \
     cn_thuocl_finance.txt \
@@ -42,6 +45,9 @@ python3 build_dict.py \
   --lang \
     en \
     en \
+    en \
+    en \
+    zh \
     zh \
     zh \
     zh \
