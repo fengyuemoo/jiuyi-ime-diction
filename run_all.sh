@@ -1,20 +1,19 @@
 #!/usr/bin/env bash
-# run_all.sh — 一键将所有词库文件打包成 dict.db
+# run_all.sh — 一键将所有词库文件打包成 dict.bin
 #
 # 用法：
 #   chmod +x run_all.sh
 #   ./run_all.sh
 #
-# 输出： dist/dict.db
-# 运行完成后把 dist/dict.db 拷贝到：
-#   jiuyi-ime-android/app/src/main/assets/dict.db
+# 输出：dist/dict.bin
+# 运行完成后把 dist/dict.bin 拷贝到：
+#   jiuyi-ime-android/app/src/main/assets/dict.bin
 
 set -euo pipefail
 
-OUTPUT="dist/dict.db"
+OUTPUT="dist/dict.bin"
 mkdir -p dist
 
-# 如果没有 tqdm 就安装（可选）
 pip install tqdm -q 2>/dev/null || true
 
 python3 build_dict.py \
@@ -73,4 +72,4 @@ python3 build_dict.py --verify "$OUTPUT"
 echo ""
 echo "✓ 完成！输出文件：$OUTPUT"
 echo "接下来把它拷贝到久以输入法仓库："
-echo "  app/src/main/assets/dict.db"
+echo "  app/src/main/assets/dict.bin"

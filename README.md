@@ -4,21 +4,22 @@
 
 ## 词库文件格式
 
-所有词库文件均为 **UTF-8 无 BOM、Tab 分隔四列**：
+所有词库文件均为 **UTF-8 无 BOM、Tab 分隔三列**：
 
 | 列 | 中文 / 中英混合 | 英文 |
 |---|---|---|
 | 第1列 | 拼音（音节间用 `'` 分隔） | 小写字母串 |
-| 第2列 | T9 编码 | T9 编码 |
-| 第3列 | 汉字或词 | 词（可含空格） |
-| 第4列 | 词频 | 词频 |
+| 第2列 | 汉字或词 | 词（可含空格） |
+| 第3列 | 词频 | 词频 |
 
 示例：
 ```
-ni'hao	6442566	你好	523901
-zhong'guo	946464486	中国	998000
-hello	43556	hello	5000000
+ni'hao	你好	523901
+zhong'guo	中国	998000
+hello	hello	5000000
 ```
+
+> **注**：T9 编码列已删除，由 `build_dict.py` 打包时实时计算，不再预存。
 
 ## 词库文件列表
 
@@ -54,21 +55,15 @@ hello	43556	hello	5000000
 ### 第一步：转换格式
 
 ```bash
-# 安装依赖
 pip install pypinyin
-
-# 将源目录（.）下所有词库转换，输出到 ./output
 python convert_dicts.py . ./output
 ```
 
 ### 第二步：跨文件全局去重
 
 ```bash
-# 对 output 目录中所有文件做全局去重，直接覆盖写回
 python dedup_output.py ./output
 ```
-
-去重策略：以「拼音 + 词」为唯一键，全局只保留词频最高的条目；词频相同时按文件优先级决定归属，文件结构不变。
 
 ### 第三步：将去重后文件移至根目录
 
@@ -88,14 +83,14 @@ cat cn_8105.txt cn_41448.txt cn_base.txt cn_ext.txt \
     cn_thuocl_food.txt cn_thuocl_history.txt cn_thuocl_idiom.txt \
     cn_thuocl_it.txt cn_thuocl_law.txt cn_thuocl_medical.txt \
     cn_thuocl_place.txt cn_thuocl_poem.txt cn_en.txt \
-    | awk -F'\t' '{print $1"\t"$3}' | sort | uniq -d | wc -l
+    | awk -F'\t' '{print $1"\t"$2}' | sort | uniq -d | wc -l
 
 # 英文跨文件重复检查（结果应为 0）
 cat en.txt en_base.txt en_ext.txt en_ext_1.txt \
-    | awk -F'\t' '{print $1"\t"$3}' | sort | uniq -d | wc -l
+    | awk -F'\t' '{print $1"\t"$2}' | sort | uniq -d | wc -l
 ```
 
-## 打包为 dict.db
+## 打包为 dict.bin
 
 ### 方式一：一键脚本（推荐）
 
@@ -104,7 +99,7 @@ chmod +x run_all.sh
 ./run_all.sh
 ```
 
-输出文件：`dist/dict.db`
+输出文件：`dist/dict.bin`
 
 ### 方式二：手动调用
 
@@ -112,17 +107,17 @@ chmod +x run_all.sh
 python3 build_dict.py \
   --input cn_base.txt en_base.txt \
   --lang zh en \
-  --output dist/dict.db
+  --output dist/dict.bin
 ```
 
 ### 验证结果
 
 ```bash
-python3 build_dict.py --verify dist/dict.db
+python3 build_dict.py --verify dist/dict.bin
 ```
 
-## 将 dict.db 转移到输入法仓库
+## 将 dict.bin 转移到输入法仓库
 
 ```bash
-cp dist/dict.db …/jiuyi-ime-android/app/src/main/assets/dict.db
+cp dist/dict.bin …/jiuyi-ime-android/app/src/main/assets/dict.bin
 ```

@@ -8,6 +8,9 @@ jiuyi-ime-diction 跨文件全局去重脚本
   - 词频相同时，按文件优先级顺序保留排名靠前文件的条目
   - 去重后按原来源文件分别写出，文件结构不变
 
+词库格式（Tab 分隔三列）：
+  拼音/字母    词    词频
+
 用法：
   python dedup_output.py <output目录>
 
@@ -55,10 +58,10 @@ EN_FILES_PRIORITY = [
 def dedup_files(src_dir: str, dst_dir: str, file_list: list):
     """
     读取 file_list 中所有文件，全局去重后写回 dst_dir。
-    去重键：第1列（拼音/字母） + 第3列（词）
+    词库格式：Tab 分隔三列  拼音/字母  词  词频
+    去重键：第1列（拼音/字母） + 第2列（词）
     保留策略：词频最高者优先；词频相同时，file_list 中靠前的文件优先。
     """
-    # best[key] = (freq, priority_index, full_line)
     best = {}
 
     for priority, fname in enumerate(file_list):
@@ -73,11 +76,11 @@ def dedup_files(src_dir: str, dst_dir: str, file_list: list):
                 if not line:
                     continue
                 parts = line.split("\t")
-                if len(parts) < 4:
+                if len(parts) < 3:
                     continue
-                key = (parts[0], parts[2])   # (拼音, 词)
+                key = (parts[0], parts[1])   # (拼音/字母, 词)
                 try:
-                    freq = int(parts[3])
+                    freq = int(parts[2])
                 except ValueError:
                     freq = 0
 
@@ -85,16 +88,13 @@ def dedup_files(src_dir: str, dst_dir: str, file_list: list):
                     best[key] = (freq, priority, fname, line)
                 else:
                     cur_freq, cur_pri, _, _ = best[key]
-                    # 词频更高 → 替换；词频相同但优先级更高（index更小）→ 替换
                     if freq > cur_freq or (freq == cur_freq and priority < cur_pri):
                         best[key] = (freq, priority, fname, line)
 
-    # 按来源文件分组
     result = defaultdict(list)
     for freq, priority, fname, line in best.values():
         result[fname].append(line)
 
-    # 写出（保持原文件内部的行顺序：按拼音排序）
     os.makedirs(dst_dir, exist_ok=True)
     stats = []
     for fname in file_list:

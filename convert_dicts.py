@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 jiuyi-ime-diction 词库统一格式转换脚本
-目标格式（Tab 分隔四列，UTF-8 无 BOM）：
-  中文 / 中英混合：  拼音    T9编码  汉字或词  词频
-  英文：             字母    T9编码  词        词频
+目标格式（Tab 分隔三列，UTF-8 无 BOM）：
+  中文 / 中英混合：  拼音    汉字或词  词频
+  英文：             字母    词        词频
 
 用法：
   python convert_dicts.py <词库源目录> <输出目录>
@@ -15,6 +15,8 @@ jiuyi-ime-diction 词库统一格式转换脚本
 输出文件名规则：
   xxx.dict.yaml  →  xxx.txt
   xxx.txt        →  xxx.txt（同名覆盖到输出目录）
+
+注：T9 编码列已删除，由 build_dict.py 打包时实时计算，不再预存。
 """
 
 import os
@@ -26,20 +28,6 @@ try:
 except ImportError:
     print("请先安装 pypinyin：pip install pypinyin")
     sys.exit(1)
-
-# ──────────────────────────────────────────────────────────
-# T9 映射
-# ──────────────────────────────────────────────────────────
-_T9_TABLE = str.maketrans(
-    "abcdefghijklmnopqrstuvwxyz",
-    "22233344455566677778889999"
-)
-
-def to_t9(s: str) -> str:
-    return re.sub(r"[^a-z0-9]", "", s.lower()).translate(_T9_TABLE)
-
-def pinyin_to_t9(pinyin_str: str) -> str:
-    return to_t9(pinyin_str.replace("'", ""))
 
 # ──────────────────────────────────────────────────────────
 # pypinyin：汉字 → 拼音（撇号分隔多音节）
@@ -75,14 +63,13 @@ def skip_header(lines):
 
 # ──────────────────────────────────────────────────────────
 # 解析器
-# 统一返回 [(word, col2, freq_or_None), ...]
-# col2 含义：中文=拼音, 英文=字母串
+# 统一返回 [(word, pinyin_or_letters, freq_or_None), ...]
 # ──────────────────────────────────────────────────────────
 
 def parse_dict_yaml(path: str):
     """
     标准 Rime .dict.yaml 数据行：
-      word\tpinyin\tfreq   ← 三列（中文有拼音）
+      word\tpinyin\tfreq   ← 三列（有拼音）
       word\tfreq           ← 两列纯数字（无拼音）
       word\tpinyin         ← 两列字母（无词频）
     """
@@ -174,11 +161,9 @@ def parse_cn_en_txt(path: str):
 
 def parse_en_space_separated(path: str):
     """
-    en_base.txt / en_ext.txt — 空格分隔四列
+    en_base.txt / en_ext.txt — 空格分隔四列（旧格式）
     格式：字母  T9编码  词  词频
-    例：a 2 a 9081174698
-        abs 227 ABS 500000
-    注意：词本身可能含空格（如 "Ability Power Carry"），
+    注意：词本身可含空格（如 "Ability Power Carry"），
     因此只拆前两列和最后一列，中间全部作为词。
     """
     results = []
@@ -190,8 +175,7 @@ def parse_en_space_separated(path: str):
             parts = line.split(" ")
             if len(parts) >= 4:
                 letters = parts[0].strip().lower()
-                # parts[1] 是 T9，忽略（重新计算）
-                # 最后一列是词频，中间是词（可含空格）
+                # parts[1] 是旧 T9 列，忽略
                 try:
                     freq = int(parts[-1].strip())
                     word = " ".join(parts[2:-1]).strip()
@@ -276,24 +260,22 @@ def dedup_english(entries):
     return dedup(entries, lambda e: (e[0], (e[1] or "").lower()))
 
 # ──────────────────────────────────────────────────────────
-# 写出
+# 写出（三列：key\t词\t词频）
 # ──────────────────────────────────────────────────────────
 def write_chinese(entries, out_path: str):
-    """拼音\tT9\t汉字\t词频"""
+    """拼音\t汉字/词\t词频"""
     with open(out_path, "w", encoding="utf-8", newline="\n") as f:
         for word, pinyin, freq in entries:
             if not pinyin:
                 continue
-            t9 = pinyin_to_t9(pinyin)
-            f.write(f"{pinyin}\t{t9}\t{word}\t{freq}\n")
+            f.write(f"{pinyin}\t{word}\t{freq}\n")
 
 def write_english(entries, out_path: str):
-    """字母(小写)\tT9\t词\t词频"""
+    """字母(小写)\t词\t词频"""
     with open(out_path, "w", encoding="utf-8", newline="\n") as f:
         for word, letters, freq in entries:
             letters_lower = (letters or re.sub(r"[^a-z]", "", word.lower())).lower()
-            t9 = to_t9(letters_lower)
-            f.write(f"{letters_lower}\t{t9}\t{word}\t{freq}\n")
+            f.write(f"{letters_lower}\t{word}\t{freq}\n")
 
 def write_cn_en(entries, out_path: str):
     """中英混合：含汉字→中文规则，否则→英文规则"""
@@ -301,20 +283,16 @@ def write_cn_en(entries, out_path: str):
         for word, col2, freq in entries:
             if has_chinese(word):
                 pinyin = col2 or ""
-                t9 = pinyin_to_t9(pinyin)
-                f.write(f"{pinyin}\t{t9}\t{word}\t{freq}\n")
+                f.write(f"{pinyin}\t{word}\t{freq}\n")
             else:
                 letters = (col2 or re.sub(r"[^a-z0-9]", "", word.lower())).lower()
-                t9 = to_t9(letters)
-                f.write(f"{letters}\t{t9}\t{word}\t{freq}\n")
+                f.write(f"{letters}\t{word}\t{freq}\n")
 
 # ──────────────────────────────────────────────────────────
 # 文件路由
 # ──────────────────────────────────────────────────────────
 
-NEED_PYPINYIN = {
-    # cn_tencent.dict.yaml 已移除
-}
+NEED_PYPINYIN = set()  # 需要 pypinyin 补全拼音的文件（目前为空）
 
 CN_EN_FILES = {
     "cn_en.txt",
@@ -422,9 +400,11 @@ if __name__ == "__main__":
   # 在仓库根目录，转换全部文件到 output/ 目录
   python convert_dicts.py . ./output
 
-输出格式（UTF-8 无 BOM，Tab 分隔四列）：
-  中文 / 中英混合：  拼音    T9编码  汉字或词  词频
-  英文：             字母    T9编码  词        词频
+输出格式（UTF-8 无 BOM，Tab 分隔三列）：
+  中文 / 中英混合：  拼音    汉字或词  词频
+  英文：             字母    词        词频
+
+T9 编码列已删除，由 build_dict.py 打包时实时计算。
 """,
     )
     ap.add_argument("src_dir", help="词库源目录（仓库根目录）")
