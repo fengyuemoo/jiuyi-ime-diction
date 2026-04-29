@@ -1,765 +1,765 @@
-a'tuo'mo'lan	288666526	阿拓莫兰	1
-ai'bo'la'chu'xie're	24265224894373	埃博拉出血热	1362
-ai'lei'si	2453474	埃勒斯	3
-ai'ye	2493	艾叶	897
-an'tan	26826	安坦	13
-ao'dang'da'qiao	263264327426	澳凼大桥	4
-ao'ni	2664	奥妮	56
-ba'bo	2226	巴伯	327
-ba'hua	22482	八华	32
-bai'can	224226	白参	49
-bai'er	22437	拜尔	204
-bai'hu'tang	224488264	白虎汤	102
-bai'ji	22454	白芨	72
-bai'qian	2247426	白前	38
-bai'wei	224934	白薇	56
-bai'xue'bing	2249832464	白血病	17294
-bai'xue'zheng	22498394364	败血症	1665
-bai'ying	2249464	白英	36
-bai'zhu	224948	白术	665
-ban'chui'ti'ji'xing	226248484549464	半椎体畸形	4
-ban'lan'gen	226526436	板兰根	24
-ban'lan'gen'chong'ji	2265264362466454	板兰根冲剂	10
-bao'mo	22666	薄膜	4625
-bao'tuo	226886	剥脱	232
-bao'zhong	22694664	胞中	4
-bei'mu	23468	贝母	381
-bi'ba	2422	荜茇	10
-bi'gan	24426	鼻干	116
-bi'se	2473	鼻塞	2418
-bi'xie	24943	萆薢	11
-bi'zheng	2494364	痹证	38
-biao'zhuang'ruan'gu	2426948264782648	杓状软骨	3
-bie'jia	243542	鳖甲	75
-bo'ci	2624	波茨	61
-bu'lang	285264	步廊	39
-bu'ru'qi	287874	哺乳期	3738
-cai'se'duo'pu'lei'chao'sheng	2247338678534242674364	彩色多普勒超声	121
-cai'se'duo'pu'lei'xue'liu'xian'xiang	2247338678534983548942694264	彩色多普勒血流显像	3
-can'chan'xiao'jie'jiao'nang	2262426942654354266264	参蟾消解胶囊	3
-can'di'yi'shen'kou'fu'ye	226349474365683893	参地益肾口服液	6
-can'e'wen'shen'kou'fu'ye	226393674365683893	参蛾温肾口服液	3
-can'fu'tang	226388264	参附汤	7
-can'fu'zhu'she'ye	2263894874393	参附注射液	25
-can'gui'li'zhong'wan	2264845494664926	参桂理中丸	1
-can'gui'lu'rong'wan	226484587664926	参桂鹿茸丸	6
-can'gui'run'zao'cha'ji	22648478692624254	参归润燥搽剂	2
-can'ha'ping'chuan'jiao'nang	2264274642482654266264	参蛤平喘胶囊	10
-can'lian'jiao'nang	226542654266264	参莲胶囊	1
-can'ling'bai'zhu'jiao'nang	226546422494854266264	参苓白术胶囊	1
-can'ling'bai'zhu'ke'li	22654642249485354	参苓白术颗粒	2
-can'ling'bai'zhu'san	2265464224948726	参苓白术散	34
-can'ling'bai'zhu'wan	2265464224948926	参苓白术丸	17
-can'ling'gan'kang'jiao'nang	2265464426526454266264	参灵肝康胶囊	1
-can'ling'lan'jiao'nang	226546452654266264	参灵蓝胶囊	1
-can'long'ning'xin'jiao'nang	2265664646494654266264	参龙宁心胶囊	1
-can'lu'fu'zheng'jiao'nang	22658389436454266264	参鹿扶正胶囊	11
-can'mai'zhu'she'ye	22662494874393	参麦注射液	67
-can'mei'yang'wei'ke'li	22663492649345354	参梅养胃颗粒	1
-can'nan'xing'kou'fu'ye	22662694645683893	参南星口服液	4
-can'qi'fu'zheng'zhu'she'ye	22674389436494874393	参芪扶正注射液	3
-can'qi'jian'wei'ke'li	2267454269345354	参芪健胃颗粒	1
-can'qi'jiang'tang'jiao'nang	2267454264826454266264	参芪降糖胶囊	4
-can'qi'jiang'tang'ke'li	226745426482645354	参芪降糖颗粒	1
-can'qi'jiao'nang	2267454266264	参芪胶囊	9
-can'qi'ke'li	226745354	参杞颗粒	1
-can'qi'ke'li	226745354	参芪颗粒	1
-can'qi'nao'kang'jiao'nang	22674626526454266264	参七脑康胶囊	2
-can'qi'pian	226747426	参芪片	1
-can'qi'shi'yi'wei'ke'li	22674744949345354	参芪十一味颗粒	1
-can'qi'xin'shu'jiao'nang	2267494674854266264	参七心疏胶囊	10
-can'qiong'pu'tao'tang'zhu'she'ye	2267466478826826494874393	参芎葡萄糖注射液	1
-can'shao'pian	22674267426	参芍片	1
-can'song'yang'xin'jiao'nang	2267664926494654266264	参松养心胶囊	28
-can'su'gan'mao'pian	226784266267426	参苏感冒片	1
-can'su'wan	22678926	参苏丸	4
-can'suo'ba'ji'kou'fu'ye	22678622545683893	参锁巴戟口服液	1
-can'xian'sheng'mai'kou'fu'ye	2269426743646245683893	参仙升脉口服液	1
-can'yang'jiao'nang	226926454266264	参阳胶囊	2
-can'zhu'jing'ke'li	22694854645354	参竹精颗粒	1
-cang'chang'pu	22642426478	藏菖蒲	1
-cang'yi	226494	藏医	634
-cao'kou	226568	草蔻	3
-cao'mu'xi	2266894	草木犀	3
-ceng'qi'yi	23647494	曾其毅	54
-ceng'qiu'kun	2364748586	曾秋坤	10
-chang'chu'xie'xing'da'chang'gan'jun	2426424894394643224264426586	肠出血性大肠杆菌	973
-chao'yang'hua'wu'qi'hua'mei	242692644829874482634	超氧化物岐化酶	7
-chen'xiang'lou'bai'lu	24369426456822458	陈香露白露	1
-chen'xiang'lou'bai'lu'pian	243694264568224587426	陈香露白露片	1
-cheng'guang	2436448264	承光	16
-cheng'jiang	2436454264	承浆	3
-cheng'man	24364626	承满	2
-cheng'qi	2436474	承泣	12
-cheng'shan	243647426	承山	12
-cheng'shu'jie'duan	243647485433826	成熟阶段	520
-cheng'shu'qi	2436474874	成熟期	3067
-chi'hong	2444664	赤魟	3
-chong'cao'can'qi'gao	2466422622674426	虫草参芪膏	2
-chong'cao'can'qi'kou'fu'ye	24664226226745683893	虫草参芪口服液	2
-chong'cao'qi'can'jiao'nang	246642267422654266264	虫草芪参胶囊	1
-chong'cao'yang'can'jiao'nang	24664226926422654266264	虫草洋参胶囊	1
-chong'mei	24664634	虫媒	222
-chong'zu	2466498	重组	42474
-chou'dong'hui'yu'zong'he'zheng	246836644849896644394364	抽动秽语综合症	7
-chu'xie'dian	2489433426	出血点	602
-chu'xie'qing'xiang	248943746494264	出血倾向	165
-chu'xie're	24894373	出血热	577
-chu'xie'xing'xiu'ke	248943946494853	出血性休克	145
-chuan'qiong	2482674664	川芎	528
-chuan'qiong'cha'diao'ke'li	248267466424234265354	川芎茶调颗粒	4
-chuan'qiong'cha'diao'san	24826746642423426726	川芎茶调散	6
-chuan'qiong'qin	2482674664746	川芎嗪	30
-chui'ban	2484226	椎板	68
-chui'dong'mai	24843664624	椎动脉	228
-chui'dong'mai'xing'jing'chui'bing	248436646249464546424842464	椎动脉型颈椎病	28
-chui'gong	24844664	椎弓	16
-chui'gu	248448	椎骨	989
-chui'guan	24844826	椎管	194
-chui'guan'nei'ma'zui	2484482663462984	椎管内麻醉	7
-chui'guan'nei'zhong'liu'qie'chu'shu	2484482663494664548743248748	椎管内肿瘤切除术	6
-chui'guan'xia'zhai	248448269429424	椎管狭窄	319
-chui'guan'zao'ying	248448269269464	椎管造影	1
-chui'ji'di'dong'mai	248454343664624	椎基底动脉	10
-chui'jian'kong	248454265664	椎间孔	106
-chui'jian'pan	24845426726	椎间盘	1157
-chui'jian'pan'bian'xing	2484542672624269464	椎间盘变性	7
-chui'jian'pan'tuo'chu	24845426726886248	椎间盘脱出	13
-chui'jian'pan'zao'ying	248454267269269464	椎间盘造影	2
-chui'kong	24845664	椎孔	2
-chui'qian'jian'xi	24847426542694	椎前间隙	1
-chui'ti	248484	椎体	1015
-ci'liao	245426	次髎	8
-cong'rong	26647664	苁蓉	107
-da'chang'yu	322426498	大肠俞	16
-da'chang'yu'xue	322426498983	大肠俞穴	5
-da'chui	322484	大椎	101
-da'chui'xue	322484983	大椎穴	149
-da'he	3243	大赫	5
-da'ling	325464	大陵	26
-da'nuo	32686	达诺	11
-da'tui'zhang	3288494264	大腿长	18
-da'xi	3294	达喜	121
-da'xue'guan	329834826	大血管	1070
-da'zhang'jin	3294264546	大长今	458
-dai'ha'san	32442726	黛蛤散	1
-dai'xing	3249464	带型	34
-dan'guo	326486	单果	204
-dan'ni	32664	胆泥	5
-dan'ning'suan	32664647826	丹宁酸	25
-dan'shen'chuan'qiong'qin'zhu'she'ye	3267436248267466474694874393	丹参川芎嗪注射液	3
-dan'yu	32698	胆俞	2
-dan'yu'xue	32698983	胆俞穴	3
-dan'zhong	32694664	膻中	42
-deng'ge'chu'xie're	33644324894373	登革出血热	111
-deng'xin'cao	3364946226	灯心草	25
-deng'zhang'shou'suo	3364942647468786	等长收缩	7
-di'bu'rong	34287664	地不容	6
-di'cang	342264	地仓	30
-di'jia'xue'zheng	3454298394364	低钾血症	133
-di'xue'tang	349838264	低血糖	2274
-di'xue'ya	3498392	低血压	883
-dian'jia	3426542	颠茄	43
-dian'jia'cao	3426542226	颠茄草	1
-dian'jia'he'ji	34265424354	颠茄合剂	5
-dian'jia'jin'gao	3426542546426	颠茄浸膏	3
-dian'jia'liu'jin'gao	3426542548546426	颠茄流浸膏	1
-dian'jia'pian	34265427426	颠茄片	44
-diao'zhi	3426944	调质	27
-ding'ge'di'er	3464433437	丁咯地尔	4
-dong'feng'ju	3664336458	东风桔	1
-dou'qi'wan	36874926	都气丸	2
-du'bi	3824	犊鼻	2
-du'can'tang	382268264	独参汤	3
-du'yu'xue	3898983	督俞穴	1
-duo'fa'xing'ying'hua	3863294649464482	多发性硬化	111
-duo'pu'lei	38678534	多普勒	557
-duo'pu'lei'jian'cha	386785345426242	多普勒检查	13
-duo'zhan'jun'su	386942658678	多粘菌素	49
-e'shu	3748	莪术	46
-e'shu'chun	37482486	莪术醇	1
-e'shu'you	3748968	莪术油	2
-e'shu'you'pu'tao'tang'zhu'she'ye	374896878826826494874393	莪术油葡萄糖注射液	1
-e'zuo'wan'tong	39869268664	恶唑烷酮	2
-er'ci'jie'gou	3724543468	二次结构	111
-fan'ming	3266464	范明	231
-fan'su	32678	泛素	64
-fang'can'zhi'yang'ke'li	326422694492645354	防参止痒颗粒	1
-fang'zhi	3264944	防治	77390
-fei'chang'ji	3342426454	腓肠肌	76
-fei'chu'xie	334248943	肺出血	280
-fei'yu	33498	肺俞	48
-fei'yu'xue	33498983	肺俞穴	25
-fei'zi	33494	榧子	15
-fen'bi'dei	33624334	芬必得	210
-feng'chi	3364244	风池	98
-feng'fu	336438	风府	24
-feng'la	336452	蜂腊	1
-feng'le'xing'feng'shi'die'da'yao'jiu	3364539464336474434332926548	冯了性风湿跌打药酒	4
-feng'long	33645664	丰隆	207
-feng'zhe'shang	336494374264	蜂蛰伤	14
-fu'fang'e'shu'you'ruan'jiao'nang	3832643748968782654266264	复方莪术油软胶囊	1
-fu'fang'gui'nuo'tong'pian	38326448468686647426	复方炔诺酮片	5
-fu'fang'huang'an'jia'e'zuo	38326448264265423986	复方磺胺甲恶唑	9
-fu'fang'huang'an'jia'e'zuo'fen'san'pian	383264482642654239863367267426	复方磺胺甲恶唑分散片	1
-fu'fang'huang'an'jia'e'zuo'pian	383264482642654239867426	复方磺胺甲恶唑片	3
-fu'fang'huang'an'jia'e'zuo'zhu'she'ye	3832644826426542398694874393	复方磺胺甲恶唑注射液	5
-fu'fang'huang'lian'su'pian	383264482645426787426	复方黄莲素片	1
-fu'fang'zuo'gui'nuo'yun'tong	3832649864846869868664	复方左炔诺孕酮	3
-fu'fen	38336	附分	1
-fu'he	3843	负荷	19325
-fu'ke	3853	妇科	9126
-fu'qiang	3874264	腹腔	3467
-fu'rong'xue'xing'hu'jun	387664983946448586	副溶血性弧菌	161
-fu'shan	387426	傅山	235
-fu'yan'bao	38926226	佛焰苞	28
-fu'yan'hua'xu	3892648298	佛焰花序	2
-fu'zhan'bing'du	389426246438	副粘病毒	3
-ga'ma'dao'zhi'liao	42623269445426	伽玛刀治疗	19
-gan'ju'bing'mei'pian	4265824646347426	甘桔冰梅片	2
-gan'kang	4265264	感康	83
-gan'you'san'zhi	426968726944	甘油三脂	59
-gan'yu	42698	肝俞	16
-gan'yu'xue	42698983	肝俞穴	8
-gao'huang'yu	4264826498	膏肓俞	1
-gao'nian'chou'xue'zheng	4266426246898394364	高粘稠血症	1
-gao'niao'suan'xue'zheng	4266426782698394364	高尿酸血症	301
-gao'xue'tang	4269838264	高血糖	1790
-gao'xue'ya	42698392	高血压	27960
-gao'xue'ya'fang'zhi	426983923264944	高血压防治	172
-gao'xue'ya'huan'zhe	426983924826943	高血压患者	2733
-gao'zhi'xue'zheng	42694498394364	高脂血症	752
-ge'lan'shi'ran'se'yang'xing	435267447267392649464	革兰氏染色阳性	1
-ge'lie'ben'niao	435432366426	格列苯脲	77
-ge'yu	4398	膈俞	16
-ge'yu'xue	4398983	膈俞穴	3
-gen'tou	436868	根头	9
-gen'zhu	436948	根株	14
-geng'zu	436498	梗阻	3355
-gong'qiang	466474264	宫腔	427
-gou'chui'guan'jie	46824844826543	钩椎关节	8
-gou'ji	46854	狗脊	5
-gu'gu'zhang	484894264	股骨长	12
-gu'jin'mo'shi'zong'he'zheng	485466674496644394364	骨筋膜室综合症	5
-guan'chong	482624664	关冲	10
-guan'xi	482694	灌洗	225
-guan'yi	482694	管轶	45
-guan'yuan	48269826	关元	108
-guan'yuan'yu'xue	4826982698983	关元俞穴	1
-guang'qi	4826474	光气	130
-gui'ci'chun	484242486	炔雌醇	4
-gui'ci'chun'pian	4842424867426	炔雌醇片	4
-gui'ci'mi	4842464	炔雌醚	1
-gui'nuo'tong	4846868664	炔诺酮	17
-ha'lei'man	42534626	哈勒曼	3
-hai'piao'shao	42474267426	海螵蛸	8
-han'tan'bing'du'fei'zong'he'zheng	42682624643833496644394364	汉坦病毒肺综合症	2
-he'gu	4348	合谷	228
-he'qi	4374	何启	17
-he'suan	437826	核酸	4927
-hong'lu'can'pian	4664582267426	红鹿参片	3
-hu'lian	485426	胡连	29
-hu'lu'ba	485822	葫芦巴	86
-hu'lu'ba'jian	4858225426	葫芦巴碱	13
-hu'po'hai'jing'wan	48764245464926	琥珀还睛丸	1
-hu'tong	488664	护彤	8
-hua'pi	48274	化皮	22
-hua'shan'can	4827426226	华山参	1
-hua'sheng	48274364	化生	235
-huan'chui'gu'zhe	4826248448943	寰椎骨折	7
-huang'an'jia'e'zuo	48264265423986	磺胺甲恶唑	10
-huang'bai	48264224	黄柏	661
-huang'bai'jiao'nang	4826422454266264	黄柏胶囊	1
-huang'kuan	482645826	黄宽	9
-huang'yu	4826498	肓俞	1
-huang'zhi	48264944	黄枝	23
-hui'xiang'ju'he'wan	484942645843926	茴香桔核丸	1
-hui'yang	4849264	会阳	5
-hui'zong	4849664	会宗	4
-huo'pu'xia'ling'tang	4867894254648264	藿朴夏苓汤	3
-huo'xue'hua'yu	48698348298	活血化瘀	967
-ji'ben	54236	吉本	84
-ji'fu	5438	肌腹	4
-ji'xing'bai'xue'bing	5494642249832464	急性白血病	1293
-ji'xing'chu'xie'xing'jie'mo'yan	549464248943946454366926	急性出血性结膜炎	272
-ji'xing'lin'ba'xi'bao'bai'xue'bing	54946454622942262249832464	急性淋巴细胞白血病	1044
-ji'xing'lin'ba'xi'bao'xing'bai'xue'bing	549464546229422694642249832464	急性淋巴细胞性白血病	165
-ji'xing'wei'zhan'mo'bing'bian	54946493494266624642426	急性胃粘膜病变	6
-ji'xing'zao'you'li'xi'bao'bai'xue'bing	54946492696854942262249832464	急性早幼粒细胞白血病	266
-ji'zhi	54944	肌质	4
-jia'de	54233	嘉德	1404
-jia'ji	54254	夹脊	1
-jia'ji'xue	54254983	夹脊穴	2
-jia'wei'huo'xiang'zheng'qi'wan	542934486942649436474926	加味霍香正气丸	2
-jia'xing'xing'zao'shu	54294649464926748	假性性早熟	127
-jia'zhuang	542948264	甲状	8
-jian'jing	54265464	肩井	29
-jian'li	542654	建里	12
-jian'shi	5426744	间使	41
-jian'wai'yu	542692498	肩外俞	4
-jian'yi	542694	检疫	30790
-jian'yu	542698	肩髃	9
-jian'zhen	54269436	鉴真	522
-jian'zhen	54269436	肩贞	3
-jian'zhong'yu	54269466498	肩中俞	3
-jiang'xiang	5426494264	降香	148
-jiang'ying	542649464	姜英	39
-jiang'zhen	542649436	降真	20
-jiao'gan'shen'jing'xing'jing'chui'bing	5426426743654649464546424842464	交感神经型颈椎病	11
-jiao'gu'lan'zong'dai'pian	54264852696643247426	绞股蓝总甙片	2
-jiao'hua	5426482	角化	197
-jiao'xin	5426946	交信	22
-jie'jing	5435464	解痉	153
-jie'mo'chong'xue	5436624664983	结膜充血	232
-jie'xi	54394	解溪	9
-jie'yu	54398	解郁	363
-jin'ci'can'jiu'zheng'he'ji	54624226548943644354	金刺参九正合剂	3
-jin'fu'zhi'tong'wan	546389448664926	金佛止痛丸	5
-jin'jin	546546	金津	53
-jin'kui	546584	金匮	33
-jin'kui'shen'qi'wan	546584743674926	金匮肾气丸	42
-jin'kui'yao'lve	546584926583	金匮要略	132
-jin'suo	546786	筋缩	6
-jin'ying	5469464	金樱	2
-jin'zhi'jie'ken'han'shu'ye	54694454353642674893	金栀洁龈含漱液	1
-jin'zhong	54694664	近中	240
-jing'can'yi'qi'ke'li	546422694745354	景参益气颗粒	1
-jing'chui	54642484	颈椎	5858
-jing'chui'ban'tuo'wei	54642484226886934	颈椎半脱位	27
-jing'chui'bing	546424842464	颈椎病	3451
-jing'chui'bing'tie	546424842464843	颈椎病贴	2
-jing'chui'gu'zhe	5464248448943	颈椎骨折	470
-jing'chui'jian'pan	546424845426726	颈椎间盘	201
-jing'chui'jie'he	5464248454343	颈椎结核	8
-jing'chui'tuo'wei	54642484886934	颈椎脱位	40
-jing'le	546453	颈肋	1
-jing'lu'duo'pu'lei	54645838678534	经颅多普勒	49
-jing'lu'duo'pu'lei'chao'sheng	54645838678534242674364	经颅多普勒超声	6
-jing'mai'xue	5464624983	静脉血	710
-jing'ming	54646464	睛明	23
-jing'qian'nian'ye'xing'shui'zhong	546474266426939464748494664	胫前粘液性水肿	1
-ju'quan	587826	聚泉	12
-jue'yin	583946	厥阴	11
-jue'yin'yu	58394698	厥阴俞	2
-jun'xue'zheng	58698394364	菌血症	120
-kang'ban'gui	5264226484	扛板归	1
-kang'lin'zhi'zong'he'zheng	526454694496644394364	抗磷脂综合症	3
-kang'she'du'xue'qing	5264743389837464	抗蛇毒血清	254
-ke'er	5337	克尔	248
-ke'lun'te'luo	5358683586	克伦特罗	710
-ke'qin	53746	柯琴	1
-ke'shen'ke'teng	537436538364	克什克腾	77
-ken'gou'ye	53646893	龈沟液	7
-ken'jiao'xue	5365426983	龈交穴	14
-ken'xia'gua'zhi'shu	536942482944748	龈下刮治术	1
-ken'yan	536926	龈炎	5
-kou'jue'yan	568583926	口角炎	127
-kou'qiang'zhan'mo'bai'ban'bing	568742649426662242262464	口腔粘膜白斑病	3
-kou'qiang'zhan'mo'bing	568742649426662464	口腔粘膜病	9
-kou'qiang'zhan'mo'bing'xue	568742649426662464983	口腔粘膜病学	1
-ku'mu	5868	苦木	7
-ku'xuan'can	589826226	苦玄参	2
-lai'he	52443	赖和	62
-lan'dun	526386	蓝顿	9
-le'chui'guan'jie	5324844826543	肋椎关节	3
-le'ge'jiao	53435426	肋膈角	1
-le'ge'wang	53439264	了哥王	6
-le'gou	53468	肋沟	1
-le'jian'ji	53542654	肋间肌	59
-le'jian'shen'jing'tong	535426743654648664	肋间神经痛	39
-le'jian'wai'ji	53542692454	肋间外肌	4
-le'jian'xi	53542694	肋间隙	30
-le'li	5354	乐力	112
-le'ruan'gu	53782648	肋软骨	100
-le'ruan'gu'yan	53782648926	肋软骨炎	18
-lei'gong'teng'duo'dai	53446648364386324	雷公藤多甙	2
-lei'gong'teng'duo'dai'pian	534466483643863247426	雷公藤多甙片	1
-lei'gong'teng'duo'gan'pian	534466483643864267426	雷公藤多苷片	9
-li'chen	542436	李辰	114
-li'da	5432	丽达	273
-li'gao	54426	李杲	60
-li'shen'man'bing	5474366262464	利什曼病	12
-li'shen'man'yuan'chong	547436626982624664	利什曼原虫	1
-li'ting	548464	李梃	1
-lian'chuang	5426248264	臁疮	5
-lian'quan	54267826	廉泉	45
-lian'xin	5426946	莲芯	26
-liang'ke	5426453	两课	145
-liang'qiu	54264748	梁丘	6
-liang'xue'zhi'xue	54264983944983	凉血止血	127
-liao'can'jiao'nang	542622654266264	蓼参胶囊	1
-lin'ba'xi'bao'bai'xue'bing	54622942262249832464	淋巴细胞白血病	227
-lin'dan	546326	林旦	1
-lin'suan'chuan'qiong'qin	54678262482674664746	磷酸川芎嗪	2
-lin'suan'ge'ding	5467826433464	磷酸咯啶	1
-lin'yi	54694	林亿	21
-liu'han	548426	刘翰	6
-liu'huang'ruan'gao	548482647826426	硫磺软膏	21
-liu'suan'zhan'jun'su	5487826942658678	硫酸粘菌素	2
-liu'suan'zhan'jun'su'pian	54878269426586787426	硫酸粘菌素片	1
-liu'xing'xing'chu'xie're	5489464946424894373	流行性出血热	261
-liu'yang'hai'dan'bai'huan'yuan'mei	548926442432622448269826634	硫氧还蛋白还原酶	1
-liu'yuan	5489826	刘沅	521
-long'dan	5664326	龙胆	177
-long'gu'jing'chui'jiao'nang	5664485464248454266264	龙骨颈椎胶囊	2
-lu'ding	583464	芦丁	102
-lu'ken'xiao	585369426	露龈笑	1
-lu'nei'chu'xue	58634248983	颅内出血	2542
-lu'rong'can'bian'jiu	5876642262426548	鹿茸参鞭酒	12
-lu'rong'yang'can'pian	58766492642267426	鹿茸洋参片	5
-lv'dan'zhuo	583269486	氯氮卓	17
-ma'niao'pao	626426726	马尿泡	2
-ma'yi'shuang'can'tong'bi'wan	6294748264226866424926	蚂蚁双参通痹丸	3
-ma'yi'zong'he'zheng	629496644394364	马尾综合征	4
-man'ting	6268464	满婷	15
-man'xing'bai'xue'bing	62694642249832464	慢性白血病	125
-man'xing'pi'lao'zong'he'zheng	62694647452696644394364	慢性疲劳综合症	59
-man'xing'shen'yan'zong'he'zheng	6269464743692696644394364	慢性肾炎综合症	1
-mao'xi'xue'guan	626949834826	毛细血管	2763
-mao'xi'xue'guan'kuo'zhang	62694983482658694264	毛细血管扩张	271
-mei'shi'zi'suan	634744947826	没食子酸	5
-mian'zi'you	642694968	棉子油	12
-mu'xi'cao'gan	6894226426	木犀草苷	35
-mu'xi'cao'su	689422678	木犀草素	4
-mu'xiang'bin'lang'wan	68942642465264926	木香槟榔丸	4
-mu'zhang'zhan'ji	6894264942654	拇长展肌	1
-nan'jing	6265464	难经	67
-nan'xing'geng'nian'qi'zong'he'zheng	6269464436464267496644394364	男性更年期综合症	3
-nao'chu'xie	626248943	脑出血	4205
-nao'dao	626326	脑岛	21
-nao'gan'chu'xie	626426248943	脑干出血	480
-nao'xue'guan	6269834826	脑血管	2777
-nao'xue'guan'ji'xing	6269834826549464	脑血管畸形	183
-nao'xue'guan'po'lie	626983482676543	脑血管破裂	228
-nao'xue'guan'yi'wai	626983482694924	脑血管意外	400
-nao'xue'shuan'hou'yi'zheng	626983748264689494364	脑血栓后遗症	148
-nao'zu'zhong	6269894664	脑卒中	1925
-nei'chu'xue	634248983	内出血	951
-nei'xiao	6349426	内消	21
-nian'ye'ai	64269324	粘液癌	1
-nian'ye'biao'pi'yang'ai	642693242674926424	粘液表皮样癌	2
-nian'ye'xian'ai	642693942624	粘液腺癌	13
-nian'ye'xing'shui'zhong	6426939464748494664	粘液性水肿	4
-niao'shi	6426744	尿石	10
-ning'xue'yin'zi	646498394694	凝血因子	364
-pang'guang'yu	72644826498	膀胱俞	6
-pang'guang'yu'xue	72644826498983	膀胱俞穴	1
-pi'fu'mo'xue'shu	743866983748	皮肤磨削术	7
-pi'fu'zhan'mo	7438942666	皮肤粘膜	107
-pi'pa	7472	枇杷	1773
-pi'xia'xue'zhong	7494298394664	皮下血肿	115
-pi'yu	7498	脾俞	51
-pi'yu'xue	7498983	脾俞穴	16
-pu'an'suan	78267826	脯氨酸	19
-qi'can'chong'cao'jiu	7422624664226548	芪参虫草酒	3
-qi'can'jiao'nang	7422654266264	芪参胶囊	3
-qi'dai'xue	74324983	脐带血	786
-qi'hai'yu	7442498	气海俞	3
-qi'hu	7448	气户	50
-qi'wei'dou'qi'wan	7493436874926	七味都气丸	1
-qi'xue'yun'xing	749839869464	气血运行	406
-qi'yu	7498	气郁	156
-qi'zhi'xue'yu	7494498398	气滞血瘀	247
-qian'bi'zhang	74262494264	前臂长	6
-qian'gu	742648	前谷	13
-qian'hu	742648	前胡	76
-qian'shi	7426744	芡实	489
-qian'yi	742694	钱乙	14
-qiang'pu'an'suan	7426478267826	羟脯氨酸	31
-qin'pi	74674	秦皮	8
-qing're'liang'xue	74647354264983	清热凉血	172
-qiong'ju'shang'qing'pian	74664587426474647426	芎菊上清片	1
-qu'gu	7848	曲骨	5
-qu'le'min	7853646	区乐民	1
-qu'mei	78634	曲美	469
-qu'yang'yun'xi'gui'ci'chun'pian	789264986944842424867426	去氧孕烯炔雌醇片	1
-que'tie'xing'pin'xue	7838439464746983	缺铁性贫血	528
-ran'se'ti'zhong'pai	726738494664724	染色体重排	2
-ren'gong'xue'guan	73646649834826	人工血管	125
-ren'xue'bai'dan'bai	736983224326224	人血白蛋白	305
-ren'zao'xue'guan	7369269834826	人造血管	119
-rong'can'bu'shen'jiao'nang	766422628743654266264	茸参补肾胶囊	1
-rong'xue'xing'pin'xue	76649839464746983	溶血性贫血	271
-san'jiao'yu	726542698	三焦俞	4
-san'jiao'yu'xue	726542698983	三焦俞穴	1
-san'yang	7269264	三阳	659
-sang'piao'shao	726474267426	桑螵蛸	11
-sang'piao'shao'san	726474267426726	桑螵蛸散	1
-sang'shen'ke'li	726474365354	桑椹颗粒	9
-sang'shen'pei	72647436734	桑椹胚	2
-sang'shen'zi	7264743694	桑椹子	17
-sha'shen	7427436	沙参	305
-shan'ci'gu	74262448	山慈菇	11
-shan'qi	742674	疝气	874
-shang'jia	74264542	尚佳	273
-shang'shi	74264744	伤湿	24
-shang'xiao'hua'dao'chu'xie	742649426482326248943	上消化道出血	161
-shang'yang	742649264	商阳	10
-shang'zhi'zhang	7426494494264	上肢长	6
-shao'fu	742638	少府	28
-shao'fu	742638	少腹	37
-she'ji'dai	74354324	舌系带	20
-she'ji'dai'guo'duan	743543244863826	舌系带过短	11
-shen'fu'he	74363843	深覆合	5
-shen'fu'he	74363843	深覆颌	3
-shen'jing'gen'xing'jing'chui'bing	743654644369464546424842464	神经根型颈椎病	37
-shen'jing'yuan'xing'xiu'ke	743654649826946494853	神经原性休克	12
-shen'wei'suo	7436934786	肾萎缩	111
-shen'yu	743698	肾俞	91
-shen'yu'xue	743698983	肾俞穴	71
-shen'zang'sun'shang	7436926478674264	肾脏损伤	111
-shen'zhu	7436948	身柱	9
-sheng'ma	7436462	升麻	113
-sheng'shai'can	743647424226	生晒参	60
-sheng'yin	74364946	盛寅	10
-shi'bi	74424	湿痹	72
-shi'de'ning	744336464	士的宁	13
-shi'dong'xian'xiang	7443664942694264	似动现象	2
-shi'le	74453	诗乐	57
-shi'san'wei'xi'ming'wan	744726934946464926	十三味菥蓂丸	2
-shi'wei	744934	石韦	11
-shi'xing'gan'mao	7449464426626	时行感冒	24
-shi'xuan	7449826	十宣	32
-shi'xue'xing'xiu'ke	744983946494853	失血性休克	3342
-shi'yi	74494	食亦	11
-shi'zhong	74494664	湿重	172
-shi'zu	74498	湿阻	40
-shou'can'shen'bao'jiao'nang	7468226743622654266264	手参肾宝胶囊	1
-shou'ji	746854	收肌	2
-shu'di	74834	熟地	622
-shu'di'huang	7483448264	熟地黄	168
-shu'yao	748926	鼠药	959
-shuang'can'long'jiao'nang	748264226566454266264	双参龙胶囊	1
-shuang'mang'shi'yan	7482646264744926	双盲实验	34
-shuang'yi	74826494	双一	156
-shun'feng	74863364	顺峰	248
-si'mu'sheng	746874364	食母生	20
-si'mu'sheng'pian	7468743647426	食母生片	10
-si'qi	7474	四气	145
-tai'bao	824226	泰宝	26
-tai'pan'zao'bo	82472692626	胎盘早剥	202
-tai'yuan	8249826	太渊	8
-tan'qin	826746	覃勤	2
-tan'suan'qing'na'zhu'she'ye	826782674646294874393	碳酸氢钠注射液	14
-tang'hua'xue'hong'dan'bai	82644829834664326224	糖化血红蛋白	237
-tang'niao'bing'tong'zheng'suan'zhong'du	82646426246486649436478269466438	糖尿病酮症酸中毒	111
-tian'tu	842688	天突	52
-tian'xi	842694	天溪	17
-tong'can	8664226	童参	6
-tong'li	866454	通里	50
-tou'bao'fu'xin'zhi	86822638946944	头孢呋辛脂	1
-tou'bao'zuo'lin'na	86822698654662	头孢唑啉钠	6
-tou'pi'xue'zhong	8687498394664	头皮血肿	365
-wan'gu	92648	完骨	13
-wang'dao	9264326	王焘	15
-wang'pu'cheng	92647824364	王朴诚	1
-wang'shi'lian'pu'yin	9264744542678946	王氏连朴饮	2
-wei'chui	9342484	尾椎	216
-wei'dian	9343426	位点	765
-wei'qi	93474	卫气	62
-wei'yang	9349264	委阳	2
-wei'yu	93498	胃俞	21
-wei'yu'xue	93498983	胃俞穴	11
-wu'bei'zi	9823494	五倍子	106
-wu'chang'xian'xie	98242649426943	无偿献血	7382
-wu'qian	987426	吴谦	492
-wu'shu'xue	98748983	五输穴	2
-wu'yao	98926	乌药	64
-wu'yu	9898	吴萸	7
-xi'bao'zhan'fu'fen'zi	9422694263833694	细胞粘附分子	2
-xi'bao'zhan'zhe	942269426943	细胞粘着	1
-xi'chen	942436	矽尘	13
-xi'pa'yi'gu'ken'ye	9472944853693	西帕依固龈液	4
-xi'shou	947468	吸收	70373
-xia'ji'yu	9425498	下极俞	1
-xia'ke	94253	夏科	39
-xia'li	94254	下痢	80
-xia'wan	942926	下脘	6
-xia'xi	94294	侠溪	3
-xian'an'jian	9426265426	酰胺键	2
-xian'tian'xing'feng'zhen'zong'he'zheng	9426842694643364943696644394364	先天性风疹综合症	1
-xian'xie	9426943	献血	13413
-xiang'fu	9426438	香附	144
-xiao'chang'yu	94262426498	小肠俞	1
-xiao'chang'yu'xue	94262426498983	小肠俞穴	3
-xiao'er'shi'qiao'qing're'ke'li	94263774474267464735354	小儿豉翘清热颗粒	5
-xiao'hai	9426424	小海	643
-xiao'hua'dao'chu'xie	9426482326248943	消化道出血	679
-xiao'ji	942654	小蓟	31
-xiao'tui'zhang	942688494264	小腿长	18
-xiao'ye	942693	笑靥	787
-xin'bao'tian'se	946226842673	心包填塞	136
-xin'fang'nian'ye'liu	9463264642693548	心房粘液瘤	1
-xin'ji'que'xue	94654783983	心肌缺血	624
-xin'nao'xue'guan	9466269834826	心脑血管	4093
-xin'nao'xue'guan'ji'bing	9466269834826542464	心脑血管疾病	6183
-xin'si'de'ming	94674336464	新斯的明	9
-xin'xue'guan	9469834826	心血管	9387
-xin'xue'guan'bing'xue	94698348262464983	心血管病学	170
-xin'xue'guan'nei'ke	946983482663453	心血管内科	1628
-xin'xue'guan'xi'tong	9469834826948664	心血管系统	1404
-xin'yu	94698	心俞	21
-xin'zang'nian'ye'liu	9469264642693548	心脏粘液瘤	7
-xing'cheng'shu	946424364748	性成熟	436
-xing'qi'huo'xue	946474486983	行气活血	160
-xiong'le'guan'jie	94664534826543	胸肋关节	2
-xu'han	98426	虚寒	761
-xu'jun	98586	许浚	8
-xu'xi	9894	许希	15
-xu'zhang'qing	98942647464	徐长卿	34
-xuan'can	9826226	玄参	250
-xuan'mai'gan'ju'ke'li	9826624426585354	玄麦甘桔颗粒	4
-xue'chang'gui	98324264484	血常规	2186
-xue'guan'jin'zhang'su	98348265469426478	血管紧张素	103
-xue'guan'jing'luan	983482654645826	血管痉挛	361
-xue'guan'liu	9834826548	血管瘤	810
-xue'guan'shou'suo	98348267468786	血管收缩	1172
-xue'guan'sun'shang	983482678674264	血管损伤	146
-xue'guan'wen'he	983482693643	血管吻合	103
-xue'guan'xing'tou'tong	983482694648688664	血管性头痛	106
-xue'guan'yan	9834826926	血管炎	123
-xue'guan'zao'ying	98348269269464	血管造影	279
-xue'guan'zhi'jia	9834826944542	血管支架	173
-xue'hong'dan'bai	9834664326224	血红蛋白	1225
-xue'liu'liang	98354854264	血流量	679
-xue'liu'su'du	9835487838	血流速度	170
-xue'nao'ping'zhang	983626746494264	血脑屏障	159
-xue'ning'su	983646478	血凝素	192
-xue'qi'xiong	9837494664	血气胸	606
-xue'qing'kang'ti	9837464526484	血清抗体	110
-xue'qing'xing	98374649464	血清型	240
-xue'qing'xue	9837464983	血清学	447
-xue'rong'liang	983766454264	血容量	417
-xue'se'su	9837378	血色素	497
-xue'shuan'tong	983748268664	血栓通	165
-xue'xi'bao	98394226	血细胞	728
-xue'xi'chong	9839424664	血吸虫	376
-xue'xi'chong'bing	98394246642464	血吸虫病	1026
-xue'xiao'ban	9839426226	血小板	3868
-xue'xiao'ban'jian'shao	983942622654267426	血小板减少	743
-xue'xiao'ban'jian'shao'xing'zi'dian	9839426226542674269464943426	血小板减少性紫癜	122
-xue'ya'ji	9839254	血压计	1461
-xue'yao'nong'du	983926666438	血药浓度	124
-xue'ye'chuan'bo	983932482626	血液传播	608
-xue'ye'guan'liu	983934826548	血液灌流	111
-xue'ye'nei'ke	9839363453	血液内科	397
-xue'ye'ning'gu	98393646448	血液凝固	173
-xue'ye'tou'xi	9839386894	血液透析	1891
-xue'ye'xue	98393983	血液学	378
-xue'ye'xun'huan'xi'tong	983939864826948664	血液循环系统	275
-xue'ye'zhi'pin	98393944746	血液制品	1155
-xue'you'bing	9839682464	血友病	1679
-xue'yu	98398	血瘀	348
-xue'zhan	9839426	血站	4312
-ya'ke	9253	亚科	200
-ya'si	9274	雅司	1
-ya'yin'chu'xie	92946248943	牙龈出血	666
-ya'zhong	9294664	亚种	676
-yan'di'chu'xie	92634248943	眼底出血	231
-yan'suan'chuan'qiong'qin	92678262482674664746	盐酸川芎嗪	2
-yan'suan'ding'ge'di'er	92678263464433437	盐酸丁咯地尔	1
-yang'can'bao'fei'jiao'nang	926422622633454266264	洋参保肺胶囊	2
-yang'can'bao'fei'wan	9264226226334926	洋参保肺丸	1
-yang'can'gui'ling'kou'fu'ye	926422648454645683893	洋参龟灵口服液	1
-yang'can'xue'ha'kou'fu'ye	9264226983425683893	洋参雪哈口服液	1
-yang'di	926434	样地	257
-yang'xue'an'shen	9264983267436	养血安神	179
-yao'yu	92698	腰俞	1
-yao'yu'xue	92698983	腰俞穴	1
-ye'dian'jia	933426542	野颠茄	2
-yi'he	9443	医和	235
-yi'ming	946464	异名	90
-yi'ming	946464	医明	7
-yi'ming	946464	翳明	1
-yi'shui	947484	疫水	67
-yi'su	9478	依苏	7
-yi'yi'ren	9494736	薏苡仁	415
-yi'yi'shi'ji	949474454	意义识记	1
-yin'bao	946226	阴包	1
-yin'dao'chu'xie	946326248943	阴道出血	259
-yin'mo	94666	印模	238
-yin'mo'cai'liao	946662245426	印模材料	1
-yin'shi	946744	阴市	2
-yin'xing'yang'can'jiao'nang	9469464926422654266264	银杏洋参胶囊	2
-ying'er'cu'si'zong'he'zheng	946437287496644394364	婴儿猝死综合症	14
-you'li'ken	96854536	游离龈	2
-you'sheng	96874364	优生	4223
-you'yi	96894	尤怡	2
-yu'fu	9838	俞府	1
-yu'fu'xue	9838983	俞府穴	1
-yu'tang	988264	玉堂	226
-yu'xue	98983	淤血	2417
-yu'xue	98983	俞穴	29
-yuan'can	9826226	元参	65
-yuan'fa'xing'gao'xue'ya	982632946442698392	原发性高血压	187
-yuan'fa'xing'shen'bing'zong'he'zheng	98263294647436246496644394364	原发性肾病综合症	1
-yuan'hua	9826482	芫花	12
-yuan'qi	982674	原气	11
-yuan'zhong	982694664	原种	970
-yun'xiang'dai	98694264324	芸香甙	6
-zai'sheng'zhang'ai'xing'pin'xue	9247436494264249464746983	再生障碍性贫血	1858
-zao'suan'shuang'zhi'na	926782674826494462	藻酸双脂钠	1
-zao'suan'shuang'zhi'na'pian	9267826748264944627426	藻酸双脂钠片	5
-zao'xue'gan'xi'bao	92698342694226	造血干细胞	4699
-zao'xue'xi'tong	926983948664	造血系统	450
-zhan'du'ji	94263854	粘度计	3
-zhan'duo'tang	94263868264	粘多糖	58
-zhan'duo'tang'bing	942638682642464	粘多糖病	23
-zhan'jun'su	942658678	粘菌素	24
-zhan'mo	942666	粘膜	2013
-zhan'mo'ceng	9426662364	粘膜层	12
-zhan'mo'xia'ceng	9426669422364	粘膜下层	10
-zhan'mo'yan	942666926	粘膜炎	4
-zhang'gu	9426448	长骨	138
-zhang'ji	9426454	长肌	9
-zhang'jiao	942645426	长角	126
-zhang'men	94264636	章门	17
-zhang'qiang	9426474264	长强	19
-zhang'qiang'xue	9426474264983	长强穴	37
-zhang'shi'ji'yi	942647445494	长时记忆	16
-zhang'tou	94264868	长头	248
-zhang'yuan'gan'ping	9426498264267464	长源甘平	1
-zhang'zhang'ji	942649426454	掌长肌	7
-zhe'mu	94368	柘木	22
-zhe'si'li	9437454	着丝粒	1
-zhen'jiu	9436548	针灸	7245
-zheng'shui	943647484	正水	7
-zhi'chang'zhan'mo'tuo'chui	944242649426668862484	直肠粘膜脱垂	8
-zhi'fu	94438	指腹	382
-zhi'gou	944468	支沟	210
-zhi'qu	94478	跖屈	20
-zhi'shi	944744	枳实	92
-zhi'shi	944744	志室	19
-zhi'xue'dai	944983324	止血带	293
-zhi'you	944968	趾疣	1
-zhi'zhang	94494264	指掌	105
-zhong'ban'wei	94664226934	重瓣胃	2
-zhong'dan'hua	94664326482	重氮化	3
-zhong'du	9466438	中渎	1
-zhong'fu	9466438	中府	41
-zhong'ge'suan'yan	94664437826926	重铬酸盐	4
-zhong'jian	946645426	重睑	73
-zhong'jian'cheng'xing'shu	946645426243649464748	重睑成形术	8
-zhong'jian'shu	946645426748	重睑术	61
-zhong'jie	94664543	重接	71
-zhong'jie'jing	946645435464	重结晶	28
-zhong'lou	94664568	重楼	142
-zhong'pai	94664724	重排	373
-zhong'xi'shou	94664947468	重吸收	47
-zhu'jian	9485426	铸件	542
-zhu'jie'can	948543226	竹节参	2
-zhu'ru	94878	竹茹	31
-zhu'she'yong'xue'shuan'tong	9487439664983748268664	注射用血栓通	150
-zhu'yuan	9489826	竹原	12
-zhu'zi'can	94894226	珠子参	1
-zhuang'chuo	9482642486	庄绰	3
-zi'dian	943426	紫癫	6
-zi'gong'chu'xie	944664248943	子宫出血	206
-zi'gong'zhan'mo'xia'ji'liu	94466494266694254548	子宫粘膜下肌瘤	9
-zi'yuan	949826	紫苑	196
-zong'he'zheng	96644394364	综合症	3458
-zu'zhong	9894664	卒中	610
-zuo'gui'nuo'yun'tong	9864846869868664	左炔诺孕酮	24
-zuo'gui'nuo'yun'tong'gui'ci'mi'pian	986484686986866448424647426	左炔诺孕酮炔雌醚片	2
-zuo'gui'nuo'yun'tong'pian	98648468698686647426	左炔诺孕酮片	31
-zuo'xin'fa'yu'bu'quan'zong'he'zheng	986946329828782696644394364	左心发育不全综合症	1
+a'tuo'mo'lan	阿拓莫兰	1
+ai'bo'la'chu'xie're	埃博拉出血热	1362
+ai'lei'si	埃勒斯	3
+ai'ye	艾叶	897
+an'tan	安坦	13
+ao'dang'da'qiao	澳凼大桥	4
+ao'ni	奥妮	56
+ba'bo	巴伯	327
+ba'hua	八华	32
+bai'can	白参	49
+bai'er	拜尔	204
+bai'hu'tang	白虎汤	102
+bai'ji	白芨	72
+bai'qian	白前	38
+bai'wei	白薇	56
+bai'xue'bing	白血病	17294
+bai'xue'zheng	败血症	1665
+bai'ying	白英	36
+bai'zhu	白术	665
+ban'chui'ti'ji'xing	半椎体畸形	4
+ban'lan'gen	板兰根	24
+ban'lan'gen'chong'ji	板兰根冲剂	10
+bao'mo	薄膜	4625
+bao'tuo	剥脱	232
+bao'zhong	胞中	4
+bei'mu	贝母	381
+bi'ba	荜茇	10
+bi'gan	鼻干	116
+bi'se	鼻塞	2418
+bi'xie	萆薢	11
+bi'zheng	痹证	38
+biao'zhuang'ruan'gu	杓状软骨	3
+bie'jia	鳖甲	75
+bo'ci	波茨	61
+bu'lang	步廊	39
+bu'ru'qi	哺乳期	3738
+cai'se'duo'pu'lei'chao'sheng	彩色多普勒超声	121
+cai'se'duo'pu'lei'xue'liu'xian'xiang	彩色多普勒血流显像	3
+can'chan'xiao'jie'jiao'nang	参蟾消解胶囊	3
+can'di'yi'shen'kou'fu'ye	参地益肾口服液	6
+can'e'wen'shen'kou'fu'ye	参蛾温肾口服液	3
+can'fu'tang	参附汤	7
+can'fu'zhu'she'ye	参附注射液	25
+can'gui'li'zhong'wan	参桂理中丸	1
+can'gui'lu'rong'wan	参桂鹿茸丸	6
+can'gui'run'zao'cha'ji	参归润燥搽剂	2
+can'ha'ping'chuan'jiao'nang	参蛤平喘胶囊	10
+can'lian'jiao'nang	参莲胶囊	1
+can'ling'bai'zhu'jiao'nang	参苓白术胶囊	1
+can'ling'bai'zhu'ke'li	参苓白术颗粒	2
+can'ling'bai'zhu'san	参苓白术散	34
+can'ling'bai'zhu'wan	参苓白术丸	17
+can'ling'gan'kang'jiao'nang	参灵肝康胶囊	1
+can'ling'lan'jiao'nang	参灵蓝胶囊	1
+can'long'ning'xin'jiao'nang	参龙宁心胶囊	1
+can'lu'fu'zheng'jiao'nang	参鹿扶正胶囊	11
+can'mai'zhu'she'ye	参麦注射液	67
+can'mei'yang'wei'ke'li	参梅养胃颗粒	1
+can'nan'xing'kou'fu'ye	参南星口服液	4
+can'qi'fu'zheng'zhu'she'ye	参芪扶正注射液	3
+can'qi'jian'wei'ke'li	参芪健胃颗粒	1
+can'qi'jiang'tang'jiao'nang	参芪降糖胶囊	4
+can'qi'jiang'tang'ke'li	参芪降糖颗粒	1
+can'qi'jiao'nang	参芪胶囊	9
+can'qi'ke'li	参杞颗粒	1
+can'qi'ke'li	参芪颗粒	1
+can'qi'nao'kang'jiao'nang	参七脑康胶囊	2
+can'qi'pian	参芪片	1
+can'qi'shi'yi'wei'ke'li	参芪十一味颗粒	1
+can'qi'xin'shu'jiao'nang	参七心疏胶囊	10
+can'qiong'pu'tao'tang'zhu'she'ye	参芎葡萄糖注射液	1
+can'shao'pian	参芍片	1
+can'song'yang'xin'jiao'nang	参松养心胶囊	28
+can'su'gan'mao'pian	参苏感冒片	1
+can'su'wan	参苏丸	4
+can'suo'ba'ji'kou'fu'ye	参锁巴戟口服液	1
+can'xian'sheng'mai'kou'fu'ye	参仙升脉口服液	1
+can'yang'jiao'nang	参阳胶囊	2
+can'zhu'jing'ke'li	参竹精颗粒	1
+cang'chang'pu	藏菖蒲	1
+cang'yi	藏医	634
+cao'kou	草蔻	3
+cao'mu'xi	草木犀	3
+ceng'qi'yi	曾其毅	54
+ceng'qiu'kun	曾秋坤	10
+chang'chu'xie'xing'da'chang'gan'jun	肠出血性大肠杆菌	973
+chao'yang'hua'wu'qi'hua'mei	超氧化物岐化酶	7
+chen'xiang'lou'bai'lu	陈香露白露	1
+chen'xiang'lou'bai'lu'pian	陈香露白露片	1
+cheng'guang	承光	16
+cheng'jiang	承浆	3
+cheng'man	承满	2
+cheng'qi	承泣	12
+cheng'shan	承山	12
+cheng'shu'jie'duan	成熟阶段	520
+cheng'shu'qi	成熟期	3067
+chi'hong	赤魟	3
+chong'cao'can'qi'gao	虫草参芪膏	2
+chong'cao'can'qi'kou'fu'ye	虫草参芪口服液	2
+chong'cao'qi'can'jiao'nang	虫草芪参胶囊	1
+chong'cao'yang'can'jiao'nang	虫草洋参胶囊	1
+chong'mei	虫媒	222
+chong'zu	重组	42474
+chou'dong'hui'yu'zong'he'zheng	抽动秽语综合症	7
+chu'xie'dian	出血点	602
+chu'xie'qing'xiang	出血倾向	165
+chu'xie're	出血热	577
+chu'xie'xing'xiu'ke	出血性休克	145
+chuan'qiong	川芎	528
+chuan'qiong'cha'diao'ke'li	川芎茶调颗粒	4
+chuan'qiong'cha'diao'san	川芎茶调散	6
+chuan'qiong'qin	川芎嗪	30
+chui'ban	椎板	68
+chui'dong'mai	椎动脉	228
+chui'dong'mai'xing'jing'chui'bing	椎动脉型颈椎病	28
+chui'gong	椎弓	16
+chui'gu	椎骨	989
+chui'guan	椎管	194
+chui'guan'nei'ma'zui	椎管内麻醉	7
+chui'guan'nei'zhong'liu'qie'chu'shu	椎管内肿瘤切除术	6
+chui'guan'xia'zhai	椎管狭窄	319
+chui'guan'zao'ying	椎管造影	1
+chui'ji'di'dong'mai	椎基底动脉	10
+chui'jian'kong	椎间孔	106
+chui'jian'pan	椎间盘	1157
+chui'jian'pan'bian'xing	椎间盘变性	7
+chui'jian'pan'tuo'chu	椎间盘脱出	13
+chui'jian'pan'zao'ying	椎间盘造影	2
+chui'kong	椎孔	2
+chui'qian'jian'xi	椎前间隙	1
+chui'ti	椎体	1015
+ci'liao	次髎	8
+cong'rong	苁蓉	107
+da'chang'yu	大肠俞	16
+da'chang'yu'xue	大肠俞穴	5
+da'chui	大椎	101
+da'chui'xue	大椎穴	149
+da'he	大赫	5
+da'ling	大陵	26
+da'nuo	达诺	11
+da'tui'zhang	大腿长	18
+da'xi	达喜	121
+da'xue'guan	大血管	1070
+da'zhang'jin	大长今	458
+dai'ha'san	黛蛤散	1
+dai'xing	带型	34
+dan'guo	单果	204
+dan'ni	胆泥	5
+dan'ning'suan	丹宁酸	25
+dan'shen'chuan'qiong'qin'zhu'she'ye	丹参川芎嗪注射液	3
+dan'yu	胆俞	2
+dan'yu'xue	胆俞穴	3
+dan'zhong	膻中	42
+deng'ge'chu'xie're	登革出血热	111
+deng'xin'cao	灯心草	25
+deng'zhang'shou'suo	等长收缩	7
+di'bu'rong	地不容	6
+di'cang	地仓	30
+di'jia'xue'zheng	低钾血症	133
+di'xue'tang	低血糖	2274
+di'xue'ya	低血压	883
+dian'jia	颠茄	43
+dian'jia'cao	颠茄草	1
+dian'jia'he'ji	颠茄合剂	5
+dian'jia'jin'gao	颠茄浸膏	3
+dian'jia'liu'jin'gao	颠茄流浸膏	1
+dian'jia'pian	颠茄片	44
+diao'zhi	调质	27
+ding'ge'di'er	丁咯地尔	4
+dong'feng'ju	东风桔	1
+dou'qi'wan	都气丸	2
+du'bi	犊鼻	2
+du'can'tang	独参汤	3
+du'yu'xue	督俞穴	1
+duo'fa'xing'ying'hua	多发性硬化	111
+duo'pu'lei	多普勒	557
+duo'pu'lei'jian'cha	多普勒检查	13
+duo'zhan'jun'su	多粘菌素	49
+e'shu	莪术	46
+e'shu'chun	莪术醇	1
+e'shu'you	莪术油	2
+e'shu'you'pu'tao'tang'zhu'she'ye	莪术油葡萄糖注射液	1
+e'zuo'wan'tong	恶唑烷酮	2
+er'ci'jie'gou	二次结构	111
+fan'ming	范明	231
+fan'su	泛素	64
+fang'can'zhi'yang'ke'li	防参止痒颗粒	1
+fang'zhi	防治	77390
+fei'chang'ji	腓肠肌	76
+fei'chu'xie	肺出血	280
+fei'yu	肺俞	48
+fei'yu'xue	肺俞穴	25
+fei'zi	榧子	15
+fen'bi'dei	芬必得	210
+feng'chi	风池	98
+feng'fu	风府	24
+feng'la	蜂腊	1
+feng'le'xing'feng'shi'die'da'yao'jiu	冯了性风湿跌打药酒	4
+feng'long	丰隆	207
+feng'zhe'shang	蜂蛰伤	14
+fu'fang'e'shu'you'ruan'jiao'nang	复方莪术油软胶囊	1
+fu'fang'gui'nuo'tong'pian	复方炔诺酮片	5
+fu'fang'huang'an'jia'e'zuo	复方磺胺甲恶唑	9
+fu'fang'huang'an'jia'e'zuo'fen'san'pian	复方磺胺甲恶唑分散片	1
+fu'fang'huang'an'jia'e'zuo'pian	复方磺胺甲恶唑片	3
+fu'fang'huang'an'jia'e'zuo'zhu'she'ye	复方磺胺甲恶唑注射液	5
+fu'fang'huang'lian'su'pian	复方黄莲素片	1
+fu'fang'zuo'gui'nuo'yun'tong	复方左炔诺孕酮	3
+fu'fen	附分	1
+fu'he	负荷	19325
+fu'ke	妇科	9126
+fu'qiang	腹腔	3467
+fu'rong'xue'xing'hu'jun	副溶血性弧菌	161
+fu'shan	傅山	235
+fu'yan'bao	佛焰苞	28
+fu'yan'hua'xu	佛焰花序	2
+fu'zhan'bing'du	副粘病毒	3
+ga'ma'dao'zhi'liao	伽玛刀治疗	19
+gan'ju'bing'mei'pian	甘桔冰梅片	2
+gan'kang	感康	83
+gan'you'san'zhi	甘油三脂	59
+gan'yu	肝俞	16
+gan'yu'xue	肝俞穴	8
+gao'huang'yu	膏肓俞	1
+gao'nian'chou'xue'zheng	高粘稠血症	1
+gao'niao'suan'xue'zheng	高尿酸血症	301
+gao'xue'tang	高血糖	1790
+gao'xue'ya	高血压	27960
+gao'xue'ya'fang'zhi	高血压防治	172
+gao'xue'ya'huan'zhe	高血压患者	2733
+gao'zhi'xue'zheng	高脂血症	752
+ge'lan'shi'ran'se'yang'xing	革兰氏染色阳性	1
+ge'lie'ben'niao	格列苯脲	77
+ge'yu	膈俞	16
+ge'yu'xue	膈俞穴	3
+gen'tou	根头	9
+gen'zhu	根株	14
+geng'zu	梗阻	3355
+gong'qiang	宫腔	427
+gou'chui'guan'jie	钩椎关节	8
+gou'ji	狗脊	5
+gu'gu'zhang	股骨长	12
+gu'jin'mo'shi'zong'he'zheng	骨筋膜室综合症	5
+guan'chong	关冲	10
+guan'xi	灌洗	225
+guan'yi	管轶	45
+guan'yuan	关元	108
+guan'yuan'yu'xue	关元俞穴	1
+guang'qi	光气	130
+gui'ci'chun	炔雌醇	4
+gui'ci'chun'pian	炔雌醇片	4
+gui'ci'mi	炔雌醚	1
+gui'nuo'tong	炔诺酮	17
+ha'lei'man	哈勒曼	3
+hai'piao'shao	海螵蛸	8
+han'tan'bing'du'fei'zong'he'zheng	汉坦病毒肺综合症	2
+he'gu	合谷	228
+he'qi	何启	17
+he'suan	核酸	4927
+hong'lu'can'pian	红鹿参片	3
+hu'lian	胡连	29
+hu'lu'ba	葫芦巴	86
+hu'lu'ba'jian	葫芦巴碱	13
+hu'po'hai'jing'wan	琥珀还睛丸	1
+hu'tong	护彤	8
+hua'pi	化皮	22
+hua'shan'can	华山参	1
+hua'sheng	化生	235
+huan'chui'gu'zhe	寰椎骨折	7
+huang'an'jia'e'zuo	磺胺甲恶唑	10
+huang'bai	黄柏	661
+huang'bai'jiao'nang	黄柏胶囊	1
+huang'kuan	黄宽	9
+huang'yu	肓俞	1
+huang'zhi	黄枝	23
+hui'xiang'ju'he'wan	茴香桔核丸	1
+hui'yang	会阳	5
+hui'zong	会宗	4
+huo'pu'xia'ling'tang	藿朴夏苓汤	3
+huo'xue'hua'yu	活血化瘀	967
+ji'ben	吉本	84
+ji'fu	肌腹	4
+ji'xing'bai'xue'bing	急性白血病	1293
+ji'xing'chu'xie'xing'jie'mo'yan	急性出血性结膜炎	272
+ji'xing'lin'ba'xi'bao'bai'xue'bing	急性淋巴细胞白血病	1044
+ji'xing'lin'ba'xi'bao'xing'bai'xue'bing	急性淋巴细胞性白血病	165
+ji'xing'wei'zhan'mo'bing'bian	急性胃粘膜病变	6
+ji'xing'zao'you'li'xi'bao'bai'xue'bing	急性早幼粒细胞白血病	266
+ji'zhi	肌质	4
+jia'de	嘉德	1404
+jia'ji	夹脊	1
+jia'ji'xue	夹脊穴	2
+jia'wei'huo'xiang'zheng'qi'wan	加味霍香正气丸	2
+jia'xing'xing'zao'shu	假性性早熟	127
+jia'zhuang	甲状	8
+jian'jing	肩井	29
+jian'li	建里	12
+jian'shi	间使	41
+jian'wai'yu	肩外俞	4
+jian'yi	检疫	30790
+jian'yu	肩髃	9
+jian'zhen	鉴真	522
+jian'zhen	肩贞	3
+jian'zhong'yu	肩中俞	3
+jiang'xiang	降香	148
+jiang'ying	姜英	39
+jiang'zhen	降真	20
+jiao'gan'shen'jing'xing'jing'chui'bing	交感神经型颈椎病	11
+jiao'gu'lan'zong'dai'pian	绞股蓝总甙片	2
+jiao'hua	角化	197
+jiao'xin	交信	22
+jie'jing	解痉	153
+jie'mo'chong'xue	结膜充血	232
+jie'xi	解溪	9
+jie'yu	解郁	363
+jin'ci'can'jiu'zheng'he'ji	金刺参九正合剂	3
+jin'fu'zhi'tong'wan	金佛止痛丸	5
+jin'jin	金津	53
+jin'kui	金匮	33
+jin'kui'shen'qi'wan	金匮肾气丸	42
+jin'kui'yao'lve	金匮要略	132
+jin'suo	筋缩	6
+jin'ying	金樱	2
+jin'zhi'jie'ken'han'shu'ye	金栀洁龈含漱液	1
+jin'zhong	近中	240
+jing'can'yi'qi'ke'li	景参益气颗粒	1
+jing'chui	颈椎	5858
+jing'chui'ban'tuo'wei	颈椎半脱位	27
+jing'chui'bing	颈椎病	3451
+jing'chui'bing'tie	颈椎病贴	2
+jing'chui'gu'zhe	颈椎骨折	470
+jing'chui'jian'pan	颈椎间盘	201
+jing'chui'jie'he	颈椎结核	8
+jing'chui'tuo'wei	颈椎脱位	40
+jing'le	颈肋	1
+jing'lu'duo'pu'lei	经颅多普勒	49
+jing'lu'duo'pu'lei'chao'sheng	经颅多普勒超声	6
+jing'mai'xue	静脉血	710
+jing'ming	睛明	23
+jing'qian'nian'ye'xing'shui'zhong	胫前粘液性水肿	1
+ju'quan	聚泉	12
+jue'yin	厥阴	11
+jue'yin'yu	厥阴俞	2
+jun'xue'zheng	菌血症	120
+kang'ban'gui	扛板归	1
+kang'lin'zhi'zong'he'zheng	抗磷脂综合症	3
+kang'she'du'xue'qing	抗蛇毒血清	254
+ke'er	克尔	248
+ke'lun'te'luo	克伦特罗	710
+ke'qin	柯琴	1
+ke'shen'ke'teng	克什克腾	77
+ken'gou'ye	龈沟液	7
+ken'jiao'xue	龈交穴	14
+ken'xia'gua'zhi'shu	龈下刮治术	1
+ken'yan	龈炎	5
+kou'jue'yan	口角炎	127
+kou'qiang'zhan'mo'bai'ban'bing	口腔粘膜白斑病	3
+kou'qiang'zhan'mo'bing	口腔粘膜病	9
+kou'qiang'zhan'mo'bing'xue	口腔粘膜病学	1
+ku'mu	苦木	7
+ku'xuan'can	苦玄参	2
+lai'he	赖和	62
+lan'dun	蓝顿	9
+le'chui'guan'jie	肋椎关节	3
+le'ge'jiao	肋膈角	1
+le'ge'wang	了哥王	6
+le'gou	肋沟	1
+le'jian'ji	肋间肌	59
+le'jian'shen'jing'tong	肋间神经痛	39
+le'jian'wai'ji	肋间外肌	4
+le'jian'xi	肋间隙	30
+le'li	乐力	112
+le'ruan'gu	肋软骨	100
+le'ruan'gu'yan	肋软骨炎	18
+lei'gong'teng'duo'dai	雷公藤多甙	2
+lei'gong'teng'duo'dai'pian	雷公藤多甙片	1
+lei'gong'teng'duo'gan'pian	雷公藤多苷片	9
+li'chen	李辰	114
+li'da	丽达	273
+li'gao	李杲	60
+li'shen'man'bing	利什曼病	12
+li'shen'man'yuan'chong	利什曼原虫	1
+li'ting	李梃	1
+lian'chuang	臁疮	5
+lian'quan	廉泉	45
+lian'xin	莲芯	26
+liang'ke	两课	145
+liang'qiu	梁丘	6
+liang'xue'zhi'xue	凉血止血	127
+liao'can'jiao'nang	蓼参胶囊	1
+lin'ba'xi'bao'bai'xue'bing	淋巴细胞白血病	227
+lin'dan	林旦	1
+lin'suan'chuan'qiong'qin	磷酸川芎嗪	2
+lin'suan'ge'ding	磷酸咯啶	1
+lin'yi	林亿	21
+liu'han	刘翰	6
+liu'huang'ruan'gao	硫磺软膏	21
+liu'suan'zhan'jun'su	硫酸粘菌素	2
+liu'suan'zhan'jun'su'pian	硫酸粘菌素片	1
+liu'xing'xing'chu'xie're	流行性出血热	261
+liu'yang'hai'dan'bai'huan'yuan'mei	硫氧还蛋白还原酶	1
+liu'yuan	刘沅	521
+long'dan	龙胆	177
+long'gu'jing'chui'jiao'nang	龙骨颈椎胶囊	2
+lu'ding	芦丁	102
+lu'ken'xiao	露龈笑	1
+lu'nei'chu'xue	颅内出血	2542
+lu'rong'can'bian'jiu	鹿茸参鞭酒	12
+lu'rong'yang'can'pian	鹿茸洋参片	5
+lv'dan'zhuo	氯氮卓	17
+ma'niao'pao	马尿泡	2
+ma'yi'shuang'can'tong'bi'wan	蚂蚁双参通痹丸	3
+ma'yi'zong'he'zheng	马尾综合征	4
+man'ting	满婷	15
+man'xing'bai'xue'bing	慢性白血病	125
+man'xing'pi'lao'zong'he'zheng	慢性疲劳综合症	59
+man'xing'shen'yan'zong'he'zheng	慢性肾炎综合症	1
+mao'xi'xue'guan	毛细血管	2763
+mao'xi'xue'guan'kuo'zhang	毛细血管扩张	271
+mei'shi'zi'suan	没食子酸	5
+mian'zi'you	棉子油	12
+mu'xi'cao'gan	木犀草苷	35
+mu'xi'cao'su	木犀草素	4
+mu'xiang'bin'lang'wan	木香槟榔丸	4
+mu'zhang'zhan'ji	拇长展肌	1
+nan'jing	难经	67
+nan'xing'geng'nian'qi'zong'he'zheng	男性更年期综合症	3
+nao'chu'xie	脑出血	4205
+nao'dao	脑岛	21
+nao'gan'chu'xie	脑干出血	480
+nao'xue'guan	脑血管	2777
+nao'xue'guan'ji'xing	脑血管畸形	183
+nao'xue'guan'po'lie	脑血管破裂	228
+nao'xue'guan'yi'wai	脑血管意外	400
+nao'xue'shuan'hou'yi'zheng	脑血栓后遗症	148
+nao'zu'zhong	脑卒中	1925
+nei'chu'xue	内出血	951
+nei'xiao	内消	21
+nian'ye'ai	粘液癌	1
+nian'ye'biao'pi'yang'ai	粘液表皮样癌	2
+nian'ye'xian'ai	粘液腺癌	13
+nian'ye'xing'shui'zhong	粘液性水肿	4
+niao'shi	尿石	10
+ning'xue'yin'zi	凝血因子	364
+pang'guang'yu	膀胱俞	6
+pang'guang'yu'xue	膀胱俞穴	1
+pi'fu'mo'xue'shu	皮肤磨削术	7
+pi'fu'zhan'mo	皮肤粘膜	107
+pi'pa	枇杷	1773
+pi'xia'xue'zhong	皮下血肿	115
+pi'yu	脾俞	51
+pi'yu'xue	脾俞穴	16
+pu'an'suan	脯氨酸	19
+qi'can'chong'cao'jiu	芪参虫草酒	3
+qi'can'jiao'nang	芪参胶囊	3
+qi'dai'xue	脐带血	786
+qi'hai'yu	气海俞	3
+qi'hu	气户	50
+qi'wei'dou'qi'wan	七味都气丸	1
+qi'xue'yun'xing	气血运行	406
+qi'yu	气郁	156
+qi'zhi'xue'yu	气滞血瘀	247
+qian'bi'zhang	前臂长	6
+qian'gu	前谷	13
+qian'hu	前胡	76
+qian'shi	芡实	489
+qian'yi	钱乙	14
+qiang'pu'an'suan	羟脯氨酸	31
+qin'pi	秦皮	8
+qing're'liang'xue	清热凉血	172
+qiong'ju'shang'qing'pian	芎菊上清片	1
+qu'gu	曲骨	5
+qu'le'min	区乐民	1
+qu'mei	曲美	469
+qu'yang'yun'xi'gui'ci'chun'pian	去氧孕烯炔雌醇片	1
+que'tie'xing'pin'xue	缺铁性贫血	528
+ran'se'ti'zhong'pai	染色体重排	2
+ren'gong'xue'guan	人工血管	125
+ren'xue'bai'dan'bai	人血白蛋白	305
+ren'zao'xue'guan	人造血管	119
+rong'can'bu'shen'jiao'nang	茸参补肾胶囊	1
+rong'xue'xing'pin'xue	溶血性贫血	271
+san'jiao'yu	三焦俞	4
+san'jiao'yu'xue	三焦俞穴	1
+san'yang	三阳	659
+sang'piao'shao	桑螵蛸	11
+sang'piao'shao'san	桑螵蛸散	1
+sang'shen'ke'li	桑椹颗粒	9
+sang'shen'pei	桑椹胚	2
+sang'shen'zi	桑椹子	17
+sha'shen	沙参	305
+shan'ci'gu	山慈菇	11
+shan'qi	疝气	874
+shang'jia	尚佳	273
+shang'shi	伤湿	24
+shang'xiao'hua'dao'chu'xie	上消化道出血	161
+shang'yang	商阳	10
+shang'zhi'zhang	上肢长	6
+shao'fu	少府	28
+shao'fu	少腹	37
+she'ji'dai	舌系带	20
+she'ji'dai'guo'duan	舌系带过短	11
+shen'fu'he	深覆合	5
+shen'fu'he	深覆颌	3
+shen'jing'gen'xing'jing'chui'bing	神经根型颈椎病	37
+shen'jing'yuan'xing'xiu'ke	神经原性休克	12
+shen'wei'suo	肾萎缩	111
+shen'yu	肾俞	91
+shen'yu'xue	肾俞穴	71
+shen'zang'sun'shang	肾脏损伤	111
+shen'zhu	身柱	9
+sheng'ma	升麻	113
+sheng'shai'can	生晒参	60
+sheng'yin	盛寅	10
+shi'bi	湿痹	72
+shi'de'ning	士的宁	13
+shi'dong'xian'xiang	似动现象	2
+shi'le	诗乐	57
+shi'san'wei'xi'ming'wan	十三味菥蓂丸	2
+shi'wei	石韦	11
+shi'xing'gan'mao	时行感冒	24
+shi'xuan	十宣	32
+shi'xue'xing'xiu'ke	失血性休克	3342
+shi'yi	食亦	11
+shi'zhong	湿重	172
+shi'zu	湿阻	40
+shou'can'shen'bao'jiao'nang	手参肾宝胶囊	1
+shou'ji	收肌	2
+shu'di	熟地	622
+shu'di'huang	熟地黄	168
+shu'yao	鼠药	959
+shuang'can'long'jiao'nang	双参龙胶囊	1
+shuang'mang'shi'yan	双盲实验	34
+shuang'yi	双一	156
+shun'feng	顺峰	248
+si'mu'sheng	食母生	20
+si'mu'sheng'pian	食母生片	10
+si'qi	四气	145
+tai'bao	泰宝	26
+tai'pan'zao'bo	胎盘早剥	202
+tai'yuan	太渊	8
+tan'qin	覃勤	2
+tan'suan'qing'na'zhu'she'ye	碳酸氢钠注射液	14
+tang'hua'xue'hong'dan'bai	糖化血红蛋白	237
+tang'niao'bing'tong'zheng'suan'zhong'du	糖尿病酮症酸中毒	111
+tian'tu	天突	52
+tian'xi	天溪	17
+tong'can	童参	6
+tong'li	通里	50
+tou'bao'fu'xin'zhi	头孢呋辛脂	1
+tou'bao'zuo'lin'na	头孢唑啉钠	6
+tou'pi'xue'zhong	头皮血肿	365
+wan'gu	完骨	13
+wang'dao	王焘	15
+wang'pu'cheng	王朴诚	1
+wang'shi'lian'pu'yin	王氏连朴饮	2
+wei'chui	尾椎	216
+wei'dian	位点	765
+wei'qi	卫气	62
+wei'yang	委阳	2
+wei'yu	胃俞	21
+wei'yu'xue	胃俞穴	11
+wu'bei'zi	五倍子	106
+wu'chang'xian'xie	无偿献血	7382
+wu'qian	吴谦	492
+wu'shu'xue	五输穴	2
+wu'yao	乌药	64
+wu'yu	吴萸	7
+xi'bao'zhan'fu'fen'zi	细胞粘附分子	2
+xi'bao'zhan'zhe	细胞粘着	1
+xi'chen	矽尘	13
+xi'pa'yi'gu'ken'ye	西帕依固龈液	4
+xi'shou	吸收	70373
+xia'ji'yu	下极俞	1
+xia'ke	夏科	39
+xia'li	下痢	80
+xia'wan	下脘	6
+xia'xi	侠溪	3
+xian'an'jian	酰胺键	2
+xian'tian'xing'feng'zhen'zong'he'zheng	先天性风疹综合症	1
+xian'xie	献血	13413
+xiang'fu	香附	144
+xiao'chang'yu	小肠俞	1
+xiao'chang'yu'xue	小肠俞穴	3
+xiao'er'shi'qiao'qing're'ke'li	小儿豉翘清热颗粒	5
+xiao'hai	小海	643
+xiao'hua'dao'chu'xie	消化道出血	679
+xiao'ji	小蓟	31
+xiao'tui'zhang	小腿长	18
+xiao'ye	笑靥	787
+xin'bao'tian'se	心包填塞	136
+xin'fang'nian'ye'liu	心房粘液瘤	1
+xin'ji'que'xue	心肌缺血	624
+xin'nao'xue'guan	心脑血管	4093
+xin'nao'xue'guan'ji'bing	心脑血管疾病	6183
+xin'si'de'ming	新斯的明	9
+xin'xue'guan	心血管	9387
+xin'xue'guan'bing'xue	心血管病学	170
+xin'xue'guan'nei'ke	心血管内科	1628
+xin'xue'guan'xi'tong	心血管系统	1404
+xin'yu	心俞	21
+xin'zang'nian'ye'liu	心脏粘液瘤	7
+xing'cheng'shu	性成熟	436
+xing'qi'huo'xue	行气活血	160
+xiong'le'guan'jie	胸肋关节	2
+xu'han	虚寒	761
+xu'jun	许浚	8
+xu'xi	许希	15
+xu'zhang'qing	徐长卿	34
+xuan'can	玄参	250
+xuan'mai'gan'ju'ke'li	玄麦甘桔颗粒	4
+xue'chang'gui	血常规	2186
+xue'guan'jin'zhang'su	血管紧张素	103
+xue'guan'jing'luan	血管痉挛	361
+xue'guan'liu	血管瘤	810
+xue'guan'shou'suo	血管收缩	1172
+xue'guan'sun'shang	血管损伤	146
+xue'guan'wen'he	血管吻合	103
+xue'guan'xing'tou'tong	血管性头痛	106
+xue'guan'yan	血管炎	123
+xue'guan'zao'ying	血管造影	279
+xue'guan'zhi'jia	血管支架	173
+xue'hong'dan'bai	血红蛋白	1225
+xue'liu'liang	血流量	679
+xue'liu'su'du	血流速度	170
+xue'nao'ping'zhang	血脑屏障	159
+xue'ning'su	血凝素	192
+xue'qi'xiong	血气胸	606
+xue'qing'kang'ti	血清抗体	110
+xue'qing'xing	血清型	240
+xue'qing'xue	血清学	447
+xue'rong'liang	血容量	417
+xue'se'su	血色素	497
+xue'shuan'tong	血栓通	165
+xue'xi'bao	血细胞	728
+xue'xi'chong	血吸虫	376
+xue'xi'chong'bing	血吸虫病	1026
+xue'xiao'ban	血小板	3868
+xue'xiao'ban'jian'shao	血小板减少	743
+xue'xiao'ban'jian'shao'xing'zi'dian	血小板减少性紫癜	122
+xue'ya'ji	血压计	1461
+xue'yao'nong'du	血药浓度	124
+xue'ye'chuan'bo	血液传播	608
+xue'ye'guan'liu	血液灌流	111
+xue'ye'nei'ke	血液内科	397
+xue'ye'ning'gu	血液凝固	173
+xue'ye'tou'xi	血液透析	1891
+xue'ye'xue	血液学	378
+xue'ye'xun'huan'xi'tong	血液循环系统	275
+xue'ye'zhi'pin	血液制品	1155
+xue'you'bing	血友病	1679
+xue'yu	血瘀	348
+xue'zhan	血站	4312
+ya'ke	亚科	200
+ya'si	雅司	1
+ya'yin'chu'xie	牙龈出血	666
+ya'zhong	亚种	676
+yan'di'chu'xie	眼底出血	231
+yan'suan'chuan'qiong'qin	盐酸川芎嗪	2
+yan'suan'ding'ge'di'er	盐酸丁咯地尔	1
+yang'can'bao'fei'jiao'nang	洋参保肺胶囊	2
+yang'can'bao'fei'wan	洋参保肺丸	1
+yang'can'gui'ling'kou'fu'ye	洋参龟灵口服液	1
+yang'can'xue'ha'kou'fu'ye	洋参雪哈口服液	1
+yang'di	样地	257
+yang'xue'an'shen	养血安神	179
+yao'yu	腰俞	1
+yao'yu'xue	腰俞穴	1
+ye'dian'jia	野颠茄	2
+yi'he	医和	235
+yi'ming	异名	90
+yi'ming	医明	7
+yi'ming	翳明	1
+yi'shui	疫水	67
+yi'su	依苏	7
+yi'yi'ren	薏苡仁	415
+yi'yi'shi'ji	意义识记	1
+yin'bao	阴包	1
+yin'dao'chu'xie	阴道出血	259
+yin'mo	印模	238
+yin'mo'cai'liao	印模材料	1
+yin'shi	阴市	2
+yin'xing'yang'can'jiao'nang	银杏洋参胶囊	2
+ying'er'cu'si'zong'he'zheng	婴儿猝死综合症	14
+you'li'ken	游离龈	2
+you'sheng	优生	4223
+you'yi	尤怡	2
+yu'fu	俞府	1
+yu'fu'xue	俞府穴	1
+yu'tang	玉堂	226
+yu'xue	淤血	2417
+yu'xue	俞穴	29
+yuan'can	元参	65
+yuan'fa'xing'gao'xue'ya	原发性高血压	187
+yuan'fa'xing'shen'bing'zong'he'zheng	原发性肾病综合症	1
+yuan'hua	芫花	12
+yuan'qi	原气	11
+yuan'zhong	原种	970
+yun'xiang'dai	芸香甙	6
+zai'sheng'zhang'ai'xing'pin'xue	再生障碍性贫血	1858
+zao'suan'shuang'zhi'na	藻酸双脂钠	1
+zao'suan'shuang'zhi'na'pian	藻酸双脂钠片	5
+zao'xue'gan'xi'bao	造血干细胞	4699
+zao'xue'xi'tong	造血系统	450
+zhan'du'ji	粘度计	3
+zhan'duo'tang	粘多糖	58
+zhan'duo'tang'bing	粘多糖病	23
+zhan'jun'su	粘菌素	24
+zhan'mo	粘膜	2013
+zhan'mo'ceng	粘膜层	12
+zhan'mo'xia'ceng	粘膜下层	10
+zhan'mo'yan	粘膜炎	4
+zhang'gu	长骨	138
+zhang'ji	长肌	9
+zhang'jiao	长角	126
+zhang'men	章门	17
+zhang'qiang	长强	19
+zhang'qiang'xue	长强穴	37
+zhang'shi'ji'yi	长时记忆	16
+zhang'tou	长头	248
+zhang'yuan'gan'ping	长源甘平	1
+zhang'zhang'ji	掌长肌	7
+zhe'mu	柘木	22
+zhe'si'li	着丝粒	1
+zhen'jiu	针灸	7245
+zheng'shui	正水	7
+zhi'chang'zhan'mo'tuo'chui	直肠粘膜脱垂	8
+zhi'fu	指腹	382
+zhi'gou	支沟	210
+zhi'qu	跖屈	20
+zhi'shi	枳实	92
+zhi'shi	志室	19
+zhi'xue'dai	止血带	293
+zhi'you	趾疣	1
+zhi'zhang	指掌	105
+zhong'ban'wei	重瓣胃	2
+zhong'dan'hua	重氮化	3
+zhong'du	中渎	1
+zhong'fu	中府	41
+zhong'ge'suan'yan	重铬酸盐	4
+zhong'jian	重睑	73
+zhong'jian'cheng'xing'shu	重睑成形术	8
+zhong'jian'shu	重睑术	61
+zhong'jie	重接	71
+zhong'jie'jing	重结晶	28
+zhong'lou	重楼	142
+zhong'pai	重排	373
+zhong'xi'shou	重吸收	47
+zhu'jian	铸件	542
+zhu'jie'can	竹节参	2
+zhu'ru	竹茹	31
+zhu'she'yong'xue'shuan'tong	注射用血栓通	150
+zhu'yuan	竹原	12
+zhu'zi'can	珠子参	1
+zhuang'chuo	庄绰	3
+zi'dian	紫癫	6
+zi'gong'chu'xie	子宫出血	206
+zi'gong'zhan'mo'xia'ji'liu	子宫粘膜下肌瘤	9
+zi'yuan	紫苑	196
+zong'he'zheng	综合症	3458
+zu'zhong	卒中	610
+zuo'gui'nuo'yun'tong	左炔诺孕酮	24
+zuo'gui'nuo'yun'tong'gui'ci'mi'pian	左炔诺孕酮炔雌醚片	2
+zuo'gui'nuo'yun'tong'pian	左炔诺孕酮片	31
+zuo'xin'fa'yu'bu'quan'zong'he'zheng	左心发育不全综合症	1

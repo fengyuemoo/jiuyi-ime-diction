@@ -1,563 +1,563 @@
-a'fang'gong	232644664	阿房宫	1
-a'fang'gong'fu	23264466438	阿房宫赋	1
-a'mi'tuo'fo	26488636	阿弥陀佛	1
-a'pang'gong	272644664	阿房宫	1
-a'pang'gong'fu	27264466438	阿房宫赋	1
-an'hui'liu'an	2648454826	安徽六安	1
-an'hui'liu'an'shi	2648454826744	安徽六安市	1
-an'hui'sheng'liu'an'shi	264847436454826744	安徽省六安市	1
-an'nai	26624	按耐	1
-an'nai'bu'zhu	2662428948	按耐不住	1
-an'pou	26768	安瓿	1
-an'pou'ping	267687464	安瓿瓶	1
-bai'bai	224224	伯伯	1
-bai'qi'tun	22474886	白𬶨豚	1
-bai'zhe'bu'rao	22494328726	百折不挠	1
-bang'bu	226428	蚌埠	1
-bao'lian'tian'wu	2265426842698	暴殄天物	1
-ben'lin	236546	贲临	1
-beng'jie	2364543	甭介	1
-bi'ji	2454	荸荠	1
-bian'da	242632	鞭挞	1
-bian'tai	2426824	鞭笞	1
-biao'han	2426426	剽悍	1
-bie'jie	243543	别介	1
-bin'lang	2465264	槟榔	1
-bo'jing	265464	脖颈	1
-bo'jing'er	26546437	脖颈儿	1
-bo'wen'qiang'shi	2693674264744	博闻强识	1
-bo'yang'hu	26926448	鄱阳湖	1
-bu'di	2834	不啻	1
-can'he	22643	掺和	1
-can'huo	226486	掺和	1
-cao'shi'hao	226744426	曹世镐	1
-cao'zhi	226944	草薙	1
-cao'zhi'jian	2269445426	草薙剑	1
-cao'zhi'jing	2269445464	草薙京	1
-ceng'jin	2364546	曾今	1
-chan'he	242643	掺和	1
-cheng'zhi	24364944	称职	1
-chi'pi'sa	2447472	吃比萨	1
-chui'shou'ke'de	248474685333	唾手可得	1
-ci'ya	2492	龇牙	1
-ci'ya'lie'zui	2492543984	龇牙咧嘴	1
-ci'zhe'ya	2494392	龇着牙	1
-cou'huo	268486	凑活	1
-cu'kuang	2858264	粗犷	1
-cu'zao	28926	粗糙	1
-da'fu'bian'bian	323824262426	大腹便便	1
-dao'hang	3264264	道行	1
-dao'shang	32674264	捯饬	1
-dao'zai'shi'ni	32692474464	道在屎溺	1
-du'le'le	385353	独乐乐	1
-e'fang'gong	332644664	阿房宫	1
-e'fang'gong'fu	33264466438	阿房宫赋	1
-e'fu	338	饿殍	1
-fa'xiao	329426	发酵	1
-fa'zhi	32944	阈值	1
-feng'chan	33642426	封禅	1
-feng'qi'yu'qing'ping'zhi'mo	336474987464746494466	风起于青𬞟之末	1
-fu'gu'zhi'qu	384894478	附骨之疽	1
-ga'li	4254	蛤蜊	1
-ga'ran'er'zhi	4272637944	戛然而止	1
-gai'liu'zi	42454894	街溜子	1
-gang'fu'zi'yong	426438949664	刚愎自用	1
-gao'ju'li	4265854	高句丽	1
-ge'shou	437468	恪守	1
-ge'zhi'wo	4394496	胳肢窝	1
-gei'yu	43498	给予	1
-geng'quan	43647826	梗犬	1
-gong'qi	466474	汞齐	1
-gong'qi'dian'ji	466474342654	汞齐电极	1
-gong'quan	46647826	拱券	1
-gong'shang'jiao'zhi'yu	466474264542694498	宫商角徵羽	1
-gu'xian	489426	股癣	1
-gua'gua'zhui'di	482482948434	呱呱坠地	1
-guan'ka	482652	关卡	1000
-gui'bu	48428	跬步	1
-gui'ju	48458	诡谲	1
-gui'lie	484543	龟裂	1
-guo'ming'qi	486646474	郭明錤	1
-guo'pu	48678	果脯	1
-hai'shen'wei	4247436934	海参崴	1
-hao'zhou	4269468	亳州	1
-hou'pu	46878	厚朴	1
-hua'ban'xian	4822269426	花斑癣	1
-hun'dun	486386	馄饨	1
-huo'luo	486586	饸饹	1
-jiang'cheng'hao	5426424364426	姜成镐	1
-jiang'hao'tong	542644268664	姜镐童	1
-jiao'dou'shi	5426368744	角斗士	1
-jiao'se	542673	角色	1
-jiao'xian	54269426	脚癣	1
-jiao'zhu	5426948	角逐	1
-jie'pao	543726	解剖	1
-jie'si'di'li	543743454	歇斯底里	1
-jie'su	54378	结束	1
-jie'zha	543942	结扎	1
-jing'gao	5464426	甑糕	1
-ju'hui	58484	钜惠	1
-ju'mai'cai	58624224	苣荬菜	1
-ju'tou	58868	噱头	1
-ka'bo'zi	522694	卡脖子	1
-kong'lao'lao	5664526526	空落落	1
-kong'lao'lao'de	566452652633	空落落的	1
-li'chang'hao	5424264426	李昌镐	1
-li'chen'hao	542436426	李陈镐	1
-li'li	5454	李悝	1
-li'min'hao	54646426	李敏镐	1
-li'neng'kang'ding	54636452643464	力能扛鼎	1
-liang'ge'bai	5426443224	两个白	1
-liang'ge'bai	5426443224	两个百	1
-liang'ge'bei	5426443234	两个貝	1
-liang'ge'bi	542644324	两个匕	1
-liang'ge'bing	54264432464	两个秉	1
-liang'ge'cang	54264432264	两个倉	1
-liang'ge'cao	5426443226	两个屮	1
-liang'ge'chang	542644324264	两个昌	1
-liang'ge'chao	54264432426	两个巢	1
-liang'ge'che	5426443243	两个屮	1
-liang'ge'che	5426443243	两个車	1
-liang'ge'chen	54264432436	两个臣	1
-liang'ge'chi	5426443244	两个齒	1
-liang'ge'chong	542644324664	两个虫	1
-liang'ge'chuan	542644324826	两个巛	1
-liang'ge'chuan	542644324826	两个串	1
-liang'ge'ci	542644324	两个朿	1
-liang'ge'dai	5426443324	两个歹	1
-liang'ge'dai	5426443324	两个呆	1
-liang'ge'dong	54264433664	两个東	1
-liang'ge'er	542644337	两个而	1
-liang'ge'er	542644337	两个耳	1
-liang'ge'fan	5426443326	两个凡	1
-liang'ge'fei	5426443334	两个飞	1
-liang'ge'feng	54264433364	两个風	1
-liang'ge'fu	542644338	两个夫	1
-liang'ge'fu	542644338	两个巿	1
-liang'ge'fu	542644338	两个畐	1
-liang'ge'ge	542644343	两个戈	1
-liang'ge'gong	54264434664	两个弓	1
-liang'ge'gu	542644348	两个古	1
-liang'ge'gua	5426443482	两个瓜	1
-liang'ge'guo	5426443486	两个果	1
-liang'ge'han	5426443426	两个𢎘	1
-liang'ge'he	542644343	两个禾	1
-liang'ge'hu	542644348	两个户	1
-liang'ge'hu	542644348	两个虎	1
-liang'ge'huo	5426443486	两个火	1
-liang'ge'ji	542644354	两个彐	1
-liang'ge'ji	542644354	两个吉	1
-liang'ge'ji	542644354	两个几	1
-liang'ge'ji	542644354	两个旡	1
-liang'ge'jian	54264435426	两个見	1
-liang'ge'jie	5426443543	两个卪	1
-liang'ge'jie	5426443543	两个㔾	1
-liang'ge'jin	5426443546	两个巾	1
-liang'ge'jin	5426443546	两个斤	1
-liang'ge'jing	54264435464	两个井	1
-liang'ge'jing	54264435464	两个竟	1
-liang'ge'jing	54264435464	两个竞	1
-liang'ge'jiu	5426443548	两个九	1
-liang'ge'ju	542644358	两个句	1
-liang'ge'ju	542644358	两个車	1
-liang'ge'lai	5426443524	两个來	1
-liang'ge'lao	5426443526	两个老	1
-liang'ge'li	542644354	两个立	1
-liang'ge'li	542644354	两个隶	1
-liang'ge'long	54264435664	两个龍	1
-liang'ge'long	54264435664	两个龙	1
-liang'ge'ma	542644362	两个馬	1
-liang'ge'mao	5426443626	两个毛	1
-liang'ge'mi	542644364	两个米	1
-liang'ge'ming	54264436464	两个明	1
-liang'ge'mou	5426443668	两个厶	1
-liang'ge'mou	5426443668	两个牟	1
-liang'ge'mu	542644368	两个母	1
-liang'ge'mu	542644368	两个罒	1
-liang'ge'mu	542644368	两个木	1
-liang'ge'mu	542644368	两个目	1
-liang'ge'nan	5426443626	两个男	1
-liang'ge'ni	542644364	两个𡥦	1
-liang'ge'nian	54264436426	两个廿	1
-liang'ge'nian	54264436426	两个卄	1
-liang'ge'niao	54264436426	两个鸟	1
-liang'ge'nv	542644368	两个女	1
-liang'ge'pai	5426443724	两个𠂢	1
-liang'ge'pian	54264437426	两个片	1
-liang'ge'qi	542644374	两个启	1
-liang'ge'qi	542644374	两个桼	1
-liang'ge'qi	542644374	两个奇	1
-liang'ge'qi	542644374	两个乞	1
-liang'ge'qian	54264437426	两个欠	1
-liang'ge'qian	54264437426	两个僉	1
-liang'ge'qu	542644378	两个區	1
-liang'ge'quan	54264437826	两个犬	1
-liang'ge'qun	5426443786	两个夋	1
-liang'ge'ri	542644374	两个日	1
-liang'ge'ru	542644378	两个入	1
-liang'ge'sa	542644372	两个卅	1
-liang'ge'shan	54264437426	两个山	1
-liang'ge'shan	54264437426	两个善	1
-liang'ge'she	5426443743	两个舌	1
-liang'ge'shen	54264437436	两个申	1
-liang'ge'sheng	542644374364	两个生	1
-liang'ge'shi	5426443744	两个尸	1
-liang'ge'shi	5426443744	两个石	1
-liang'ge'shi	5426443744	两个示	1
-liang'ge'shi	5426443744	两个豕	1
-liang'ge'shu	5426443748	两个束	1
-liang'ge'shui	54264437484	两个水	1
-liang'ge'si	542644374	两个厶	1
-liang'ge'tian	54264438426	两个田	1
-liang'ge'wu	542644398	两个兀	1
-liang'ge'wu	542644398	两个㐅	1
-liang'ge'xi	542644394	两个夕	1
-liang'ge'xi	542644394	两个习	1
-liang'ge'xi	542644394	两个昔	1
-liang'ge'xi	542644394	两个喜	1
-liang'ge'xian	54264439426	两个先	1
-liang'ge'xiang	542644394264	两个香	1
-liang'ge'xiang	542644394264	两个享	1
-liang'ge'xin	5426443946	两个辛	1
-liang'ge'xiong	542644394664	两个兄	1
-liang'ge'xuan	54264439826	两个玄	1
-liang'ge'ya	542644392	两个牙	1
-liang'ge'yan	5426443926	两个言	1
-liang'ge'yan	5426443926	两个炎	1
-liang'ge'yang	54264439264	两个羊	1
-liang'ge'yao	5426443926	两个幺	1
-liang'ge'yao	5426443926	两个堯	1
-liang'ge'yi	542644394	两个乂	1
-liang'ge'yi	542644394	两个乙	1
-liang'ge'yi	542644394	两个亦	1
-liang'ge'yi	542644394	两个易	1
-liang'ge'yi	542644394	两个㣇	1
-liang'ge'yi	542644394	两个邑	1
-liang'ge'yin	5426443946	两个尹	1
-liang'ge'yong	54264439664	两个永	1
-liang'ge'you	5426443968	两个又	1
-liang'ge'yu	542644398	两个魚	1
-liang'ge'yu	542644398	两个予	1
-liang'ge'yu	542644398	两个禺	1
-liang'ge'yue	5426443983	两个曰	1
-liang'ge'zhen	54264439436	两个真	1
-liang'ge'zhi	5426443944	两个止	1
-liang'ge'zhi	5426443944	两个支	1
-liang'ge'zhi	5426443944	两个隻	1
-liang'ge'zhi	5426443944	两个至	1
-liang'ge'zhui	54264439484	两个隹	1
-liang'ge'zi	542644394	两个子	1
-liang'ge'zou	5426443968	两个走	1
-liang'ge'zu	542644398	两个足	1
-liang'ge'zuo	5426443986	两个左	1
-liu'an	54826	六安	1
-liu'an'shi	54826744	六安市	1
-liu'an'xian	548269426	六安县	1
-liu'he'qu	5484378	六合区	1
-luo'an'suan	586267826	酪氨酸	1
-luo'shi'fen	586744336	螺蛳粉	1
-mai'yuan	6249826	埋怨	1
-mei'shi'zi	63474494	没食子	1
-mi'lu	6458	秘鲁	1
-mian'mian'xiang'xu	642664269426498	面面相觑	1
-miao'lun	6426586	谬论	1
-mo'ban	66226	模板	1
-mo'ju	6658	模具	1
-mo'ling'liang'ke	6654645426453	模棱两可	1
-mo'xie'zuo	66943986	魔蝎座	1
-mo'yang	669264	模样	1
-mu'na	6862	木讷	1
-na'mo'a'mi'tuo'fo	626626488636	南无阿弥陀佛	1
-nan'jing'liu'he	626546454843	南京六合	1
-nan'jing'liu'he'qu	62654645484378	南京六合区	1
-nan'jing'shi'liu'he'qu	62654647445484378	南京市六合区	1
-nan'wu'a'mi'tuo'fo	6269826488636	南无阿弥陀佛	1
-nan'wu'e'mi'tuo'fo	6269836488636	南无阿弥陀佛	1
-nao'gu	62648	桡骨	1
-nian'tie	6426843	粘贴	1
-nian'yi'nian	6426946426	粘一粘	1
-niu'jing	6485464	牛丼	1
-niu'jing'fan	6485464326	牛丼饭	1
-niu'kou	648568	拗口	1
-niu'pi'xian	648749426	牛皮癣	1
-nong'tang	66648264	弄堂	1
-nuan'he	682643	暖和	1
-nuo'da	68632	偌大	1
-pan'yang'hu	726926448	鄱阳湖	1
-pao'fen	726336	剖分	1
-pao'fu'chan	726382426	剖腹产	1
-pao'gong'chan	72646642426	剖宫产	1
-pi'sa	7472	披萨	1
-pi'sa'bing	74722464	比萨饼	1
-pi'yi	7494	裨益	1
-po'ji'pao	7654726	迫击炮	1
-pu'gai	78424	仆街	1
-pu'gai	78424	扑街	1
-pu'gai'zai	78424924	扑街仔	1
-pu'gai'zai	78424924	仆街仔	1
-pu'ru	7878	哺乳	1
-qi'ke'fu	745338	契科夫	1
-qi'yu'qing'ping'zhi'mo	74987464746494466	起于青𬞟之末	1
-qian'li'zou'dan'ji	74265496832654	千里走单骑	1
-qian'ma'zhen	7426629436	荨麻疹	1
-qiang'jin	74264546	强劲	1
-qing'ping'zhi'mo	7464746494466	青𬞟之末	1
-qing'zha	7464942	倾轧	1
-ren'chen	7362436	妊娠	1
-ren'mo'gou'yang	736664689264	人模狗样	1
-rou'pu	76878	肉脯	1
-rou'yi	76894	柔荑	1
-rou'yi'hua'xu	7689448298	柔荑花序	1
-san'ge'bai	72643224	三个白	1
-san'ge'bai	72643224	三个百	1
-san'ge'bao	72643226	三个宝	1
-san'ge'bei	72643234	三个贝	1
-san'ge'cao	72643226	三个屮	1
-san'ge'che	72643243	三个屮	1
-san'ge'che	72643243	三个車	1
-san'ge'chong	7264324664	三个虫	1
-san'ge'chong	7264324664	三个䖝	1
-san'ge'ci	7264324	三个朿	1
-san'ge'dao	72643326	三个刀	1
-san'ge'dian	726433426	三个丶	1
-san'ge'dong	726433664	三个動	1
-san'ge'dou	72643368	三个斗	1
-san'ge'er	7264337	三个耳	1
-san'ge'fang	726433264	三个方	1
-san'ge'fei	72643334	三个飛	1
-san'ge'feng	726433364	三个風	1
-san'ge'gai	72643424	三个盖	1
-san'ge'ge	7264343	三个个	1
-san'ge'ge	7264343	三个亇	1
-san'ge'gong	726434664	三个弓	1
-san'ge'gua	72643482	三个瓜	1
-san'ge'guang	7264348264	三个光	1
-san'ge'guo	72643486	三个果	1
-san'ge'han	72643426	三个寒	1
-san'ge'hu	7264348	三个户	1
-san'ge'ji	7264354	三个吉	1
-san'ge'jia	72643542	三个甲	1
-san'ge'jie	72643543	三个介	1
-san'ge'jie	72643543	三个㔾	1
-san'ge'ke	7264353	三个可	1
-san'ge'ke	7264353	三个客	1
-san'ge'kong	726435664	三个空	1
-san'ge'ku	7264358	三个𦉼	1
-san'ge'kuai	726435824	三个𠙽	1
-san'ge'lao	72643526	三个老	1
-san'ge'le	7264353	三个了	1
-san'ge'lei	72643534	三个雷	1
-san'ge'li	7264354	三个立	1
-san'ge'lin	72643546	三个林	1
-san'ge'long	726435664	三个龍	1
-san'ge'lu	7264358	三个鹿	1
-san'ge'lu	7264358	三个圥	1
-san'ge'ma	7264362	三个马	1
-san'ge'mao	72643626	三个毛	1
-san'ge'men	72643636	三个門	1
-san'ge'mi	7264364	三个米	1
-san'ge'mou	72643668	三个厶	1
-san'ge'mu	7264368	三个木	1
-san'ge'mu	7264368	三个目	1
-san'ge'mu	7264368	三个罒	1
-san'ge'nan	72643626	三个男	1
-san'ge'niao	726436426	三个鳥	1
-san'ge'niao	726436426	三个鸟	1
-san'ge'nie	72643643	三个㖖	1
-san'ge'niu	72643648	三个牛	1
-san'ge'nv	7264368	三个女	1
-san'ge'pie	72643743	三个丿	1
-san'ge'qi	7264374	三个七	1
-san'ge'qi	7264374	三个企	1
-san'ge'qian	726437426	三个欠	1
-san'ge'qian	726437426	三个千	1
-san'ge'qiang	7264374264	三个羗	1
-san'ge'qin	72643746	三个秦	1
-san'ge'qu	7264378	三个去	1
-san'ge'quan	726437826	三个泉	1
-san'ge'quan	726437826	三个犬	1
-san'ge'quan	726437826	三个𡿨	1
-san'ge'ri	7264374	三个日	1
-san'ge'ruo	72643786	三个若	1
-san'ge'shan	726437426	三个山	1
-san'ge'shao	726437426	三个少	1
-san'ge'she	72643743	三个舌	1
-san'ge'she	72643743	三个舍	1
-san'ge'shen	726437436	三个申	1
-san'ge'sheng	7264374364	三个生	1
-san'ge'shi	72643744	三个士	1
-san'ge'shi	72643744	三个石	1
-san'ge'shou	726437468	三个手	1
-san'ge'shu	72643748	三个束	1
-san'ge'shuo	726437486	三个朔	1
-san'ge'si	7264374	三个厶	1
-san'ge'tai	72643824	三个太	1
-san'ge'tian	726438426	三个田	1
-san'ge'tian	726438426	三个天	1
-san'ge'tiao	726438426	三个𠧪	1
-san'ge'tu	7264388	三个兔	1
-san'ge'tuo	72643886	三个妥	1
-san'ge'wen	72643936	三个文	1
-san'ge'xia	72643942	三个夏	1
-san'ge'xian	726439426	三个県	1
-san'ge'xiang	7264394264	三个香	1
-san'ge'xiao	726439426	三个小	1
-san'ge'xin	72643946	三个心	1
-san'ge'xing	726439464	三个興	1
-san'ge'yan	72643926	三个言	1
-san'ge'yang	726439264	三个羊	1
-san'ge'ye	7264393	三个頁	1
-san'ge'ye	7264393	三个也	1
-san'ge'yi	7264394	三个宜	1
-san'ge'yin	72643946	三个因	1
-san'ge'yong	726439664	三个用	1
-san'ge'you	72643968	三个又	1
-san'ge'you	72643968	三个𠧪	1
-san'ge'yu	7264398	三个魚	1
-san'ge'yu	7264398	三个玉	1
-san'ge'yuan	726439826	三个原	1
-san'ge'yuan	726439826	三个厡	1
-san'ge'yun	72643986	三个雲	1
-san'ge'zhao	726439426	三个爪	1
-san'ge'zhi	72643944	三个止	1
-san'ge'zhi	72643944	三个直	1
-san'ge'zhi	72643944	三个至	1
-san'ge'zhu	72643948	三个丶	1
-san'ge'zhu	72643948	三个竹	1
-san'ge'zhui	726439484	三个隹	1
-san'ge'zou	72643968	三个𣥚	1
-san'ge'zu	7264398	三个足	1
-san'wei'zhen'huo	7269349436486	三昧真火	1
-sha'cao	742226	莎草	1
-sha'di'li	7423454	刹帝利	1
-shan'mu	742668	杉木	1
-shan'qi'da'deng	742674323364	氙气大灯	1
-shan'qi'deng	7426743364	氙气灯	1
-shan'qi'shou'dian'tong	742674746834268664	氙气手电筒	1
-shang'feng'die	742643364343	裳凤蝶	1
-shang'jia	74264542	商贾	1
-shou'ru'rou'yi	74687876894	手如柔荑	1
-shui'fu	748438	说服	1
-si'ge'bi	744324	四个匕	1
-si'ge'cao	7443226	四个屮	1
-si'ge'che	7443243	四个屮	1
-si'ge'che	7443243	四个車	1
-si'ge'chun	74432486	四个春	1
-si'ge'ci	744324	四个朿	1
-si'ge'feng	74433364	四个風	1
-si'ge'gong	74434664	四个工	1
-si'ge'guo	7443486	四个果	1
-si'ge'huo	7443486	四个火	1
-si'ge'jia	7443542	四个甲	1
-si'ge'jin	7443546	四个金	1
-si'ge'kun	7443586	四个困	1
-si'ge'lao	7443526	四个老	1
-si'ge'lei	7443534	四个雷	1
-si'ge'lin	7443546	四个林	1
-si'ge'long	74435664	四个龍	1
-si'ge'men	7443636	四个門	1
-si'ge'mou	7443668	四个厶	1
-si'ge'niu	7443648	四个牛	1
-si'ge'qie	7443743	四个且	1
-si'ge'qiu	7443748	四个囚	1
-si'ge'quan	74437826	四个泉	1
-si'ge'ri	744374	四个日	1
-si'ge'shi	7443744	四个石	1
-si'ge'shui	74437484	四个水	1
-si'ge'si	744374	四个厶	1
-si'ge'tian	74438426	四个天	1
-si'ge'tian	74438426	四个田	1
-si'ge'tu	744388	四个土	1
-si'ge'xian	74439426	四个先	1
-si'ge'xing	74439464	四个興	1
-si'ge'yan	7443926	四个言	1
-si'ge'yi	744394	四个乂	1
-si'ge'you	7443968	四个又	1
-si'ge'yu	744398	四个魚	1
-si'ge'yun	7443986	四个雲	1
-si'ge'zhu	7443948	四个竹	1
-si'ye	7493	肄业	1
-suo'sha'mi	78674264	缩砂密	1
-ta'sha'xing	827429464	踏莎行	1
-tai'xing'shan	82494647426	太行山	1
-tang'mu'jie'she	826468543743	瞠目结舌	1
-teng'man	8364626	藤蔓	1
-ti'an	8426	堤岸	1
-ti'xian	849426	体癣	1
-tiao'huan	84264826	调换	1
-tie'ji	84354	铁骑	1
-tie'ji'tu'chu'dao'qiang'ming	8435488248326742646464	铁骑突出刀枪鸣	1
-tong'ti	866484	胴体	1
-tong'xia	8664942	恫吓	1
-tou'pi'xue	86874983	头皮屑	1
-tu'fan	88326	吐蕃	1
-tu'gu'hun	8848486	吐谷浑	1
-tuo'ben	886236	拓本	1
-wen'bo	93626	榅桲	1
-wen'ting'jun	9368464586	温庭筠	1
-xi'yun	94986	吸吮	1
-xia'chi	942244	挟持	1
-xian'mei	9426634	谄媚	1
-xiang'dao	94264326	巷道	1
-xiao'dui	9426384	校对	1
-xiao'mu	942668	酵母	1
-xiao'mu'jun	942668586	酵母菌	1
-xiao'zheng	942694364	校正	1
-xie'hu	94348	潟湖	1
-xin'guang'ti'pang	94648264847264	心广体胖	1
-xin'kuan'ti'pang	9465826847264	心宽体胖	1
-xin'xin'xue'zi	94694698394	莘莘学子	1
-xing'su	946478	星宿	1
-xu'yu'wei'she	9898934743	虚与委蛇	1
-xue'fo'lan	98336526	雪佛兰	1
-xue'mai'pen'zhang	98362473694264	血脉喷张	1
-xun'ma	98662	荨麻	1
-ya'lv'jiang	925854264	鸭绿江	1
-yi'bao'shi'han	94226744426	一曝十寒	1
-yi'ji'dang'qian	945432647426	一骑当千	1
-yi'ji'du'ren	945438736	以己度人	1
-yi'ji'hong'chen'fei'zi'xiao	945446642436334949426	一骑红尘妃子笑	1
-yi'ji'jue'chen	94545832436	一骑绝尘	1
-yi'mo'yi'yang	9466949264	一模一样	1
-yi'qi'dang'qian	947432647426	一骑当千	1
-yi'ye'bian'zhou	949324269468	一叶扁舟	1
-yi'yu'cheng'zhen	9498243649436	一语成谶	1
-yin'gai	946424	应该	1
-yin'hong	9464664	殷红	1
-yin'jiu'jie'ke	94654854353	饮鸩解渴	1
-yin'jiu'zhi'ke	94654894453	饮鸩止渴	1
-yin'li	94654	阴霾	1
-ying'pin	9464746	赝品	1
-you'hui'juan	9684845826	优惠券	1
-you'mai'cai	968624224	油麦菜	1
-you'mo'you'yang	968669689264	有模有样	1
-you'shuo	9687486	游说	1
-yu'he	9843	潏河	1
-yu'jiu'huan'tui	985484826884	欲就还推	1
-yu'ju'huan'ying	985848269464	欲拒还迎	1
-yu'shuo'huan'xiu	9874864826948	欲说还休	1
-yu'shuo'huan'xiu'meng'yi'lan	9874864826948636494526	欲说还休梦已阑	1
-yu'yan'huan'zhi	989264826944	欲言还止	1
-yu'ying'huan'ju	989464482658	欲迎还拒	1
-yu'yu'huan'xiu	98984826948	欲语还休	1
-yu'yu'huan'xiu	98984826948	欲语还羞	1
-yu'zou'huan'liu	989684826548	欲走还留	1
-yuan'shang'han'shan'shi'jing'xia	98267426442674267445464942	远上寒山石径斜	1
-yuan'sui	9826784	芫荽	1
-zhang'hao'lian	942644265426	张镐濂	1
-zhao'liang'hao	942654264426	赵亮镐	1
-zhao'xiang	942694264	着想	1
-zheng'jun'hao	94364586426	郑俊镐	1
-zheng'shang	9436474264	整饬	1
-zhi're	94473	炽热	1
-zhi'sheng	94474364	吱声	1
-zhong'le'le	946645353	众乐乐	1
-zhu'jiao	9485426	主角	1
-zhuang'mo'zuo'yang	948264669869264	装模作样	1
-zhui'xin'qi'xie	948494674943	椎心泣血	1
-zhui'xin'qi'xue	948494674983	椎心泣血	1
-zi'yuan'zi'ai	9498269424	自怨自艾	1
-zong'zong	96649664	淙淙	1
-zou'dan'ji	96832654	走单骑	1
-zu'xian	989426	足癣	1
-zuo'ji	98654	坐骑	1
+a'fang'gong	阿房宫	1
+a'fang'gong'fu	阿房宫赋	1
+a'mi'tuo'fo	阿弥陀佛	1
+a'pang'gong	阿房宫	1
+a'pang'gong'fu	阿房宫赋	1
+an'hui'lu'an	安徽六安	1
+an'hui'lu'an'shi	安徽六安市	1
+an'hui'sheng'lu'an'shi	安徽省六安市	1
+an'nai	按耐	1
+an'nai'bu'zhu	按耐不住	1
+an'pou	安瓿	1
+an'pou'ping	安瓿瓶	1
+bai'bai	伯伯	1
+bai'qi'tun	白𬶨豚	1
+bai'zhe'bu'rao	百折不挠	1
+bang'bu	蚌埠	1
+bao'lian'tian'wu	暴殄天物	1
+ben'lin	贲临	1
+beng'jie	甭介	1
+bi'ji	荸荠	1
+bian'da	鞭挞	1
+bian'tai	鞭笞	1
+biao'han	剽悍	1
+bie'jie	别介	1
+bin'lang	槟榔	1
+bo'jing	脖颈	1
+bo'jing'er	脖颈儿	1
+bo'wen'qiang'shi	博闻强识	1
+bo'yang'hu	鄱阳湖	1
+bu'di	不啻	1
+can'he	掺和	1
+can'huo	掺和	1
+cao'shi'hao	曹世镐	1
+cao'zhi	草薙	1
+cao'zhi'jian	草薙剑	1
+cao'zhi'jing	草薙京	1
+ceng'jin	曾今	1
+chan'he	掺和	1
+cheng'zhi	称职	1
+chi'pi'sa	吃比萨	1
+chui'shou'ke'de	唾手可得	1
+ci'ya	龇牙	1
+ci'ya'lie'zui	龇牙咧嘴	1
+ci'zhe'ya	龇着牙	1
+cou'huo	凑活	1
+cu'kuang	粗犷	1
+cu'zao	粗糙	1
+da'fu'bian'bian	大腹便便	1
+dao'hang	道行	1
+dao'shang	捯饬	1
+dao'zai'shi'ni	道在屎溺	1
+du'le'le	独乐乐	1
+e'fang'gong	阿房宫	1
+e'fang'gong'fu	阿房宫赋	1
+e'fu	饿殍	1
+fa'xiao	发酵	1
+fa'zhi	阈值	1
+feng'chan	封禅	1
+feng'qi'yu'qing'ping'zhi'mo	风起于青𬞟之末	1
+fu'gu'zhi'qu	附骨之疽	1
+ga'li	蛤蜊	1
+ga'ran'er'zhi	戛然而止	1
+gai'liu'zi	街溜子	1
+gang'fu'zi'yong	刚愎自用	1
+gao'ju'li	高句丽	1
+ge'shou	恪守	1
+ge'zhi'wo	胳肢窝	1
+gei'yu	给予	1
+geng'quan	梗犬	1
+gong'qi	汞齐	1
+gong'qi'dian'ji	汞齐电极	1
+gong'quan	拱券	1
+gong'shang'jiao'zhi'yu	宫商角徵羽	1
+gu'xian	股癣	1
+gua'gua'zhui'di	呱呱坠地	1
+guan'ka	关卡	1000
+gui'bu	跬步	1
+gui'ju	诡谲	1
+gui'lie	龟裂	1
+guo'ming'qi	郭明錤	1
+guo'pu	果脯	1
+hai'shen'wei	海参崴	1
+hao'zhou	亳州	1
+hou'pu	厚朴	1
+hua'ban'xian	花斑癣	1
+hun'dun	馄饨	1
+huo'luo	饸饹	1
+jiang'cheng'hao	姜成镐	1
+jiang'hao'tong	姜镐童	1
+jiao'dou'shi	角斗士	1
+jiao'se	角色	1
+jiao'xian	脚癣	1
+jiao'zhu	角逐	1
+jie'pao	解剖	1
+jie'si'di'li	歇斯底里	1
+jie'su	结束	1
+jie'zha	结扎	1
+jing'gao	甑糕	1
+ju'hui	钜惠	1
+ju'mai'cai	苣荬菜	1
+ju'tou	噱头	1
+ka'bo'zi	卡脖子	1
+kong'lao'lao	空落落	1
+kong'lao'lao'de	空落落的	1
+li'chang'hao	李昌镐	1
+li'chen'hao	李陈镐	1
+li'li	李悝	1
+li'min'hao	李敏镐	1
+li'neng'kang'ding	力能扛鼎	1
+liang'ge'bai	两个白	1
+liang'ge'bai	两个百	1
+liang'ge'bei	两个貝	1
+liang'ge'bi	两个匕	1
+liang'ge'bing	两个秉	1
+liang'ge'cang	两个倉	1
+liang'ge'cao	两个屮	1
+liang'ge'chang	两个昌	1
+liang'ge'chao	两个巢	1
+liang'ge'che	两个屮	1
+liang'ge'che	两个車	1
+liang'ge'chen	两个臣	1
+liang'ge'chi	两个齒	1
+liang'ge'chong	两个虫	1
+liang'ge'chuan	两个巛	1
+liang'ge'chuan	两个串	1
+liang'ge'ci	两个朿	1
+liang'ge'dai	两个歹	1
+liang'ge'dai	两个呆	1
+liang'ge'dong	两个東	1
+liang'ge'er	两个而	1
+liang'ge'er	两个耳	1
+liang'ge'fan	两个凡	1
+liang'ge'fei	两个飞	1
+liang'ge'feng	两个風	1
+liang'ge'fu	两个夫	1
+liang'ge'fu	两个巿	1
+liang'ge'fu	两个畐	1
+liang'ge'ge	两个戈	1
+liang'ge'gong	两个弓	1
+liang'ge'gu	两个古	1
+liang'ge'gua	两个瓜	1
+liang'ge'guo	两个果	1
+liang'ge'han	两个𢎘	1
+liang'ge'he	两个禾	1
+liang'ge'hu	两个户	1
+liang'ge'hu	两个虎	1
+liang'ge'huo	两个火	1
+liang'ge'ji	两个彐	1
+liang'ge'ji	两个吉	1
+liang'ge'ji	两个几	1
+liang'ge'ji	两个旡	1
+liang'ge'jian	两个見	1
+liang'ge'jie	两个卪	1
+liang'ge'jie	两个㔾	1
+liang'ge'jin	两个巾	1
+liang'ge'jin	两个斤	1
+liang'ge'jing	两个井	1
+liang'ge'jing	两个竟	1
+liang'ge'jing	两个竞	1
+liang'ge'jiu	两个九	1
+liang'ge'ju	两个句	1
+liang'ge'ju	两个車	1
+liang'ge'lai	两个來	1
+liang'ge'lao	两个老	1
+liang'ge'li	两个立	1
+liang'ge'li	两个隶	1
+liang'ge'long	两个龍	1
+liang'ge'long	两个龙	1
+liang'ge'ma	两个馬	1
+liang'ge'mao	两个毛	1
+liang'ge'mi	两个米	1
+liang'ge'ming	两个明	1
+liang'ge'mou	两个厶	1
+liang'ge'mou	两个牟	1
+liang'ge'mu	两个母	1
+liang'ge'mu	两个罒	1
+liang'ge'mu	两个木	1
+liang'ge'mu	两个目	1
+liang'ge'nan	两个男	1
+liang'ge'ni	两个𡥦	1
+liang'ge'nian	两个廿	1
+liang'ge'nian	两个卄	1
+liang'ge'niao	两个鸟	1
+liang'ge'nv	两个女	1
+liang'ge'pai	两个𠂢	1
+liang'ge'pian	两个片	1
+liang'ge'qi	两个启	1
+liang'ge'qi	两个桼	1
+liang'ge'qi	两个奇	1
+liang'ge'qi	两个乞	1
+liang'ge'qian	两个欠	1
+liang'ge'qian	两个僉	1
+liang'ge'qu	两个區	1
+liang'ge'quan	两个犬	1
+liang'ge'qun	两个夋	1
+liang'ge'ri	两个日	1
+liang'ge'ru	两个入	1
+liang'ge'sa	两个卅	1
+liang'ge'shan	两个山	1
+liang'ge'shan	两个善	1
+liang'ge'she	两个舌	1
+liang'ge'shen	两个申	1
+liang'ge'sheng	两个生	1
+liang'ge'shi	两个尸	1
+liang'ge'shi	两个石	1
+liang'ge'shi	两个示	1
+liang'ge'shi	两个豕	1
+liang'ge'shu	两个束	1
+liang'ge'shui	两个水	1
+liang'ge'si	两个厶	1
+liang'ge'tian	两个田	1
+liang'ge'wu	两个兀	1
+liang'ge'wu	两个㐅	1
+liang'ge'xi	两个夕	1
+liang'ge'xi	两个习	1
+liang'ge'xi	两个昔	1
+liang'ge'xi	两个喜	1
+liang'ge'xian	两个先	1
+liang'ge'xiang	两个香	1
+liang'ge'xiang	两个享	1
+liang'ge'xin	两个辛	1
+liang'ge'xiong	两个兄	1
+liang'ge'xuan	两个玄	1
+liang'ge'ya	两个牙	1
+liang'ge'yan	两个言	1
+liang'ge'yan	两个炎	1
+liang'ge'yang	两个羊	1
+liang'ge'yao	两个幺	1
+liang'ge'yao	两个堯	1
+liang'ge'yi	两个乂	1
+liang'ge'yi	两个乙	1
+liang'ge'yi	两个亦	1
+liang'ge'yi	两个易	1
+liang'ge'yi	两个㣇	1
+liang'ge'yi	两个邑	1
+liang'ge'yin	两个尹	1
+liang'ge'yong	两个永	1
+liang'ge'you	两个又	1
+liang'ge'yu	两个魚	1
+liang'ge'yu	两个予	1
+liang'ge'yu	两个禺	1
+liang'ge'yue	两个曰	1
+liang'ge'zhen	两个真	1
+liang'ge'zhi	两个止	1
+liang'ge'zhi	两个支	1
+liang'ge'zhi	两个隻	1
+liang'ge'zhi	两个至	1
+liang'ge'zhui	两个隹	1
+liang'ge'zi	两个子	1
+liang'ge'zou	两个走	1
+liang'ge'zu	两个足	1
+liang'ge'zuo	两个左	1
+lu'an	六安	1
+lu'an'shi	六安市	1
+lu'an'xian	六安县	1
+liu'he'qu	六合区	1
+luo'an'suan	酪氨酸	1
+luo'shi'fen	螺蛳粉	1
+mai'yuan	埋怨	1
+mei'shi'zi	没食子	1
+mi'lu	秘鲁	1
+mian'mian'xiang'xu	面面相觑	1
+miao'lun	谬论	1
+mo'ban	模板	1
+mo'ju	模具	1
+mo'ling'liang'ke	模棱两可	1
+mo'xie'zuo	魔蝎座	1
+mo'yang	模样	1
+mu'na	木讷	1
+na'mo'a'mi'tuo'fo	南无阿弥陀佛	1
+nan'jing'liu'he	南京六合	1
+nan'jing'liu'he'qu	南京六合区	1
+nan'jing'shi'liu'he'qu	南京市六合区	1
+nan'wu'a'mi'tuo'fo	南无阿弥陀佛	1
+nan'wu'e'mi'tuo'fo	南无阿弥陀佛	1
+nao'gu	桡骨	1
+nian'tie	粘贴	1
+nian'yi'nian	粘一粘	1
+niu'jing	牛丼	1
+niu'jing'fan	牛丼饭	1
+niu'kou	拗口	1
+niu'pi'xian	牛皮癣	1
+nong'tang	弄堂	1
+nuan'he	暖和	1
+nuo'da	偌大	1
+pan'yang'hu	鄱阳湖	1
+pao'fen	剖分	1
+pao'fu'chan	剖腹产	1
+pao'gong'chan	剖宫产	1
+pi'sa	披萨	1
+pi'sa'bing	比萨饼	1
+pi'yi	裨益	1
+po'ji'pao	迫击炮	1
+pu'gai	仆街	1
+pu'gai	扑街	1
+pu'gai'zai	扑街仔	1
+pu'gai'zai	仆街仔	1
+pu'ru	哺乳	1
+qi'ke'fu	契科夫	1
+qi'yu'qing'ping'zhi'mo	起于青𬞟之末	1
+qian'li'zou'dan'ji	千里走单骑	1
+qian'ma'zhen	荨麻疹	1
+qiang'jin	强劲	1
+qing'ping'zhi'mo	青𬞟之末	1
+qing'zha	倾轧	1
+ren'chen	妊娠	1
+ren'mo'gou'yang	人模狗样	1
+rou'pu	肉脯	1
+rou'yi	柔荑	1
+rou'yi'hua'xu	柔荑花序	1
+san'ge'bai	三个白	1
+san'ge'bai	三个百	1
+san'ge'bao	三个宝	1
+san'ge'bei	三个贝	1
+san'ge'cao	三个屮	1
+san'ge'che	三个屮	1
+san'ge'che	三个車	1
+san'ge'chong	三个虫	1
+san'ge'chong	三个䖝	1
+san'ge'ci	三个朿	1
+san'ge'dao	三个刀	1
+san'ge'dian	三个丶	1
+san'ge'dong	三个動	1
+san'ge'dou	三个斗	1
+san'ge'er	三个耳	1
+san'ge'fang	三个方	1
+san'ge'fei	三个飛	1
+san'ge'feng	三个風	1
+san'ge'gai	三个盖	1
+san'ge'ge	三个个	1
+san'ge'ge	三个亇	1
+san'ge'gong	三个弓	1
+san'ge'gua	三个瓜	1
+san'ge'guang	三个光	1
+san'ge'guo	三个果	1
+san'ge'han	三个寒	1
+san'ge'hu	三个户	1
+san'ge'ji	三个吉	1
+san'ge'jia	三个甲	1
+san'ge'jie	三个介	1
+san'ge'jie	三个㔾	1
+san'ge'ke	三个可	1
+san'ge'ke	三个客	1
+san'ge'kong	三个空	1
+san'ge'ku	三个𦉼	1
+san'ge'kuai	三个𠙽	1
+san'ge'lao	三个老	1
+san'ge'le	三个了	1
+san'ge'lei	三个雷	1
+san'ge'li	三个立	1
+san'ge'lin	三个林	1
+san'ge'long	三个龍	1
+san'ge'lu	三个鹿	1
+san'ge'lu	三个圥	1
+san'ge'ma	三个马	1
+san'ge'mao	三个毛	1
+san'ge'men	三个門	1
+san'ge'mi	三个米	1
+san'ge'mou	三个厶	1
+san'ge'mu	三个木	1
+san'ge'mu	三个目	1
+san'ge'mu	三个罒	1
+san'ge'nan	三个男	1
+san'ge'niao	三个鳥	1
+san'ge'niao	三个鸟	1
+san'ge'nie	三个㖖	1
+san'ge'niu	三个牛	1
+san'ge'nv	三个女	1
+san'ge'pie	三个丿	1
+san'ge'qi	三个七	1
+san'ge'qi	三个企	1
+san'ge'qian	三个欠	1
+san'ge'qian	三个千	1
+san'ge'qiang	三个羗	1
+san'ge'qin	三个秦	1
+san'ge'qu	三个去	1
+san'ge'quan	三个泉	1
+san'ge'quan	三个犬	1
+san'ge'quan	三个𡿨	1
+san'ge'ri	三个日	1
+san'ge'ruo	三个若	1
+san'ge'shan	三个山	1
+san'ge'shao	三个少	1
+san'ge'she	三个舌	1
+san'ge'she	三个舍	1
+san'ge'shen	三个申	1
+san'ge'sheng	三个生	1
+san'ge'shi	三个士	1
+san'ge'shi	三个石	1
+san'ge'shou	三个手	1
+san'ge'shu	三个束	1
+san'ge'shuo	三个朔	1
+san'ge'si	三个厶	1
+san'ge'tai	三个太	1
+san'ge'tian	三个田	1
+san'ge'tian	三个天	1
+san'ge'tiao	三个𠧪	1
+san'ge'tu	三个兔	1
+san'ge'tuo	三个妥	1
+san'ge'wen	三个文	1
+san'ge'xia	三个夏	1
+san'ge'xian	三个県	1
+san'ge'xiang	三个香	1
+san'ge'xiao	三个小	1
+san'ge'xin	三个心	1
+san'ge'xing	三个興	1
+san'ge'yan	三个言	1
+san'ge'yang	三个羊	1
+san'ge'ye	三个頁	1
+san'ge'ye	三个也	1
+san'ge'yi	三个宜	1
+san'ge'yin	三个因	1
+san'ge'yong	三个用	1
+san'ge'you	三个又	1
+san'ge'you	三个𠧪	1
+san'ge'yu	三个魚	1
+san'ge'yu	三个玉	1
+san'ge'yuan	三个原	1
+san'ge'yuan	三个厡	1
+san'ge'yun	三个雲	1
+san'ge'zhao	三个爪	1
+san'ge'zhi	三个止	1
+san'ge'zhi	三个直	1
+san'ge'zhi	三个至	1
+san'ge'zhu	三个丶	1
+san'ge'zhu	三个竹	1
+san'ge'zhui	三个隹	1
+san'ge'zou	三个𣥚	1
+san'ge'zu	三个足	1
+san'wei'zhen'huo	三昧真火	1
+sha'cao	莎草	1
+sha'di'li	刹帝利	1
+shan'mu	杉木	1
+shan'qi'da'deng	氙气大灯	1
+shan'qi'deng	氙气灯	1
+shan'qi'shou'dian'tong	氙气手电筒	1
+shang'feng'die	裳凤蝶	1
+shang'jia	商贾	1
+shou'ru'rou'yi	手如柔荑	1
+shui'fu	说服	1
+si'ge'bi	四个匕	1
+si'ge'cao	四个屮	1
+si'ge'che	四个屮	1
+si'ge'che	四个車	1
+si'ge'chun	四个春	1
+si'ge'ci	四个朿	1
+si'ge'feng	四个風	1
+si'ge'gong	四个工	1
+si'ge'guo	四个果	1
+si'ge'huo	四个火	1
+si'ge'jia	四个甲	1
+si'ge'jin	四个金	1
+si'ge'kun	四个困	1
+si'ge'lao	四个老	1
+si'ge'lei	四个雷	1
+si'ge'lin	四个林	1
+si'ge'long	四个龍	1
+si'ge'men	四个門	1
+si'ge'mou	四个厶	1
+si'ge'niu	四个牛	1
+si'ge'qie	四个且	1
+si'ge'qiu	四个囚	1
+si'ge'quan	四个泉	1
+si'ge'ri	四个日	1
+si'ge'shi	四个石	1
+si'ge'shui	四个水	1
+si'ge'si	四个厶	1
+si'ge'tian	四个天	1
+si'ge'tian	四个田	1
+si'ge'tu	四个土	1
+si'ge'xian	四个先	1
+si'ge'xing	四个興	1
+si'ge'yan	四个言	1
+si'ge'yi	四个乂	1
+si'ge'you	四个又	1
+si'ge'yu	四个魚	1
+si'ge'yun	四个雲	1
+si'ge'zhu	四个竹	1
+si'ye	肄业	1
+suo'sha'mi	缩砂密	1
+ta'sha'xing	踏莎行	1
+tai'xing'shan	太行山	1
+tang'mu'jie'she	瞠目结舌	1
+teng'man	藤蔓	1
+ti'an	堤岸	1
+ti'xian	体癣	1
+tiao'huan	调换	1
+tie'ji	铁骑	1
+tie'ji'tu'chu'dao'qiang'ming	铁骑突出刀枪鸣	1
+tong'ti	胴体	1
+tong'xia	恫吓	1
+tou'pi'xue	头皮屑	1
+tu'fan	吐蕃	1
+tu'gu'hun	吐谷浑	1
+tuo'ben	拓本	1
+wen'bo	榅桲	1
+wen'ting'jun	温庭筠	1
+xi'yun	吸吮	1
+xia'chi	挟持	1
+xian'mei	谄媚	1
+xiang'dao	巷道	1
+xiao'dui	校对	1
+xiao'mu	酵母	1
+xiao'mu'jun	酵母菌	1
+xiao'zheng	校正	1
+xie'hu	潟湖	1
+xin'guang'ti'pang	心广体胖	1
+xin'kuan'ti'pang	心宽体胖	1
+xin'xin'xue'zi	莘莘学子	1
+xing'su	星宿	1
+xu'yu'wei'she	虚与委蛇	1
+xue'fo'lan	雪佛兰	1
+xue'mai'pen'zhang	血脉喷张	1
+xun'ma	荨麻	1
+ya'lv'jiang	鸭绿江	1
+yi'bao'shi'han	一曝十寒	1
+yi'ji'dang'qian	一骑当千	1
+yi'ji'du'ren	以己度人	1
+yi'ji'hong'chen'fei'zi'xiao	一骑红尘妃子笑	1
+yi'ji'jue'chen	一骑绝尘	1
+yi'mo'yi'yang	一模一样	1
+yi'qi'dang'qian	一骑当千	1
+yi'ye'bian'zhou	一叶扁舟	1
+yi'yu'cheng'zhen	一语成谶	1
+yin'gai	应该	1
+yin'hong	殷红	1
+yin'jiu'jie'ke	饮鸩解渴	1
+yin'jiu'zhi'ke	饮鸩止渴	1
+yin'li	阴霾	1
+ying'pin	赝品	1
+you'hui'juan	优惠券	1
+you'mai'cai	油麦菜	1
+you'mo'you'yang	有模有样	1
+you'shuo	游说	1
+yu'he	潏河	1
+yu'jiu'huan'tui	欲就还推	1
+yu'ju'huan'ying	欲拒还迎	1
+yu'shuo'huan'xiu	欲说还休	1
+yu'shuo'huan'xiu'meng'yi'lan	欲说还休梦已阑	1
+yu'yan'huan'zhi	欲言还止	1
+yu'ying'huan'ju	欲迎还拒	1
+yu'yu'huan'xiu	欲语还休	1
+yu'yu'huan'xiu	欲语还羞	1
+yu'zou'huan'liu	欲走还留	1
+yuan'shang'han'shan'shi'jing'xia	远上寒山石径斜	1
+yuan'sui	芫荽	1
+zhang'hao'lian	张镐濂	1
+zhao'liang'hao	赵亮镐	1
+zhao'xiang	着想	1
+zheng'jun'hao	郑俊镐	1
+zheng'shang	整饬	1
+zhi're	炽热	1
+zhi'sheng	吱声	1
+zhong'le'le	众乐乐	1
+zhu'jiao	主角	1
+zhuang'mo'zuo'yang	装模作样	1
+zhui'xin'qi'xie	椎心泣血	1
+zhui'xin'qi'xue	椎心泣血	1
+zi'yuan'zi'ai	自怨自艾	1
+zong'zong	淙淙	1
+zou'dan'ji	走单骑	1
+zu'xian	足癣	1
+zuo'ji	坐骑	1

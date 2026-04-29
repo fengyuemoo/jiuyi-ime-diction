@@ -1,254 +1,254 @@
-an'gang	264264	鞍钢	1645
-an'yong	269664	安永	802
-ao'you	26968	澳优	93
-bai'ye	22493	白页	19
-bao'biao	2262426	报表	11086
-bao'cheng	22624364	宝诚	69
-bao'chou	2262468	报酬	37389
-bao'guang	22648264	宝光	107
-bao'huo'dian	2264863426	饱和点	14
-bao'rui'tong'dian'dang'xing	2267848664342632649464	宝瑞通典当行	69
-bao'wang	2269264	保网	103
-bao'xin	226946	宝信	120
-bao'ying	2269464	宝盈	144
-bao'zi	22694	宝姿	89
-bei'di	23434	备抵	2
-bi'de'lin'qi	243354674	彼得林奇	9
-biao'sheng	242674364	飚升	152
-bo'hua	26482	渤化	31
-bo'xin	26946	博信	50
-bu'bian'yi	28242694	不便宜	4
-can'bao	226226	参保	27630
-chang'he	2426443	昌河	593
-chang'sheng'wang	24264743649264	常胜网	5
-chang'yuan	242649826	昌源	88
-chao'hua	2426482	朝华	97
-chen'ming	24366464	晨鸣	524
-da'chuang	32248264	达创	5
-da'hang'qing	3242647464	大行情	22
-da'hua	32482	大化	487
-da'mo	3266	大摩	316
-da'yuan	329826	大元	345
-dai'xiao	3249426	代销	2543
-di'yan	34926	递延	645
-dian'dang'xing	342632649464	典当行	1816
-ding'dian	34643426	定点	50653
-dong'hang	36644264	东航	8346
-dong'tan	3664826	东碳	1
-dong'xin	3664946	东信	396
-du'bang	382264	杜邦	982
-du'bi	3824	毒笔	1
-duo'jia	386542	多佳	5
-e'rong	37664	鄂绒	8
-fa'qia'yin'hang	327429464264	发卡银行	14
-fan'yi'fan	32694326	翻一番	5767
-fang'liang	326454264	放量	4959
-fang'xing	32649464	方兴	1093
-fang'yuan	32649826	方源	78
-fen'hong	3364664	分红	17834
-feng'hua	3364482	丰华	412
-fu'guo	38486	富国	3944
-fu'he	3843	复核	18216
-gao'sheng	42674364	高盛	4520
-ge'zhou'ba	43946822	葛州坝	19
-gong'mu	466468	公募	1429
-gou'hui	468484	购汇	653
-gu'fen	48336	股分	80
-gu'ge	4843	股歌	6
-guang'qi'zhang'feng	4826474942643364	广汽长丰	2
-guo'hua	486482	国华	1119
-guo'qi	48674	国企	54248
-guo'xiang	48694264	国祥	71
-ha'te'fu	428338	哈特佛	1
-hai'er	42437	海尔	8513
-hai'kuan'ji'hua	424582654482	还款计划	7
-hai'kuan'qi	424582674	还款期	10
-hai'li	42454	海立	63
-hai'na	42462	海纳	487
-hai'tai	424824	海泰	229
-hai'tong'ji'tuan	4248664548826	海通集团	26
-hai'xin	424946	海欣	143
-hang'tian'zhang'feng	42648426942643364	航天长峰	49
-hao'sheng	42674364	豪盛	71
-he'hua	43482	河化	9
-he'hui	43484	合会	68
-he'jia	43542	禾嘉	29
-heng'li	436454	恒立	124
-hong'dou'hang'kong	466436842645664	洪都航空	49
-hong'feng	46643364	宏峰	31
-hong'ji	466454	鸿基	509
-hong'sheng	466474364	宏盛	219
-hong'ye	466493	宏业	391
-hong'zhi	4664944	宏智	19
-hou'shi	468744	后市	8226
-hu'jian	485426	沪建	13
-hua'ding	4823464	华鼎	413
-hua'fu	48238	华富	345
-hua'guang	48248264	华光	565
-hua'jing	4825464	华靖	10
-hua'tao	482826	华陶	35
-hua'xin	482946	华信	769
-huan'dao	4826326	寰岛	64
-huang'chao'jia'si	48264242654274	皇朝家俬	4
-hui'dui	484384	汇兑	2001
-hui'shi	484744	汇市	2107
-hui'tian	4848426	惠天	207
-ji'cha	54242	绩差	144
-ji'dian	543426	基点	9396
-ji'dian	543426	机电	20086
-ji'qi	5474	集琦	18
-ji'zhi	54944	吉纸	11
-jia'rui	542784	嘉瑞	78
-jia'shi	542744	嘉实	1067
-jia'zhi	542944	佳纸	6
-jian'min	5426646	健民	355
-jian'xin	5426946	建信	520
-jian'ying	54269464	兼营	1679
-jiang'li	5426454	江力	29
-jin'bei	546234	金杯	3638
-jin'cheng	54624364	金城	3080
-jin'di	54634	金帝	282
-jin'ding	5463464	金鼎	837
-jin'hua	546482	金化	52
-jin'hua	546482	锦化	6
-jin'li'lai'ji'tuan	54654524548826	金利来集团	17
-jin'ling	5465464	金岭	230
-jin'pan	546726	金盘	230
-jin'qiao	5467426	金桥	4254
-jin'rui	546784	金瑞	354
-jin'tai	546824	金泰	787
-jing'xi	546494	京西	2844
-ju'fu	5838	聚富	20
-ju'li	5854	炬力	8
-ju'you	58968	聚友	73
-kai'di	52434	凯地	18
-kai'ma	52462	凯马	46
-kang'da	526432	康达	643
-kang'sai	5264724	康赛	17
-kong'tou	5664868	空头	2160
-kua'xing	5829464	跨行	2937
-kuai'ji'shi	582454744	会计师	13391
-lan'guang	52648264	兰光	19
-le'dian	533426	乐电	13
-lei'yi	53494	雷伊	363
-li'bang	542264	利邦	12
-li'ji	5454	利记	50
-lian'hua	5426482	联华	2318
-lian'yi	542694	联谊	14843
-lian'yi	542694	联益	59
-lian'you	5426968	联油	8
-ling'shou	54647468	零手	1
-lu'yin	58946	鲁银	53
-luo'bo	58626	洛玻	16
-lv'jing	585464	绿景	479
-mei'ya	63492	美雅	77
-min'dian	6463426	岷电	1
-min'hua	646482	民化	37
-ming'zhu	6464948	明珠	16902
-mu'ji	6854	募集	30698
-nan'hua	626482	南化	351
-nan'zheng	62694364	南证	10
-ping'quan	74647826	平券	3
-qi'hu	7448	奇虎	1209
-qian'bi	742624	前笔	46
-rui'long	7845664	瑞龙	174
-san'li	72654	三力	336
-san'li	72654	三立	631
-sha'gong'gu'fen	742466448336	厦工股份	1
-sha'hua	742482	厦华	288
-sha'xin	742946	厦新	10
-shang'hang	742644264	上行	14376
-shang'hui	74264484	商会	43102
-shen'gao	7436426	深高	3
-shen'zhi	7436944	深值	2
-sheng'run	74364786	盛润	52
-shi'bo	74426	世博	31335
-shi'lian	7445426	石炼	21
-shi'qi	74474	仕奇	19
-shi'xian	7449426	石岘	20
-si'da	7432	思达	170
-si'lun'bei'xie	74586234943	斯伦贝榭	2
-su'ning'huan'qiu	7864644826748	苏宁环球	111
-su'po'er	787637	苏泊尔	817
-su'wu	7898	苏物	8
-tai'fu	82438	泰复	5
-tai'ge	82443	泰格	370
-tian'fu	842638	天富	172
-tian'xiang	842694264	天香	289
-tong'ji	866454	同级	19538
-tun'ji	88654	屯积	72
-tuo'ri'xin'neng	886749466364	拓日新能	7
-wan'hua	926482	万华	827
-wan'ke	92653	万科	10065
-wei'da	93432	威达	188
-wei'jia	934542	维加	118
-wen'feng	9363364	文峰	1023
-wu'zhong	9894664	吴中	763
-xia'men'sha'gong	9426367424664	厦门厦工	5
-xian'zhi	9426944	现值	145
-xiao'yang	94269264	小阳	370
-xin'he'cheng	9464324364	新和成	16
-xin'hua'dou	946482368	新华都	36
-xin'lian	9465426	信联	86
-xin'tai	946824	新太	6
-xin'xin	946946	鑫新	8
-xu'guang	9848264	旭光	138
-ya'xin	92946	亚信	2172
-ya'xing	929464	亚星	302
-yao'hua	926482	耀华	476
-yi'an	9426	议案	34258
-yi'an	9426	亿安	15
-yi'bao	94226	易宝	411
-yi'da	9432	奕达	4
-yi'de	9433	一德	17
-yi'hua	94482	宜华	201
-yi'hua	94482	仪化	72
-yi'ji	9454	易基	4
-yi'li'pu	945478	伊立浦	35
-yin'jian	9465426	银建	147
-yin'lv'wang	946589264	银率网	111
-yin'shan	9467426	银山	3722
-yin'yuan	9469826	银元	1328
-ying'da	946432	英达	378
-ying'fei'tuo	9464334886	英飞拓	2
-yu'neng	986364	豫能	7
-yu'yuan	989826	玉源	14
-yuan'dong	98263664	远东	16062
-yun'sheng	98674364	运盛	41
-zhang'bai'ji'tuan	94264224548826	长百集团	2
-zhang'dian	942643426	长电	18
-zhang'hang'feng'huang	942644264336448264	长航凤凰	1
-zhang'kong	942645664	长控	3
-zhang'ling	942645464	长岭	1067
-zhang'sheng	9426474364	长盛	515
-zhang'sheng'huan'qiu	94264743644826748	长盛环球	8
-zhang'sheng'ji'jin	942647436454546	长盛基金	8
-zhang'sheng'tong'de	9426474364866433	长盛同德	13
-zhang'sheng'tong'rui	94264743648664784	长盛同瑞	1
-zhang'sheng'tong'xi	9426474364866494	长盛同禧	5
-zhang'sheng'tong'zhi	94264743648664944	长盛同智	1
-zhang'sheng'zhong'zheng	94264743649466494364	长盛中证	2
-zhang'tong	942648664	张铜	1
-zhang'yang	942649264	长阳	2243
-zhang'yu	9426498	张裕	2216
-zhang'yun	94264986	长运	771
-zhen'xin	9436946	振新	6
-zhi'gao'dian	9444263426	至高点	301
-zhong'dan	94664326	重单	6
-zhong'fu	9466438	中服	77
-zhong'gu	9466448	重估	774
-zhong'hua	94664482	中化	865
-zhong'ji	9466454	中集	749
-zhong'liao	946645426	中辽	5
-zhong'lu	9466458	中鲁	40
-zhong'pu	9466478	中葡	1
-zhong'wu	9466498	中钨	2
-zhong'yan	94664926	中燕	4
-zhong'yin	94664946	中银	3117
-zhong'yuan	946649826	中远	4321
-zhong'yuan	946649826	中源	43
-zhu'jiang	94854264	珠江	23312
-zhu'xin	948946	筑信	30
-zhuan'qi	9482674	转期	23
-zi'yi	9494	自仪	19
-zong'xing	96649464	总行	5952
+an'gang	鞍钢	1645
+an'yong	安永	802
+ao'you	澳优	93
+bai'ye	白页	19
+bao'biao	报表	11086
+bao'cheng	宝诚	69
+bao'chou	报酬	37389
+bao'guang	宝光	107
+bao'huo'dian	饱和点	14
+bao'rui'tong'dian'dang'xing	宝瑞通典当行	69
+bao'wang	保网	103
+bao'xin	宝信	120
+bao'ying	宝盈	144
+bao'zi	宝姿	89
+bei'di	备抵	2
+bi'de'lin'qi	彼得林奇	9
+biao'sheng	飚升	152
+bo'hua	渤化	31
+bo'xin	博信	50
+bu'bian'yi	不便宜	4
+can'bao	参保	27630
+chang'he	昌河	593
+chang'sheng'wang	常胜网	5
+chang'yuan	昌源	88
+chao'hua	朝华	97
+chen'ming	晨鸣	524
+da'chuang	达创	5
+da'hang'qing	大行情	22
+da'hua	大化	487
+da'mo	大摩	316
+da'yuan	大元	345
+dai'xiao	代销	2543
+di'yan	递延	645
+dian'dang'xing	典当行	1816
+ding'dian	定点	50653
+dong'hang	东航	8346
+dong'tan	东碳	1
+dong'xin	东信	396
+du'bang	杜邦	982
+du'bi	毒笔	1
+duo'jia	多佳	5
+e'rong	鄂绒	8
+fa'qia'yin'hang	发卡银行	14
+fan'yi'fan	翻一番	5767
+fang'liang	放量	4959
+fang'xing	方兴	1093
+fang'yuan	方源	78
+fen'hong	分红	17834
+feng'hua	丰华	412
+fu'guo	富国	3944
+fu'he	复核	18216
+gao'sheng	高盛	4520
+ge'zhou'ba	葛州坝	19
+gong'mu	公募	1429
+gou'hui	购汇	653
+gu'fen	股分	80
+gu'ge	股歌	6
+guang'qi'zhang'feng	广汽长丰	2
+guo'hua	国华	1119
+guo'qi	国企	54248
+guo'xiang	国祥	71
+ha'te'fu	哈特佛	1
+hai'er	海尔	8513
+hai'kuan'ji'hua	还款计划	7
+hai'kuan'qi	还款期	10
+hai'li	海立	63
+hai'na	海纳	487
+hai'tai	海泰	229
+hai'tong'ji'tuan	海通集团	26
+hai'xin	海欣	143
+hang'tian'zhang'feng	航天长峰	49
+hao'sheng	豪盛	71
+he'hua	河化	9
+he'hui	合会	68
+he'jia	禾嘉	29
+heng'li	恒立	124
+hong'dou'hang'kong	洪都航空	49
+hong'feng	宏峰	31
+hong'ji	鸿基	509
+hong'sheng	宏盛	219
+hong'ye	宏业	391
+hong'zhi	宏智	19
+hou'shi	后市	8226
+hu'jian	沪建	13
+hua'ding	华鼎	413
+hua'fu	华富	345
+hua'guang	华光	565
+hua'jing	华靖	10
+hua'tao	华陶	35
+hua'xin	华信	769
+huan'dao	寰岛	64
+huang'chao'jia'si	皇朝家俬	4
+hui'dui	汇兑	2001
+hui'shi	汇市	2107
+hui'tian	惠天	207
+ji'cha	绩差	144
+ji'dian	基点	9396
+ji'dian	机电	20086
+ji'qi	集琦	18
+ji'zhi	吉纸	11
+jia'rui	嘉瑞	78
+jia'shi	嘉实	1067
+jia'zhi	佳纸	6
+jian'min	健民	355
+jian'xin	建信	520
+jian'ying	兼营	1679
+jiang'li	江力	29
+jin'bei	金杯	3638
+jin'cheng	金城	3080
+jin'di	金帝	282
+jin'ding	金鼎	837
+jin'hua	金化	52
+jin'hua	锦化	6
+jin'li'lai'ji'tuan	金利来集团	17
+jin'ling	金岭	230
+jin'pan	金盘	230
+jin'qiao	金桥	4254
+jin'rui	金瑞	354
+jin'tai	金泰	787
+jing'xi	京西	2844
+ju'fu	聚富	20
+ju'li	炬力	8
+ju'you	聚友	73
+kai'di	凯地	18
+kai'ma	凯马	46
+kang'da	康达	643
+kang'sai	康赛	17
+kong'tou	空头	2160
+kua'xing	跨行	2937
+kuai'ji'shi	会计师	13391
+lan'guang	兰光	19
+le'dian	乐电	13
+lei'yi	雷伊	363
+li'bang	利邦	12
+li'ji	利记	50
+lian'hua	联华	2318
+lian'yi	联谊	14843
+lian'yi	联益	59
+lian'you	联油	8
+ling'shou	零手	1
+lu'yin	鲁银	53
+luo'bo	洛玻	16
+lv'jing	绿景	479
+mei'ya	美雅	77
+min'dian	岷电	1
+min'hua	民化	37
+ming'zhu	明珠	16902
+mu'ji	募集	30698
+nan'hua	南化	351
+nan'zheng	南证	10
+ping'quan	平券	3
+qi'hu	奇虎	1209
+qian'bi	前笔	46
+rui'long	瑞龙	174
+san'li	三力	336
+san'li	三立	631
+sha'gong'gu'fen	厦工股份	1
+sha'hua	厦华	288
+sha'xin	厦新	10
+shang'hang	上行	14376
+shang'hui	商会	43102
+shen'gao	深高	3
+shen'zhi	深值	2
+sheng'run	盛润	52
+shi'bo	世博	31335
+shi'lian	石炼	21
+shi'qi	仕奇	19
+shi'xian	石岘	20
+si'da	思达	170
+si'lun'bei'xie	斯伦贝榭	2
+su'ning'huan'qiu	苏宁环球	111
+su'po'er	苏泊尔	817
+su'wu	苏物	8
+tai'fu	泰复	5
+tai'ge	泰格	370
+tian'fu	天富	172
+tian'xiang	天香	289
+tong'ji	同级	19538
+tun'ji	屯积	72
+tuo'ri'xin'neng	拓日新能	7
+wan'hua	万华	827
+wan'ke	万科	10065
+wei'da	威达	188
+wei'jia	维加	118
+wen'feng	文峰	1023
+wu'zhong	吴中	763
+xia'men'sha'gong	厦门厦工	5
+xian'zhi	现值	145
+xiao'yang	小阳	370
+xin'he'cheng	新和成	16
+xin'hua'dou	新华都	36
+xin'lian	信联	86
+xin'tai	新太	6
+xin'xin	鑫新	8
+xu'guang	旭光	138
+ya'xin	亚信	2172
+ya'xing	亚星	302
+yao'hua	耀华	476
+yi'an	议案	34258
+yi'an	亿安	15
+yi'bao	易宝	411
+yi'da	奕达	4
+yi'de	一德	17
+yi'hua	宜华	201
+yi'hua	仪化	72
+yi'ji	易基	4
+yi'li'pu	伊立浦	35
+yin'jian	银建	147
+yin'lv'wang	银率网	111
+yin'shan	银山	3722
+yin'yuan	银元	1328
+ying'da	英达	378
+ying'fei'tuo	英飞拓	2
+yu'neng	豫能	7
+yu'yuan	玉源	14
+yuan'dong	远东	16062
+yun'sheng	运盛	41
+zhang'bai'ji'tuan	长百集团	2
+zhang'dian	长电	18
+zhang'hang'feng'huang	长航凤凰	1
+zhang'kong	长控	3
+zhang'ling	长岭	1067
+zhang'sheng	长盛	515
+zhang'sheng'huan'qiu	长盛环球	8
+zhang'sheng'ji'jin	长盛基金	8
+zhang'sheng'tong'de	长盛同德	13
+zhang'sheng'tong'rui	长盛同瑞	1
+zhang'sheng'tong'xi	长盛同禧	5
+zhang'sheng'tong'zhi	长盛同智	1
+zhang'sheng'zhong'zheng	长盛中证	2
+zhang'tong	张铜	1
+zhang'yang	长阳	2243
+zhang'yu	张裕	2216
+zhang'yun	长运	771
+zhen'xin	振新	6
+zhi'gao'dian	至高点	301
+zhong'dan	重单	6
+zhong'fu	中服	77
+zhong'gu	重估	774
+zhong'hua	中化	865
+zhong'ji	中集	749
+zhong'liao	中辽	5
+zhong'lu	中鲁	40
+zhong'pu	中葡	1
+zhong'wu	中钨	2
+zhong'yan	中燕	4
+zhong'yin	中银	3117
+zhong'yuan	中远	4321
+zhong'yuan	中源	43
+zhu'jiang	珠江	23312
+zhu'xin	筑信	30
+zhuan'qi	转期	23
+zi'yi	自仪	19
+zong'xing	总行	5952

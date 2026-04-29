@@ -1,58 +1,58 @@
-airtag	247824	AirTag	1
-appleairtag	27753247824	Apple AirTag	1
-applefitness	277533486377	Apple Fitness+	1
-applenews	277536397	Apple News+	1
-appletvk	27753885	Apple TV 4K	1
-applewatchse	277539282473	Apple Watch SE	1
-applewatchultra	277539282485872	Apple Watch Ultra	1
-clawdbot	25293268	Clawdbot	1
-cpk	275	CP2K	1
-dependabot	3373632268	Dependabot	1
-earpods	3277637	EarPods	1
-ftir	3847	FTIR	1
-iphone	474663	iPhone 17 Pro	3
-iphone	474663	iPhone 17 Pro Max	2
-iphone	474663	iPhone 17e	1
-iphonee	4746633	iPhone 17e	1
-katex	52839	KaTeX	1
-macbookneo	6222665636	MacBook Neo	1
-macos	62267	macOS Sierra	1
-macos	62267	macOS High Sierra	2
-macos	62267	macOS Mojave	3
-macos	62267	macOS Catalina	4
-macos	62267	macOS Big Sur	5
-macos	62267	macOS Monterey	6
-macos	62267	macOS Ventura	7
-macos	62267	macOS Sonoma	8
-macos	62267	macOS Sequoia	9
-macos	62267	macOS Tahoe	10
-macosx	622679	Mac OS X Cheetah	1
-macosx	622679	Mac OS X Puma	2
-macosx	622679	Mac OS X Jaguar	3
-macosx	622679	Mac OS X Panther	4
-macosx	622679	Mac OS X Tiger	5
-macosx	622679	Mac OS X Leopard	6
-macosx	622679	Mac OS X Snow Leopard	7
-mathjax	6284529	MathJax	1
-mbn	626	MBN	1
-moltbot	6658268	Moltbot	1
-openclaw	67362529	OpenClaw	1
-osx	679	OS X Lion	1
-osx	679	OS X Mountain Lion	2
-osx	679	OS X Mavericks	3
-osx	679	OS X Yosemite	4
-osx	679	OS X El Capitan	5
-pkgbuild	75428453	PKGBUILD	1
-qwen	7936	Qwen	1
-seedance	73332623	Seedance	1
-slurm	75876	Slurm	1
-starlink	78275465	Starlink	1
-studiodisplayxdr	7883463477529937	Studio Display XDR	1
-temu	8368	Temu	1
-unocss	866277	UnoCSS	1
-vasp	8277	VASP	1
-waydroid	92937643	Waydroid	1
-windows	9463697	Windows Me	3
-windows	9463697	Windows XP	5
-windows	9463697	Windows Vista	6
-zotero	968376	Zotero	1
+airtag	AirTag	1
+appleairtag	Apple AirTag	1
+applefitness	Apple Fitness+	1
+applenews	Apple News+	1
+appletvk	Apple TV 4K	1
+applewatchse	Apple Watch SE	1
+applewatchultra	Apple Watch Ultra	1
+clawdbot	Clawdbot	1
+cpk	CP2K	1
+dependabot	Dependabot	1
+earpods	EarPods	1
+ftir	FTIR	1
+iphone	iPhone 17 Pro	3
+iphone	iPhone 17 Pro Max	2
+iphone	iPhone 17e	1
+iphonee	iPhone 17e	1
+katex	KaTeX	1
+macbookneo	MacBook Neo	1
+macos	macOS Sierra	1
+macos	macOS High Sierra	2
+macos	macOS Mojave	3
+macos	macOS Catalina	4
+macos	macOS Big Sur	5
+macos	macOS Monterey	6
+macos	macOS Ventura	7
+macos	macOS Sonoma	8
+macos	macOS Sequoia	9
+macos	macOS Tahoe	10
+macosx	Mac OS X Cheetah	1
+macosx	Mac OS X Puma	2
+macosx	Mac OS X Jaguar	3
+macosx	Mac OS X Panther	4
+macosx	Mac OS X Tiger	5
+macosx	Mac OS X Leopard	6
+macosx	Mac OS X Snow Leopard	7
+mathjax	MathJax	1
+mbn	MBN	1
+moltbot	Moltbot	1
+openclaw	OpenClaw	1
+osx	OS X Lion	1
+osx	OS X Mountain Lion	2
+osx	OS X Mavericks	3
+osx	OS X Yosemite	4
+osx	OS X El Capitan	5
+pkgbuild	PKGBUILD	1
+qwen	Qwen	1
+seedance	Seedance	1
+slurm	Slurm	1
+starlink	Starlink	1
+studiodisplayxdr	Studio Display XDR	1
+temu	Temu	1
+unocss	UnoCSS	1
+vasp	VASP	1
+waydroid	Waydroid	1
+windows	Windows Me	3
+windows	Windows XP	5
+windows	Windows Vista	6
+zotero	Zotero	1
