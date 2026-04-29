@@ -31,13 +31,13 @@ dict.bin 二进制格式
   key_offset [4B  LE uint32] → string pool 偏移
   word_offset[4B  LE uint32] → string pool 偏移
   ini_offset [4B  LE uint32] → string pool 偏移 (initials)
-  freq       [4B  LE int32 ]
+  freq       [4B  LE int32 ]   ← 有符号，最大 2147483647，超过则截断
   flags      [4B  LE uint32] bit0=lang(0=en,1=zh)
 
 查询方式：
   - 前缀查询：二分定位第一个 key >= prefix 的位置，顺序扫描
   - T9 查询：将输入数字串对应到所有可能字母前缀，多次前缀查询合并
-  - initials 查询：直接扫描 ini_offset 字段（可建内存辅助索引）
+  - initials 查询：直接扫描 ini_offset 字段
 ────────────────────────────────────────────────
 
 initials 字段：
@@ -59,7 +59,6 @@ import argparse
 import struct
 import sys
 from pathlib import Path
-from collections import defaultdict
 
 try:
     from tqdm import tqdm
@@ -72,24 +71,8 @@ MAGIC          = b'JIUYI001'
 FORMAT_VERSION = 1
 HEADER_SIZE    = 32
 ENTRY_SIZE     = 20   # key_offset(4) + word_offset(4) + ini_offset(4) + freq(4) + flags(4)
-BATCH_SIZE     = 50_000
 MAX_WORD_LEN   = 100
-
-# T9 键位映射
-T9_MAP = {
-    'a':'2','b':'2','c':'2',
-    'd':'3','e':'3','f':'3',
-    'g':'4','h':'4','i':'4',
-    'j':'5','k':'5','l':'5',
-    'm':'6','n':'6','o':'6',
-    'p':'7','q':'7','r':'7','s':'7',
-    't':'8','u':'8','v':'8',
-    'w':'9','x':'9','y':'9','z':'9',
-}
-
-
-def word_to_t9(word: str) -> str:
-    return ''.join(T9_MAP.get(c, '') for c in word.lower() if c.isalpha())
+MAX_FREQ       = 2_147_483_647   # int32 最大値，超过则截断
 
 
 def pinyin_to_initials(pinyin: str) -> str:
@@ -113,10 +96,10 @@ def parse_line(line: str, lang: str = 'en'):
     """
     解析一行词库条目，返回 (word, key, freq) 或 None。
 
-    支持格式（按优先级）：
-      1. Tab 三列：  key(拼音/字母)  词  词频
-      2. Tab 两列：  词  词频
-      3. CSV：       词,词频
+    支持格式：
+      Tab 三列：  key(拼音/字母)  词  词频
+      Tab 两列：  词  词频
+      CSV：       词,词频
     """
     line = line.strip().lstrip('\ufeff')
     if not line or line.startswith('#'):
@@ -191,6 +174,8 @@ def load_all_entries(input_files, langs):
                 word, key, freq = result
                 if not key:
                     continue
+                # 截断到 int32 上限
+                freq = min(freq, MAX_FREQ)
                 initials = pinyin_to_initials(key) if lang == 'zh' else ''
                 dk = (key, word)
                 if dk not in best or freq > best[dk][0]:
@@ -200,7 +185,6 @@ def load_all_entries(input_files, langs):
                 iter_lines.close()
 
     print(f"[load ] 去重后共 {len(best):,} 条")
-    # 按 key 升序排列（二分查找要求）
     entries = sorted(
         ((k[0], k[1], v[2], v[0], v[1]) for k, v in best.items()),
         key=lambda e: e[0]
@@ -212,10 +196,10 @@ def build_bin(entries, out_path: str):
     """
     将 entries 写入 dict.bin。
     entries: [(key, word, initials, freq, lang_flag), ...] 已按 key 升序。
+    freq 字段为 LE int32（有符号），最大 2147483647。
     """
     print(f"[build] 开始打包 {len(entries):,} 条词条...")
 
-    # ── 第一遍：构建 string pool ──────────────────────────────
     pool      = bytearray()
     str_cache = {}  # str -> offset
 
@@ -234,14 +218,13 @@ def build_bin(entries, out_path: str):
         ko = intern(key)
         wo = intern(word)
         io = intern(initials)
+        freq = min(max(freq, 0), MAX_FREQ)   # 保险容错：再次截断
         index_rows.append((ko, wo, io, freq, lang_flag))
 
-    # ── 计算偏移 ──────────────────────────────────────────────
     pool_offset  = HEADER_SIZE
     index_offset = pool_offset + len(pool)
     entry_count  = len(index_rows)
 
-    # ── 写文件 ────────────────────────────────────────────────
     out = Path(out_path)
     out.parent.mkdir(parents=True, exist_ok=True)
 
@@ -257,8 +240,10 @@ def build_bin(entries, out_path: str):
         f.write(bytes(pool))
 
         # Index table
+        # 格式： IIIiI = uint32 key_offset, uint32 word_offset, uint32 ini_offset,
+        #              int32 freq, uint32 flags
         for ko, wo, io, freq, lang_flag in index_rows:
-            f.write(struct.pack('<IIIII', ko, wo, io, freq, lang_flag))
+            f.write(struct.pack('<IIIiI', ko, wo, io, freq, lang_flag))
 
     size_mb = out.stat().st_size / 1024 / 1024
     print(f"[build] 完成！{entry_count:,} 条 → {out_path} ({size_mb:.1f} MB)")
@@ -268,8 +253,6 @@ def build_bin(entries, out_path: str):
 
 def verify_bin(bin_path: str):
     """验证 dict.bin 结构与内容。"""
-    import bisect
-
     path = Path(bin_path)
     if not path.exists():
         print(f"[error] 文件不存在：{bin_path}", file=sys.stderr)
@@ -279,14 +262,13 @@ def verify_bin(bin_path: str):
     size_mb = len(data) / 1024 / 1024
     print(f"[verify] 文件大小：{size_mb:.1f} MB")
 
-    # Header
     magic = data[:8]
     if magic != MAGIC:
         print(f"[error] magic 不匹配：{magic}")
         sys.exit(1)
-    version,     = struct.unpack_from('<I', data, 8)
-    entry_count, = struct.unpack_from('<I', data, 12)
-    index_offset,= struct.unpack_from('<Q', data, 16)
+    version,      = struct.unpack_from('<I', data, 8)
+    entry_count,  = struct.unpack_from('<I', data, 12)
+    index_offset, = struct.unpack_from('<Q', data, 16)
     print(f"[verify] version={version}, entry_count={entry_count:,}, index_offset={index_offset}")
 
     pool_start = HEADER_SIZE
@@ -295,7 +277,6 @@ def verify_bin(bin_path: str):
         length, = struct.unpack_from('<H', data, pool_start + offset)
         return data[pool_start + offset + 2: pool_start + offset + 2 + length].decode('utf-8')
 
-    # 统计
     zh_count = en_count = 0
     for i in range(entry_count):
         base = index_offset + i * ENTRY_SIZE
@@ -304,21 +285,18 @@ def verify_bin(bin_path: str):
             zh_count += 1
         else:
             en_count += 1
-
     print(f"[verify] zh={zh_count:,}, en={en_count:,}")
 
-    # 抽查前 5 条
     print("[verify] 前5条样本：")
     for i in range(min(5, entry_count)):
         base = index_offset + i * ENTRY_SIZE
-        ko, wo, io, freq, flags = struct.unpack_from('<IIIII', data, base)
+        ko, wo, io, freq, flags = struct.unpack_from('<IIIiI', data, base)
         key      = read_str(ko)
         word     = read_str(wo)
         initials = read_str(io)
         lang     = 'zh' if flags & 1 else 'en'
         print(f"         [{i}] key={key} word={word} initials={initials} freq={freq} lang={lang}")
 
-    # 验证 index 按 key 升序
     print("[verify] 检查 index 排序...")
     prev_key = ''
     unsorted = 0
