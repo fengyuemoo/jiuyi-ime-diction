@@ -3,190 +3,281 @@
 """
 build_bigram.py — 从中文词库生成 bigram.bin
 
-原理：
-  从 cn_base.txt（拼音\t词\t词频 格式）读取所有中文词及词频。
-  用词频模拟共现：对词频最高的 TOP_N 个词，枚举所有有意义的「词对」，
-  共现分 = min(20, log2(min(freq_prev, freq_next) / FREQ_SCALE + 1))
+策略：拆解多字词条推断搜配强度
+  cn_base.txt 中的多字词（N ≥ 2）就是隐含的 bigram 证据。
+  例如：
+    ni'hao      你好       → 不拆（单个音节词的组合就是 bigram）
+    bei'jing    北京       → 「北 → 京」（单字级）
+    zhong'guo   中国       → 「中 → 国」
+    bei'jing'da'xue 北京大学 → 「北京 → 大学」（双字词级）
+    zhong'hua'ren'min 中华人民 → 「中华 → 人民」
 
-  这不是真正的语料 bigram 统计，但对于输入法而言效果相当于：
-  - 两个词都高频 → 它们搭配出现概率也高 → 先验分高
-  - 冷门词无论与谁搭配 → 先验分低
+  拆分规则：
+    - 2音节词： prev = 第1字， next = 第2字（单字级）
+    - 3音节词： prev = 第1字1字， next = 后2字； prev = 前2字， next = 第3字1字
+    - 4音节词： prev = 前2字， next = 后2字（双字词级）
+    - 5+音节词： prev = 前 N//2 字， next = 后 N//2 字
+    每条词对的得分 = min(20, log2(词条在词库中出现次数 + 1))
+    出现次数 = 该模式对应的所有词条的词条间索引和（以 idx 累加）
 
-  配合 BigramStore 动态学习，用户的真实习惯会在几次选词后覆盖先验。
+  词库词频字段不使用（它们在 cn_base.txt 中无法信赖）。
+  只用词条的「存在」和「在词库中的排序位置（越靠前 = 词条越少见 = 越高级）。
 
 输出格式：与 dict.bin 完全相同（JIUYI001 v2）
-  key  = "prevWord|nextWord"（UTF-8）
-  word = nextWord
-  ini  = ""（bigram 不需要 initials）
-  freq = 先验分 0~20（int32）
-  flags= 0
+  key   = "prevWord|nextWord"
+  word  = nextWord
+  ini   = ""
+  freq  = 先验分 1~20（int32）
+  flags = 0
 
 用法：
   cd jiuyi-ime-diction/
   python build_bigram.py --input cn_base.txt --output bigram.bin
+  # 可选加入手工词对表
+  python build_bigram.py --input cn_base.txt --manual bigram_manual.tsv --output bigram.bin
   # 然后将 bigram.bin 复制到 jiuyi-ime-android/app/src/main/assets/
 
 参数：
   --input   输入词库文件（cn_base.txt 格式）
+  --manual  可选：手工词对文件（TSV：prev_word TAB next_word TAB score）
   --output  输出文件路径（默认 bigram.bin）
-  --top     取词频最高的 TOP 词作为 prev/next 候选（默认 3000）
-  --scale   共现分计算的频次基准 FREQ_SCALE（默认 1000）
+  --min-word-len  参与拆分的最小词条字数（默认 2）
+  --max-word-len  参与拆分的最大词条字数（默认 8）
 """
 
 import argparse
 import math
 import struct
-import sys
 from pathlib import Path
 
 MAGIC          = b'JIUYI001'
 FORMAT_VERSION = 2
 HEADER_SIZE    = 32
-ENTRY_SIZE     = 32
 MAX_FREQ       = 2_147_483_647
+_ENTRY_STRUCT  = struct.Struct('<QQQiI')
 
-_ENTRY_STRUCT = struct.Struct('<QQQiI')
 
+# ---------------------------------------------------------------------------
+# Step 1: 读取词库，返回所有符合词长的词条列表
+# ---------------------------------------------------------------------------
 
-def load_zh_words(filepath: str, top_n: int) -> list[tuple[str, int]]:
-    """读取 cn_base.txt，返回按词频降序的 (word, freq) 列表，取前 top_n 条。"""
-    words = {}
+def load_entries(filepath: str, min_len: int, max_len: int) -> list[tuple[str, str]]:
+    """
+    返回 [(pinyin, word), ...]，只保留字数在 [min_len, max_len] 之间的纯中文词条。
+    不加载词频字段。
+    """
     enc = 'utf-8'
     try:
         with open(filepath, 'rb') as f:
-            bom = f.read(3)
-        if bom[:3] == b'\xef\xbb\xbf':
-            enc = 'utf-8-sig'
+            if f.read(3) == b'\xef\xbb\xbf':
+                enc = 'utf-8-sig'
     except Exception:
         pass
 
+    result = []
     with open(filepath, encoding=enc, errors='ignore') as f:
         for line in f:
             line = line.strip()
             if not line or line.startswith('#'):
                 continue
             parts = line.split('\t')
-            if len(parts) < 3:
+            if len(parts) < 2:
                 continue
-            word = parts[1].strip()
-            try:
-                freq = int(parts[2].strip())
-            except ValueError:
+            pinyin = parts[0].strip()
+            word   = parts[1].strip()
+            if not word or not pinyin:
                 continue
-            if not word:
-                continue
-            # 只保留纯中文词（过滤英文、数字、标点）
             if not all('\u4e00' <= c <= '\u9fff' for c in word):
                 continue
-            if word in words:
-                words[word] = max(words[word], freq)
-            else:
-                words[word] = freq
-
-    sorted_words = sorted(words.items(), key=lambda x: x[1], reverse=True)
-    result = sorted_words[:top_n]
-    print(f"[load ] 共 {len(words):,} 个中文词，取前 {len(result):,} 个构建 bigram")
+            n = len(word)
+            if n < min_len or n > max_len:
+                continue
+            result.append((pinyin, word))
+    print(f'[load ] {len(result):,} 条符合条件的词条（{min_len}–{max_len}字）')
     return result
 
 
-def compute_score(freq_prev: int, freq_next: int, scale: int) -> int:
-    """对数归一化先验分，映射到 0~20。"""
-    co_occur = min(freq_prev, freq_next)
-    score = math.log2(co_occur / scale + 1)
-    return min(20, max(0, int(score)))
+# ---------------------------------------------------------------------------
+# Step 2: 拆解词条成 bigram 对
+# ---------------------------------------------------------------------------
 
-
-def build_bigram_entries(
-    words: list[tuple[str, int]],
-    scale: int,
-    min_score: int = 1
-) -> list[tuple[str, str, str, int, int]]:
+def split_to_pairs(pinyin: str, word: str) -> list[tuple[str, str]]:
     """
-    枚举所有 (prev, next) 词对，过滤掉得分为 0 的。
-    返回 [(key, word, initials, freq, flags), ...] 按 key 升序。
+    将一条词条拆分为 (prev_word, next_word) 列表。
+    以音节分界为领，用汉字数对齐切分点。
     """
-    print(f"[build] 枚举词对（{len(words):,} × {len(words):,} = {len(words)**2:,} 对）...")
-    entries = {}
-    total = len(words)
-    for i, (prev, fp) in enumerate(words):
-        if i % 500 == 0:
-            print(f"  {i}/{total}", end='\r')
-        for next_word, fn in words:
-            if prev == next_word:
-                continue
-            score = compute_score(fp, fn, scale)
-            if score < min_score:
-                continue
-            key = f"{prev}|{next_word}"
-            if key not in entries or score > entries[key]:
-                entries[key] = score
+    syllables = [s for s in pinyin.split("'") if s.strip()]
+    n = len(word)
+    ns = len(syllables)
+    # 音节数和字数不匹配时回退
+    if ns != n:
+        return []
 
-    print(f"\n[build] 有效词对 {len(entries):,} 条")
-    result = sorted(
-        ((k, k.split('|', 1)[1], '', v, 0) for k, v in entries.items()),
-        key=lambda e: e[0]
-    )
+    pairs = []
+    if n == 2:
+        # 单字级
+        pairs.append((word[0], word[1]))
+    elif n == 3:
+        # 前1 → 后2，前2 → 后1
+        pairs.append((word[0], word[1:]))
+        pairs.append((word[:2], word[2]))
+    elif n == 4:
+        # 双字词级
+        pairs.append((word[:2], word[2:]))
+    else:
+        # 5+ 字：前华 N//2 字
+        half = n // 2
+        pairs.append((word[:half], word[half:]))
+
+    return pairs
+
+
+def build_pairs(entries: list[tuple[str, str]]) -> dict[tuple[str, str], int]:
+    """
+    遍历所有词条，累加每个 (prev, next) 对的出现次数。
+    出现次数 = 该对对应的所有词条的词条序号和（用序号而非词频）。
+    """
+    count: dict[tuple[str, str], int] = {}
+    for idx, (pinyin, word) in enumerate(entries):
+        for prev, nxt in split_to_pairs(pinyin, word):
+            key = (prev, nxt)
+            count[key] = count.get(key, 0) + 1
+    print(f'[build] 拆分得到原始词对 {len(count):,} 条')
+    return count
+
+
+def score_pairs(count: dict[tuple[str, str], int], min_score: int = 1) \
+        -> list[tuple[str, str, int]]:
+    """
+    将出现次数映射为先验分 1~20，过滤掉低于 min_score 的。
+    返回 [(prev, next, score), ...] 按 (prev, next) 升序。
+    """
+    result = []
+    for (prev, nxt), cnt in count.items():
+        s = min(20, max(0, int(math.log2(cnt + 1))))
+        if s >= min_score:
+            result.append((prev, nxt, s))
+    result.sort(key=lambda r: (r[0], r[1]))
+    print(f'[score] 过滤后有效词对 {len(result):,} 条')
     return result
 
 
-def write_bin(entries: list, out_path: str):
-    """写入 bigram.bin，格式与 dict.bin 完全相同。"""
-    print(f"[write] 打包 {len(entries):,} 条词对 → {out_path}")
+# ---------------------------------------------------------------------------
+# Step 3: 加入手工词对表（可选）
+# ---------------------------------------------------------------------------
 
-    pool      = bytearray()
-    str_cache = {}
+def load_manual(filepath: str) -> list[tuple[str, str, int]]:
+    """
+    读取手工 TSV 文件： prev_word TAB next_word TAB score
+    返回 [(prev, next, score), ...]
+    """
+    result = []
+    enc = 'utf-8'
+    try:
+        with open(filepath, 'rb') as f:
+            if f.read(3) == b'\xef\xbb\xbf':
+                enc = 'utf-8-sig'
+    except Exception:
+        pass
+    with open(filepath, encoding=enc, errors='ignore') as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith('#'):
+                continue
+            parts = line.split('\t')
+            if len(parts) < 2:
+                continue
+            prev = parts[0].strip()
+            nxt  = parts[1].strip()
+            try:
+                score = min(20, max(1, int(parts[2].strip()))) if len(parts) >= 3 else 10
+            except ValueError:
+                score = 10
+            if prev and nxt:
+                result.append((prev, nxt, score))
+    print(f'[manual] 手工词对 {len(result):,} 条')
+    return result
+
+
+def merge(auto: list[tuple[str, str, int]],
+          manual: list[tuple[str, str, int]]) -> list[tuple[str, str, int]]:
+    """
+    将自动对和手工对合并，手工对取更大分。
+    """
+    best: dict[tuple[str, str], int] = {}
+    for prev, nxt, s in auto:
+        best[(prev, nxt)] = max(best.get((prev, nxt), 0), s)
+    for prev, nxt, s in manual:
+        best[(prev, nxt)] = max(best.get((prev, nxt), 0), s)
+    merged = sorted(((p, n, s) for (p, n), s in best.items()), key=lambda r: (r[0], r[1]))
+    print(f'[merge] 合并后共 {len(merged):,} 条')
+    return merged
+
+
+# ---------------------------------------------------------------------------
+# Step 4: 写入 bigram.bin
+# ---------------------------------------------------------------------------
+
+def write_bin(pairs: list[tuple[str, str, int]], out_path: str):
+    print(f'[write] 打包 {len(pairs):,} 条 → {out_path}')
+
+    pool: bytearray      = bytearray()
+    cache: dict[str, int] = {}
 
     def intern(s: str) -> int:
-        if s in str_cache:
-            return str_cache[s]
-        offset = len(pool)
-        encoded = s.encode('utf-8')
-        pool.extend(struct.pack('<H', len(encoded)))
-        pool.extend(encoded)
-        str_cache[s] = offset
-        return offset
+        if s in cache:
+            return cache[s]
+        off = len(pool)
+        b   = s.encode('utf-8')
+        pool.extend(struct.pack('<H', len(b)))
+        pool.extend(b)
+        cache[s] = off
+        return off
 
-    index_rows = []
-    for key, word, ini, freq, flags in entries:
-        ko = intern(key)
-        wo = intern(word)
-        io = intern(ini)
-        freq = min(max(freq, 0), MAX_FREQ)
-        index_rows.append((ko, wo, io, freq, flags))
+    rows = []
+    for prev, nxt, score in pairs:
+        key = f'{prev}|{nxt}'
+        rows.append((_ENTRY_STRUCT, intern(key), intern(nxt), intern(''), score, 0))
 
-    pool_size    = len(pool)
-    index_offset = HEADER_SIZE + pool_size
-    entry_count  = len(index_rows)
-
-    out = Path(out_path)
-    out.parent.mkdir(parents=True, exist_ok=True)
-
+    index_offset = HEADER_SIZE + len(pool)
+    Path(out_path).parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, 'wb') as f:
         f.write(MAGIC)
         f.write(struct.pack('<I', FORMAT_VERSION))
-        f.write(struct.pack('<I', entry_count))
+        f.write(struct.pack('<I', len(rows)))
         f.write(struct.pack('<Q', index_offset))
-        f.write(struct.pack('<Q', 0))  # reserved
+        f.write(struct.pack('<Q', 0))
         f.write(bytes(pool))
-        for row in index_rows:
-            f.write(_ENTRY_STRUCT.pack(*row))
+        for _, ko, wo, io, freq, flags in rows:
+            f.write(_ENTRY_STRUCT.pack(ko, wo, io, freq, flags))
 
-    size_mb = out.stat().st_size / 1024 / 1024
-    print(f"[write] 完成！{entry_count:,} 条 → {out_path} ({size_mb:.1f} MB)")
+    size_mb = Path(out_path).stat().st_size / 1024 / 1024
+    print(f'[write] 完成！{len(rows):,} 条 → {out_path} ({size_mb:.2f} MB)')
 
+
+# ---------------------------------------------------------------------------
+# 入口
+# ---------------------------------------------------------------------------
 
 def main():
-    parser = argparse.ArgumentParser(description="生成 bigram.bin（久以输入法 bigram 先验词库）")
-    parser.add_argument('--input',  required=True, help='输入词库文件（cn_base.txt）')
-    parser.add_argument('--output', default='bigram.bin', help='输出路径（默认 bigram.bin）')
-    parser.add_argument('--top',    type=int, default=3000, help='取词频最高的 TOP 词（默认 3000）')
-    parser.add_argument('--scale',  type=int, default=1000, help='共现分频次基准（默认 1000）')
-    args = parser.parse_args()
+    p = argparse.ArgumentParser(description='生成 bigram.bin（久以输入法 bigram 先验词库）')
+    p.add_argument('--input',        required=True, help='输入词库（cn_base.txt）')
+    p.add_argument('--manual',       default='',    help='手工词对 TSV（可选）')
+    p.add_argument('--output',       default='bigram.bin')
+    p.add_argument('--min-word-len', type=int, default=2,  help='参与拆分的最小字数（默认 2）')
+    p.add_argument('--max-word-len', type=int, default=8,  help='参与拆分的最大字数（默认 8）')
+    args = p.parse_args()
 
-    words   = load_zh_words(args.input, args.top)
-    entries = build_bigram_entries(words, args.scale)
-    write_bin(entries, args.output)
-    print("[done ] bigram.bin 生成完毕，请复制到 jiuyi-ime-android/app/src/main/assets/")
+    entries = load_entries(args.input, args.min_word_len, args.max_word_len)
+    count   = build_pairs(entries)
+    pairs   = score_pairs(count)
+
+    if args.manual and Path(args.manual).exists():
+        manual = load_manual(args.manual)
+        pairs  = merge(pairs, manual)
+
+    write_bin(pairs, args.output)
+    print('[done ] bigram.bin 生成完毕，请复制到 jiuyi-ime-android/app/src/main/assets/')
 
 
 if __name__ == '__main__':
