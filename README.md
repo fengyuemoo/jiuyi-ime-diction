@@ -116,8 +116,53 @@ python3 build_dict.py \
 python3 build_dict.py --verify dist/dict.bin
 ```
 
-## 将 dict.bin 转移到输入法仓库
+## 打包为 bigram.bin
+
+bigram 文件记录**中文词对共现关系**，供输入法对候选词排序时使用二元语言模型（Bigram）加权。
+格式与 `dict.bin` 完全相同（`JIUYI001 v2`），`key` 字段为 `"prevWord|nextWord"`，`word` 字段为 `nextWord`，`freq` 字段为 0–20 的共现分值。
+
+### 自动统计（推荐）
+
+```bash
+python3 build_bigram.py \
+  --input cn_base.txt \
+  --output dist/bigram.bin
+```
+
+### 叠加手工词对（可选）
+
+手工 TSV 格式：`prevWord\tnextWord\t分值`（分值范围 1–20，缺省 10）
+
+```bash
+python3 build_bigram.py \
+  --input cn_base.txt \
+  --manual bigram_manual.tsv \
+  --output dist/bigram.bin
+```
+
+### 主要参数
+
+| 参数 | 默认值 | 说明 |
+|---|---|---|
+| `--min-count` | 2 | pair 在词库中出现的最少词条数 |
+| `--max-prev` | 4 | prev 词最大字数 |
+| `--max-next` | 4 | next 词最大字数 |
+
+### 查看 bigram.bin 内容
+
+```bash
+python3 inspect_bigram.py dist/bigram.bin
+```
+
+### 验证结果
+
+```bash
+python3 build_dict.py --verify dist/bigram.bin
+```
+
+## 将产物转移到输入法仓库
 
 ```bash
 cp dist/dict.bin …/jiuyi-ime-android/app/src/main/assets/dict.bin
+cp dist/bigram.bin …/jiuyi-ime-android/app/src/main/assets/bigram.bin
 ```
